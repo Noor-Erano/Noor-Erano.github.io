@@ -131,8 +131,13 @@
             align-items: center;
             justify-content: center;
             margin-right: 15px;
-            font-size: 1.5rem;
-            color: #2575fc;
+            overflow: hidden;
+        }
+        
+        .company-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         
         .company-info {
@@ -176,7 +181,13 @@
             align-items: center;
             justify-content: center;
             margin-right: 20px;
-            font-size: 2rem;
+            overflow: hidden;
+        }
+        
+        .company-header-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         
         .company-header-info h2 {
@@ -281,8 +292,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            color: #2575fc;
+            overflow: hidden;
+        }
+        
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         
         .product-info {
@@ -294,13 +310,13 @@
             margin-bottom: 5px;
         }
         
-       /* .product-price {
+        .product-price {
             color: #e74c3c;
             font-weight: bold;
-        } */
+        }
         
         /* 产品详情样式 */
-       /* .product-detail {
+        .product-detail {
             background-color: white;
             border-radius: 12px;
             overflow: hidden;
@@ -314,8 +330,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 4rem;
-            color: #2575fc;
+            overflow: hidden;
+        }
+        
+        .product-detail-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         
         .product-detail-info {
@@ -425,9 +446,8 @@
     <!-- 封面页面 -->
     <div id="cover-page" class="page active">
         <div class="cover">
-            <h1>2025中国国际进口博览会</h1>
-             <h2>China International Import Expo</h2>
-            <p>新时代 共享未来</p>
+            <h1>2023国际展览会</h1>
+            <p>探索创新科技，发现前沿产品，与行业精英面对面交流</p>
             <button class="enter-btn" onclick="showPage('categories-page')">进入展商平台</button>
         </div>
     </div>
@@ -461,17 +481,17 @@
     </div>
     
     <!-- 企业详情页面 -->
-   <div id="company-detail-page" class="page">
+    <div id="company-detail-page" class="page">
         <div class="navbar">
             <button class="back-btn" onclick="showPage('companies-page')"><i class="fas fa-arrow-left"></i></button>
             <div class="page-title" id="company-detail-page-title">企业详情</div>
             <div></div> <!-- 占位元素 -->
-         </div>
+        </div>
         <div class="container">
             <div id="company-detail-container">
                 <!-- 企业详情将通过JavaScript动态生成 -->
             </div>
-           <div class="section-title">
+            <div class="section-title">
                 <i class="fas fa-box-open"></i>产品展示
             </div>
             <div class="products-grid" id="company-products-container">
@@ -481,21 +501,21 @@
     </div>
     
     <!-- 产品详情页面 -->
-   <!--  <div id="product-detail-page" class="page">
+    <div id="product-detail-page" class="page">
         <div class="navbar">
             <button class="back-btn" onclick="showPage('company-detail-page')"><i class="fas fa-arrow-left"></i></button>
             <div class="page-title" id="product-detail-page-title">产品详情</div>
             <div></div> <!-- 占位元素 -->
-        <!-- </div>
+        </div>
         <div class="container">
             <div id="product-detail-container">
                 <!-- 产品详情将通过JavaScript动态生成 -->
-           <!--  </div>
+            </div>
         </div>
-    </div>-->
+    </div>
 
     <script>
-        // 模拟数据
+        // 模拟数据 - 这里可以替换为您自己的数据
         const categories = [
             { id: 1, name: "科技创新", icon: "fas fa-microchip" },
             { id: 2, name: "绿色能源", icon: "fas fa-leaf" },
@@ -509,16 +529,15 @@
             { 
                 id: 1, 
                 categoryId: 1, 
-                name: "Ansari Wahid Group of companies", 
-                description: "Ansari Wahid Group of Companies specializes in high-quality agricultural and natural products, including bitter almonds, dry Damask roses, and premium essential oils. With strong roots in Afghanistan’s fertile lands, we combine tradition with innovation, offering eco-friendly processing and sustainable cultivation. Our competitive advantage lies in purity, authenticity, and consistent international-grade quality.
-", 
-                logo: "FT",
+                name: "未来科技", 
+                description: "未来科技是一家专注于人工智能和机器学习解决方案的创新企业。我们致力于开发前沿技术，为客户提供智能化转型服务。公司成立于2015年，拥有超过200名研发人员，已为全球500多家企业提供AI解决方案。", 
+                logo: "images/company1-logo.png", // 替换为您的Logo图片路径
                 contact: {
-                    country: "Afghanistan",
-                    person: "Mrs. Sonita Anwari",
-                    email: "AWG1399@gmail.com",
-                    website: "www.anwariwahid.com",
-                    wechat: "S_Anwari"
+                    phone: "400-123-4567",
+                    email: "contact@futuretech.com",
+                    website: "www.futuretech.com",
+                    address: "北京市海淀区中关村科技园A座15层",
+                    wechat: "FutureTech_Official"
                 }
             },
             { 
@@ -526,7 +545,7 @@
                 categoryId: 1, 
                 name: "智云数据", 
                 description: "智云数据是大数据分析与云服务提供商，为企业提供全方位的数据解决方案。我们的平台支持PB级数据处理，帮助企业从海量数据中提取价值，实现数据驱动的决策。", 
-                logo: "ZY",
+                logo: "images/company2-logo.png", // 替换为您的Logo图片路径
                 contact: {
                     phone: "400-234-5678",
                     email: "info@zhiyun.com",
@@ -534,126 +553,44 @@
                     address: "上海市浦东新区张江高科技园区",
                     wechat: "ZhiYunData"
                 }
-            },
-            { 
-                id: 3, 
-                categoryId: 2, 
-                name: "绿能动力", 
-                description: "绿能动力专注于太阳能和风能发电解决方案，致力于推动清洁能源的普及应用。我们的产品包括家用太阳能系统、商用光伏电站和储能解决方案，已为全国超过10,000户家庭提供清洁电力。", 
-                logo: "LN",
-                contact: {
-                    phone: "400-345-6789",
-                    email: "service@greenpower.com",
-                    website: "www.greenpower.com",
-                    address: "深圳市南山区科技园南区",
-                    wechat: "GreenPower_Service"
-                }
-            },
-            { 
-                id: 4, 
-                categoryId: 2, 
-                name: "清洁能源科技", 
-                description: "清洁能源科技是新能源电池和储能系统领域的领先企业。我们研发的高效锂电池和智能储能系统广泛应用于电动汽车、家庭储能和工业领域，致力于构建可持续的能源未来。", 
-                logo: "QJ",
-                contact: {
-                    phone: "400-456-7890",
-                    email: "support@cleanenergy.com",
-                    website: "www.cleanenergy.com",
-                    address: "杭州市西湖区云栖小镇",
-                    wechat: "CleanEnergy_Tech"
-                }
-            },
-            { 
-                id: 5, 
-                categoryId: 3, 
-                name: "智慧生活", 
-                description: "智慧生活是智能家居控制系统领域的创新者。我们的产品包括智能家居中枢、智能灯光系统和环境控制系统，让用户通过手机或语音轻松管理家居环境，提升生活品质。", 
-                logo: "ZH",
-                contact: {
-                    phone: "400-567-8901",
-                    email: "hello@smartlife.com",
-                    website: "www.smartlife.com",
-                    address: "广州市天河区珠江新城",
-                    wechat: "SmartLife_Home"
-                }
-            },
-            { 
-                id: 6, 
-                categoryId: 3, 
-                name: "安心家居", 
-                description: "安心家居专注于智能安防与监控设备研发，提供全方位的家庭安全解决方案。我们的产品包括智能门锁、安防摄像头和报警系统，已保护超过50万家庭的安全。", 
-                logo: "AX",
-                contact: {
-                    phone: "400-678-9012",
-                    email: "support@safehome.com",
-                    website: "www.safehome.com",
-                    address: "成都市高新区天府软件园",
-                    wechat: "SafeHome_Official"
-                }
             }
+            // 可以继续添加更多企业...
         ];
         
         const products = [
             { 
-                id: 4, 
-                companyId: 2, 
-                name: "数据分析平台", 
-                image: "fas fa-chart-bar",
-                description: "企业级数据分析平台，提供强大的数据处理、可视化和预测分析功能，帮助企业从海量数据中提取有价值的信息。",
+                id: 1, 
+                companyId: 1, 
+                name: "AI语音助手", 
+                price: "¥299", 
+                image: "images/product1.jpg", // 替换为您的产品图片路径
+                description: "这是一款先进的AI语音助手，能够理解自然语言并执行各种任务。它支持多语言交互，可以控制智能家居设备、回答问题、设置提醒等。",
                 specs: [
-                    "数据处理能力：TB级",
-                    "可视化图表：50+种",
-                    "预测算法：10+种",
-                    "用户并发：1000+",
-                    "API接口：RESTful API",
-                    "安全认证：ISO 27001"
+                    "处理器：四核1.8GHz",
+                    "内存：2GB RAM",
+                    "存储：16GB",
+                    "连接：Wi-Fi 6，蓝牙5.0",
+                    "电池：可持续使用12小时",
+                    "语音识别准确率：98.5%"
                 ]
             },
             { 
-                id: 5, 
-                companyId: 2, 
-                name: "云存储服务",  
-                image: "fas fa-cloud",
-                description: "安全可靠的云存储解决方案，提供企业级数据备份、同步和共享功能，确保数据安全且随时随地可访问。",
+                id: 2, 
+                companyId: 1, 
+                name: "智能翻译器", 
+                price: "¥599", 
+                image: "images/product2.jpg", // 替换为您的产品图片路径
+                description: "支持超过100种语言的实时翻译设备，采用最新神经网络翻译技术，翻译准确度高，适用于商务、旅行等多种场景。",
                 specs: [
-                    "存储空间：1TB起",
-                    "数据传输：端到端加密",
-                    "可用性：99.9% SLA",
-                    "备份策略：自动增量备份",
-                    "版本控制：保留30天历史版本",
-                    "用户管理：细粒度权限控制"
-                ]
-            },
-            { 
-                id: 6, 
-                companyId: 3, 
-                name: "家用太阳能板", 
-                image: "fas fa-solar-panel",
-                description: "高效家用太阳能发电系统，采用单晶硅技术，转换效率高达22%，适合家庭屋顶安装，减少电费支出。",
-                specs: [
-                    "类型：单晶硅",
-                    "转换效率：22%",
-                    "功率：350W",
-                    "尺寸：1750×1038×35mm",
-                    "重量：18.5kg",
-                    "质保：25年性能保证"
-                ]
-            },
-            { 
-                id: 7, 
-                companyId: 3, 
-                name: "便携式充电站", 
-                image: "fas fa-battery-full",
-                description: "大容量便携式电源站，可为各种电子设备充电，适合户外活动、紧急备用电源等场景使用。",
-                specs: [
-                    "容量：500Wh",
-                    "输出：AC 220V/500W，USB×4，DC×2",
-                    "充电时间：太阳能7小时，市电5小时",
-                    "重量：6.5kg",
-                    "尺寸：320×230×180mm",
-                    "循环寿命：1000次"
+                    "支持语言：100+种",
+                    "翻译模式：语音、文字、图像",
+                    "电池续航：8小时连续使用",
+                    "屏幕：2.4英寸触摸屏",
+                    "存储：可保存1000条翻译记录",
+                    "连接：4G、Wi-Fi、蓝牙"
                 ]
             }
+            // 可以继续添加更多产品...
         ];
         
         // 页面切换函数
@@ -702,7 +639,9 @@
                     const companyCard = document.createElement('div');
                     companyCard.className = 'company-card';
                     companyCard.innerHTML = `
-                        <div class="company-logo">${company.logo}</div>
+                        <div class="company-logo">
+                            <img src="${company.logo}" alt="${company.name}">
+                        </div>
                         <div class="company-info">
                             <div class="company-name">${company.name}</div>
                             <div class="company-desc">${company.description}</div>
@@ -736,10 +675,12 @@
             companyDetail.className = 'company-detail';
             companyDetail.innerHTML = `
                 <div class="company-header">
-                    <div class="company-header-logo">${company.logo}</div>
+                    <div class="company-header-logo">
+                        <img src="${company.logo}" alt="${company.name}">
+                    </div>
                     <div class="company-header-info">
                         <h2>${company.name}</h2>
-                        <p>${companies.find(c => c.id === company.categoryId).name}行业</p>
+                        <p>${categories.find(c => c.id === company.categoryId).name}行业</p>
                     </div>
                 </div>
                 <div class="company-body">
@@ -754,24 +695,6 @@
                         <i class="fas fa-address-book"></i>联系方式
                     </div>
                     <div class="contact-info">
-                     <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-globe"></i>
-                            </div>
-                            <div class="contact-details">
-                                <div class="contact-label">所在国家</div>
-                                <div class="contact-value">${company.contact.country}</div>
-                            </div>
-                        </div>
-                     <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="contact-details">
-                                <div class="contact-label">联系人</div>
-                                <div class="contact-value">${company.contact.person}</div>
-                            </div>
-                        </div>
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-phone"></i>
@@ -834,10 +757,11 @@
                     productCard.className = 'product-card';
                     productCard.innerHTML = `
                         <div class="product-image">
-                             <i class="${product.image}"></i>
+                            <img src="${product.image}" alt="${product.name}">
                         </div>
                         <div class="product-info">
                             <div class="product-name">${product.name}</div>
+                            <div class="product-price">${product.price}</div>
                         </div>
                     `;
                     productCard.addEventListener('click', () => {
@@ -851,7 +775,7 @@
         }
         
         // 显示产品详情
-      /* function showProductDetail(productId) {
+        function showProductDetail(productId) {
             const container = document.getElementById('product-detail-container');
             const title = document.getElementById('product-detail-page-title');
             
@@ -865,7 +789,7 @@
             productDetail.className = 'product-detail';
             productDetail.innerHTML = `
                 <div class="product-detail-image">
-                    <i class="${product.image}"></i>
+                    <img src="${product.image}" alt="${product.name}">
                 </div>
                 <div class="product-detail-info">
                     <div class="product-detail-name">${product.name}</div>
@@ -887,7 +811,7 @@
             
             container.appendChild(productDetail);
             showPage('product-detail-page');
-        } */
+        }
         
         // 初始化页面
         document.addEventListener('DOMContentLoaded', function() {
@@ -896,11 +820,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
