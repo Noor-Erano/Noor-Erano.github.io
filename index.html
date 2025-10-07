@@ -150,6 +150,109 @@
             font-size: 0.9rem;
         }
         
+        /* 企业详情页面样式 */
+        .company-detail {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .company-header {
+            background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .company-header-logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+            background-color: rgba(255,255,255,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-size: 2rem;
+        }
+        
+        .company-header-info h2 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+        
+        .company-header-info p {
+            opacity: 0.9;
+        }
+        
+        .company-body {
+            padding: 20px;
+        }
+        
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #2575fc;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-title i {
+            margin-right: 10px;
+        }
+        
+        .company-description {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .contact-item:last-child {
+            border-bottom: none;
+        }
+        
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #f0f7ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: #2575fc;
+        }
+        
+        .contact-details {
+            flex: 1;
+        }
+        
+        .contact-label {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 3px;
+        }
+        
+        .contact-value {
+            font-weight: bold;
+        }
+        
         /* 产品列表样式 */
         .products-grid {
             display: grid;
@@ -299,6 +402,22 @@
             .products-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
+            
+            .company-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .company-header-logo {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .contact-info {
+                grid-template-columns: 1fr 1fr;
+            }
         }
     </style>
 </head>
@@ -340,16 +459,22 @@
         </div>
     </div>
     
-    <!-- 产品列表页面 -->
-    <div id="products-page" class="page">
+    <!-- 企业详情页面 -->
+    <div id="company-detail-page" class="page">
         <div class="navbar">
             <button class="back-btn" onclick="showPage('companies-page')"><i class="fas fa-arrow-left"></i></button>
-            <div class="page-title" id="products-page-title">产品列表</div>
+            <div class="page-title" id="company-detail-page-title">企业详情</div>
             <div></div> <!-- 占位元素 -->
         </div>
         <div class="container">
-            <div class="products-grid" id="products-container">
-                <!-- 产品将通过JavaScript动态生成 -->
+            <div id="company-detail-container">
+                <!-- 企业详情将通过JavaScript动态生成 -->
+            </div>
+            <div class="section-title">
+                <i class="fas fa-box-open"></i>产品展示
+            </div>
+            <div class="products-grid" id="company-products-container">
+                <!-- 企业产品将通过JavaScript动态生成 -->
             </div>
         </div>
     </div>
@@ -357,7 +482,7 @@
     <!-- 产品详情页面 -->
     <div id="product-detail-page" class="page">
         <div class="navbar">
-            <button class="back-btn" onclick="showPage('products-page')"><i class="fas fa-arrow-left"></i></button>
+            <button class="back-btn" onclick="showPage('company-detail-page')"><i class="fas fa-arrow-left"></i></button>
             <div class="page-title" id="product-detail-page-title">产品详情</div>
             <div></div> <!-- 占位元素 -->
         </div>
@@ -380,18 +505,90 @@
         ];
         
         const companies = [
-            { id: 1, categoryId: 1, name: "未来科技", description: "专注于人工智能和机器学习解决方案", logo: "FT" },
-            { id: 2, categoryId: 1, name: "智云数据", description: "大数据分析与云服务提供商", logo: "ZY" },
-            { id: 3, categoryId: 2, name: "绿能动力", description: "太阳能和风能发电解决方案", logo: "LN" },
-            { id: 4, categoryId: 2, name: "清洁能源科技", description: "新能源电池和储能系统", logo: "QJ" },
-            { id: 5, categoryId: 3, name: "智慧生活", description: "智能家居控制系统", logo: "ZH" },
-            { id: 6, categoryId: 3, name: "安心家居", description: "智能安防与监控设备", logo: "AX" },
-            { id: 7, categoryId: 4, name: "健康守护", description: "智能医疗设备与健康监测", logo: "JK" },
-            { id: 8, categoryId: 4, name: "生命科技", description: "生物医药与基因检测", logo: "SM" },
-            { id: 9, categoryId: 5, name: "未来教育", description: "在线教育平台与智能学习系统", logo: "WJ" },
-            { id: 10, categoryId: 5, name: "知识星球", description: "AR/VR教育解决方案", logo: "ZX" },
-            { id: 11, categoryId: 6, name: "创意工坊", description: "数字艺术与设计服务", logo: "CY" },
-            { id: 12, categoryId: 6, name: "文化传承", description: "传统文化数字化展示", logo: "WH" }
+            { 
+                id: 1, 
+                categoryId: 1, 
+                name: "未来科技", 
+                description: "未来科技是一家专注于人工智能和机器学习解决方案的创新企业。我们致力于开发前沿技术，为客户提供智能化转型服务。公司成立于2015年，拥有超过200名研发人员，已为全球500多家企业提供AI解决方案。", 
+                logo: "FT",
+                contact: {
+                    phone: "400-123-4567",
+                    email: "contact@futuretech.com",
+                    website: "www.futuretech.com",
+                    address: "北京市海淀区中关村科技园A座15层",
+                    wechat: "FutureTech_Official"
+                }
+            },
+            { 
+                id: 2, 
+                categoryId: 1, 
+                name: "智云数据", 
+                description: "智云数据是大数据分析与云服务提供商，为企业提供全方位的数据解决方案。我们的平台支持PB级数据处理，帮助企业从海量数据中提取价值，实现数据驱动的决策。", 
+                logo: "ZY",
+                contact: {
+                    phone: "400-234-5678",
+                    email: "info@zhiyun.com",
+                    website: "www.zhiyun.com",
+                    address: "上海市浦东新区张江高科技园区",
+                    wechat: "ZhiYunData"
+                }
+            },
+            { 
+                id: 3, 
+                categoryId: 2, 
+                name: "绿能动力", 
+                description: "绿能动力专注于太阳能和风能发电解决方案，致力于推动清洁能源的普及应用。我们的产品包括家用太阳能系统、商用光伏电站和储能解决方案，已为全国超过10,000户家庭提供清洁电力。", 
+                logo: "LN",
+                contact: {
+                    phone: "400-345-6789",
+                    email: "service@greenpower.com",
+                    website: "www.greenpower.com",
+                    address: "深圳市南山区科技园南区",
+                    wechat: "GreenPower_Service"
+                }
+            },
+            { 
+                id: 4, 
+                categoryId: 2, 
+                name: "清洁能源科技", 
+                description: "清洁能源科技是新能源电池和储能系统领域的领先企业。我们研发的高效锂电池和智能储能系统广泛应用于电动汽车、家庭储能和工业领域，致力于构建可持续的能源未来。", 
+                logo: "QJ",
+                contact: {
+                    phone: "400-456-7890",
+                    email: "support@cleanenergy.com",
+                    website: "www.cleanenergy.com",
+                    address: "杭州市西湖区云栖小镇",
+                    wechat: "CleanEnergy_Tech"
+                }
+            },
+            { 
+                id: 5, 
+                categoryId: 3, 
+                name: "智慧生活", 
+                description: "智慧生活是智能家居控制系统领域的创新者。我们的产品包括智能家居中枢、智能灯光系统和环境控制系统，让用户通过手机或语音轻松管理家居环境，提升生活品质。", 
+                logo: "ZH",
+                contact: {
+                    phone: "400-567-8901",
+                    email: "hello@smartlife.com",
+                    website: "www.smartlife.com",
+                    address: "广州市天河区珠江新城",
+                    wechat: "SmartLife_Home"
+                }
+            },
+            { 
+                id: 6, 
+                categoryId: 3, 
+                name: "安心家居", 
+                description: "安心家居专注于智能安防与监控设备研发，提供全方位的家庭安全解决方案。我们的产品包括智能门锁、安防摄像头和报警系统，已保护超过50万家庭的安全。", 
+                logo: "AX",
+                contact: {
+                    phone: "400-678-9012",
+                    email: "support@safehome.com",
+                    website: "www.safehome.com",
+                    address: "成都市高新区天府软件园",
+                    wechat: "SafeHome_Official"
+                }
+            }
         ];
         
         const products = [
@@ -547,7 +744,7 @@
                         <i class="fas fa-chevron-right" style="color: #ccc;"></i>
                     `;
                     companyCard.addEventListener('click', () => {
-                        showProductsByCompany(company.id, company.name);
+                        showCompanyDetail(company.id);
                     });
                     container.appendChild(companyCard);
                 });
@@ -556,18 +753,97 @@
             showPage('companies-page');
         }
         
-        // 显示特定企业的产品
-        function showProductsByCompany(companyId, companyName) {
-            const container = document.getElementById('products-container');
-            const title = document.getElementById('products-page-title');
+        // 显示企业详情
+        function showCompanyDetail(companyId) {
+            const container = document.getElementById('company-detail-container');
+            const productsContainer = document.getElementById('company-products-container');
+            const title = document.getElementById('company-detail-page-title');
             
-            title.textContent = companyName;
-            container.innerHTML = '';
-            
+            const company = companies.find(c => c.id === companyId);
             const filteredProducts = products.filter(product => product.companyId === companyId);
             
+            title.textContent = company.name;
+            container.innerHTML = '';
+            
+            // 创建企业详情内容
+            const companyDetail = document.createElement('div');
+            companyDetail.className = 'company-detail';
+            companyDetail.innerHTML = `
+                <div class="company-header">
+                    <div class="company-header-logo">${company.logo}</div>
+                    <div class="company-header-info">
+                        <h2>${company.name}</h2>
+                        <p>${companies.find(c => c.id === company.categoryId).name}行业</p>
+                    </div>
+                </div>
+                <div class="company-body">
+                    <div class="section-title">
+                        <i class="fas fa-info-circle"></i>公司简介
+                    </div>
+                    <div class="company-description">
+                        ${company.description}
+                    </div>
+                    
+                    <div class="section-title">
+                        <i class="fas fa-address-book"></i>联系方式
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">联系电话</div>
+                                <div class="contact-value">${company.contact.phone}</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">电子邮箱</div>
+                                <div class="contact-value">${company.contact.email}</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">官方网站</div>
+                                <div class="contact-value">${company.contact.website}</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">公司地址</div>
+                                <div class="contact-value">${company.contact.address}</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-weixin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">微信公众号</div>
+                                <div class="contact-value">${company.contact.wechat}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            container.appendChild(companyDetail);
+            
+            // 创建企业产品列表
+            productsContainer.innerHTML = '';
+            
             if (filteredProducts.length === 0) {
-                container.innerHTML = '<p>暂无产品信息</p>';
+                productsContainer.innerHTML = '<p>暂无产品信息</p>';
             } else {
                 filteredProducts.forEach(product => {
                     const productCard = document.createElement('div');
@@ -584,11 +860,11 @@
                     productCard.addEventListener('click', () => {
                         showProductDetail(product.id);
                     });
-                    container.appendChild(productCard);
+                    productsContainer.appendChild(productCard);
                 });
             }
             
-            showPage('products-page');
+            showPage('company-detail-page');
         }
         
         // 显示产品详情
