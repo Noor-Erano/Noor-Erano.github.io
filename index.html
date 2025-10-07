@@ -300,7 +300,7 @@
         }
         
         /* 产品详情样式 */
-        .product-detail {
+       /* .product-detail {
             background-color: white;
             border-radius: 12px;
             overflow: hidden;
@@ -460,17 +460,17 @@
     </div>
     
     <!-- 企业详情页面 -->
-    <div id="company-detail-page" class="page">
+   <div id="company-detail-page" class="page">
         <div class="navbar">
             <button class="back-btn" onclick="showPage('companies-page')"><i class="fas fa-arrow-left"></i></button>
             <div class="page-title" id="company-detail-page-title">企业详情</div>
             <div></div> <!-- 占位元素 -->
-        </div>
+         </div>
         <div class="container">
             <div id="company-detail-container">
                 <!-- 企业详情将通过JavaScript动态生成 -->
             </div>
-            <div class="section-title">
+           <div class="section-title">
                 <i class="fas fa-box-open"></i>产品展示
             </div>
             <div class="products-grid" id="company-products-container">
@@ -480,18 +480,18 @@
     </div>
     
     <!-- 产品详情页面 -->
-    <div id="product-detail-page" class="page">
+   <!--  <div id="product-detail-page" class="page">
         <div class="navbar">
             <button class="back-btn" onclick="showPage('company-detail-page')"><i class="fas fa-arrow-left"></i></button>
             <div class="page-title" id="product-detail-page-title">产品详情</div>
             <div></div> <!-- 占位元素 -->
-        </div>
+        <!-- </div>
         <div class="container">
             <div id="product-detail-container">
                 <!-- 产品详情将通过JavaScript动态生成 -->
-            </div>
+           <!--  </div>
         </div>
-    </div>
+    </div>-->
 
     <script>
         // 模拟数据
@@ -868,7 +868,7 @@
         }
         
         // 显示产品详情
-        function showProductDetail(productId) {
+      /* function showProductDetail(productId) {
             const container = document.getElementById('product-detail-container');
             const title = document.getElementById('product-detail-page-title');
             
@@ -904,7 +904,7 @@
             
             container.appendChild(productDetail);
             showPage('product-detail-page');
-        }
+        } */
         
         // 初始化页面
         document.addEventListener('DOMContentLoaded', function() {
@@ -913,4 +913,5 @@
     </script>
 </body>
 </html>
+
 
