@@ -446,7 +446,7 @@
     <!-- 封面页面 -->
     <div id="cover-page" class="page active">
         <div class="cover">
-            <h1>2023国际展览会</h1>
+            <h1>2025中国国际进口博览会</h1>
             <p>探索创新科技，发现前沿产品，与行业精英面对面交流</p>
             <button class="enter-btn" onclick="showPage('categories-page')">进入展商平台</button>
         </div>
@@ -533,6 +533,8 @@
                 description: "未来科技是一家专注于人工智能和机器学习解决方案的创新企业。我们致力于开发前沿技术，为客户提供智能化转型服务。公司成立于2015年，拥有超过200名研发人员，已为全球500多家企业提供AI解决方案。", 
                 logo: "images/company1-logo.png", // 替换为您的Logo图片路径
                 contact: {
+                    person:"S",
+                    country:"S",
                     phone: "400-123-4567",
                     email: "contact@futuretech.com",
                     website: "www.futuretech.com",
@@ -695,6 +697,15 @@
                         <i class="fas fa-address-book"></i>联系方式
                     </div>
                     <div class="contact-info">
+                     <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">所在国家</div>
+                                <div class="contact-value">${company.contact.country}</div>
+                            </div>
+                        </div>
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-phone"></i>
@@ -761,7 +772,6 @@
                         </div>
                         <div class="product-info">
                             <div class="product-name">${product.name}</div>
-                            <div class="product-price">${product.price}</div>
                         </div>
                     `;
                     productCard.addEventListener('click', () => {
@@ -820,3 +830,4 @@
     </script>
 </body>
 </html>
+
