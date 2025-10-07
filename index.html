@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>展商信息平台</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 100%;
+            padding: 15px;
+        }
+        
+        .page {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        .page.active {
+            display: block;
+        }
+        
+        /* 封面样式 */
+        .cover {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            padding: 20px;
+        }
+        
+        .cover h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .cover p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            max-width: 500px;
+        }
+        
+        .enter-btn {
+            background-color: white;
+            color: #2575fc;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .enter-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+        
+        /* 分类页面样式 */
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .category-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
+        
+        .category-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #2575fc;
+        }
+        
+        /* 企业列表样式 */
+        .company-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .company-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        
+        .company-logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 1.5rem;
+            color: #2575fc;
+        }
+        
+        .company-info {
+            flex: 1;
+        }
+        
+        .company-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .company-desc {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* 产品列表样式 */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .product-card {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
+        
+        .product-image {
+            height: 120px;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: #2575fc;
+        }
+        
+        .product-info {
+            padding: 15px;
+        }
+        
+        .product-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .product-price {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        /* 导航栏样式 */
+        .navbar {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        
+        .back-btn {
+            background: none;
+            border: none;
+            font-size: 1.2rem;
+            color: #2575fc;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+        
+        .page-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        /* 动画效果 */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        /* 响应式调整 */
+        @media (max-width: 480px) {
+            .categories-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 封面页面 -->
+    <div id="cover-page" class="page active">
+        <div class="cover">
+            <h1>2023国际展览会</h1>
+            <p>探索创新科技，发现前沿产品，与行业精英面对面交流</p>
+            <button class="enter-btn" onclick="showPage('categories-page')">进入展商平台</button>
+        </div>
+    </div>
+    
+    <!-- 分类页面 -->
+    <div id="categories-page" class="page">
+        <div class="navbar">
+            <button class="back-btn" onclick="showPage('cover-page')"><i class="fas fa-arrow-left"></i></button>
+            <div class="page-title">展商分类</div>
+            <div></div> <!-- 占位元素 -->
+        </div>
+        <div class="container">
+            <div class="categories-grid" id="categories-container">
+                <!-- 分类将通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- 企业列表页面 -->
+    <div id="companies-page" class="page">
+        <div class="navbar">
+            <button class="back-btn" onclick="showPage('categories-page')"><i class="fas fa-arrow-left"></i></button>
+            <div class="page-title" id="companies-page-title">企业列表</div>
+            <div></div> <!-- 占位元素 -->
+        </div>
+        <div class="container">
+            <div id="companies-container">
+                <!-- 企业将通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- 产品列表页面 -->
+    <div id="products-page" class="page">
+        <div class="navbar">
+            <button class="back-btn" onclick="showPage('companies-page')"><i class="fas fa-arrow-left"></i></button>
+            <div class="page-title" id="products-page-title">产品列表</div>
+            <div></div> <!-- 占位元素 -->
+        </div>
+        <div class="container">
+            <div class="products-grid" id="products-container">
+                <!-- 产品将通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 模拟数据
+        const categories = [
+            { id: 1, name: "科技创新", icon: "fas fa-microchip" },
+            { id: 2, name: "绿色能源", icon: "fas fa-leaf" },
+            { id: 3, name: "智能家居", icon: "fas fa-home" },
+            { id: 4, name: "健康医疗", icon: "fas fa-heartbeat" },
+            { id: 5, name: "教育培训", icon: "fas fa-graduation-cap" },
+            { id: 6, name: "文化创意", icon: "fas fa-palette" }
+        ];
+        
+        const companies = [
+            { id: 1, categoryId: 1, name: "未来科技", description: "专注于人工智能和机器学习解决方案", logo: "FT" },
+            { id: 2, categoryId: 1, name: "智云数据", description: "大数据分析与云服务提供商", logo: "ZY" },
+            { id: 3, categoryId: 2, name: "绿能动力", description: "太阳能和风能发电解决方案", logo: "LN" },
+            { id: 4, categoryId: 2, name: "清洁能源科技", description: "新能源电池和储能系统", logo: "QJ" },
+            { id: 5, categoryId: 3, name: "智慧生活", description: "智能家居控制系统", logo: "ZH" },
+            { id: 6, categoryId: 3, name: "安心家居", description: "智能安防与监控设备", logo: "AX" },
+            { id: 7, categoryId: 4, name: "健康守护", description: "智能医疗设备与健康监测", logo: "JK" },
+            { id: 8, categoryId: 4, name: "生命科技", description: "生物医药与基因检测", logo: "SM" },
+            { id: 9, categoryId: 5, name: "未来教育", description: "在线教育平台与智能学习系统", logo: "WJ" },
+            { id: 10, categoryId: 5, name: "知识星球", description: "AR/VR教育解决方案", logo: "ZX" },
+            { id: 11, categoryId: 6, name: "创意工坊", description: "数字艺术与设计服务", logo: "CY" },
+            { id: 12, categoryId: 6, name: "文化传承", description: "传统文化数字化展示", logo: "WH" }
+        ];
+        
+        const products = [
+            { id: 1, companyId: 1, name: "AI语音助手", price: "¥299", image: "fas fa-robot" },
+            { id: 2, companyId: 1, name: "智能翻译器", price: "¥599", image: "fas fa-language" },
+            { id: 3, companyId: 2, name: "数据分析平台", price: "面议", image: "fas fa-chart-bar" },
+            { id: 4, companyId: 2, name: "云存储服务", price: "¥99/月", image: "fas fa-cloud" },
+            { id: 5, companyId: 3, name: "家用太阳能板", price: "¥2,999", image: "fas fa-solar-panel" },
+            { id: 6, companyId: 3, name: "便携式充电站", price: "¥1,299", image: "fas fa-battery-full" },
+            { id: 7, companyId: 4, name: "高效锂电池", price: "面议", image: "fas fa-car-battery" },
+            { id: 8, companyId: 4, name: "智能储能系统", price: "¥8,999", image: "fas fa-plug" },
+            { id: 9, companyId: 5, name: "智能家居中枢", price: "¥899", image: "fas fa-home" },
+            { id: 10, companyId: 5, name: "智能灯光系统", price: "¥399", image: "fas fa-lightbulb" },
+            { id: 11, companyId: 6, name: "家庭安防套装", price: "¥1,299", image: "fas fa-shield-alt" },
+            { id: 12, companyId: 6, name: "智能门锁", price: "¥699", image: "fas fa-lock" }
+        ];
+        
+        // 页面切换函数
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            document.getElementById(pageId).classList.add('active');
+        }
+        
+        // 初始化分类页面
+        function initCategories() {
+            const container = document.getElementById('categories-container');
+            container.innerHTML = '';
+            
+            categories.forEach(category => {
+                const categoryCard = document.createElement('div');
+                categoryCard.className = 'category-card';
+                categoryCard.innerHTML = `
+                    <div class="category-icon">
+                        <i class="${category.icon}"></i>
+                    </div>
+                    <div>${category.name}</div>
+                `;
+                categoryCard.addEventListener('click', () => {
+                    showCompaniesByCategory(category.id, category.name);
+                });
+                container.appendChild(categoryCard);
+            });
+        }
+        
+        // 显示特定分类下的企业
+        function showCompaniesByCategory(categoryId, categoryName) {
+            const container = document.getElementById('companies-container');
+            const title = document.getElementById('companies-page-title');
+            
+            title.textContent = categoryName;
+            container.innerHTML = '';
+            
+            const filteredCompanies = companies.filter(company => company.categoryId === categoryId);
+            
+            if (filteredCompanies.length === 0) {
+                container.innerHTML = '<p>暂无相关企业信息</p>';
+            } else {
+                filteredCompanies.forEach(company => {
+                    const companyCard = document.createElement('div');
+                    companyCard.className = 'company-card';
+                    companyCard.innerHTML = `
+                        <div class="company-logo">${company.logo}</div>
+                        <div class="company-info">
+                            <div class="company-name">${company.name}</div>
+                            <div class="company-desc">${company.description}</div>
+                        </div>
+                        <i class="fas fa-chevron-right" style="color: #ccc;"></i>
+                    `;
+                    companyCard.addEventListener('click', () => {
+                        showProductsByCompany(company.id, company.name);
+                    });
+                    container.appendChild(companyCard);
+                });
+            }
+            
+            showPage('companies-page');
+        }
+        
+        // 显示特定企业的产品
+        function showProductsByCompany(companyId, companyName) {
+            const container = document.getElementById('products-container');
+            const title = document.getElementById('products-page-title');
+            
+            title.textContent = companyName;
+            container.innerHTML = '';
+            
+            const filteredProducts = products.filter(product => product.companyId === companyId);
+            
+            if (filteredProducts.length === 0) {
+                container.innerHTML = '<p>暂无产品信息</p>';
+            } else {
+                filteredProducts.forEach(product => {
+                    const productCard = document.createElement('div');
+                    productCard.className = 'product-card';
+                    productCard.innerHTML = `
+                        <div class="product-image">
+                            <i class="${product.image}"></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">${product.name}</div>
+                            <div class="product-price">${product.price}</div>
+                        </div>
+                    `;
+                    container.appendChild(productCard);
+                });
+            }
+            
+            showPage('products-page');
+        }
+        
+        // 初始化页面
+        document.addEventListener('DOMContentLoaded', function() {
+            initCategories();
+        });
+    </script>
+</body>
+</html>
