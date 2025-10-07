@@ -294,10 +294,10 @@
             margin-bottom: 5px;
         }
         
-        .product-price {
+       /* .product-price {
             color: #e74c3c;
             font-weight: bold;
-        }
+        } */
         
         /* 产品详情样式 */
        /* .product-detail {
@@ -613,7 +613,6 @@
                 id: 2, 
                 companyId: 1, 
                 name: "智能翻译器", 
-                price: "¥599", 
                 image: "fas fa-language",
                 description: "支持超过100种语言的实时翻译设备，采用最新神经网络翻译技术，翻译准确度高，适用于商务、旅行等多种场景。",
                 specs: [
@@ -629,7 +628,6 @@
                 id: 3, 
                 companyId: 2, 
                 name: "数据分析平台", 
-                price: "面议", 
                 image: "fas fa-chart-bar",
                 description: "企业级数据分析平台，提供强大的数据处理、可视化和预测分析功能，帮助企业从海量数据中提取有价值的信息。",
                 specs: [
@@ -644,8 +642,7 @@
             { 
                 id: 4, 
                 companyId: 2, 
-                name: "云存储服务", 
-                price: "¥99/月", 
+                name: "云存储服务",  
                 image: "fas fa-cloud",
                 description: "安全可靠的云存储解决方案，提供企业级数据备份、同步和共享功能，确保数据安全且随时随地可访问。",
                 specs: [
@@ -661,7 +658,6 @@
                 id: 5, 
                 companyId: 3, 
                 name: "家用太阳能板", 
-                price: "¥2,999", 
                 image: "fas fa-solar-panel",
                 description: "高效家用太阳能发电系统，采用单晶硅技术，转换效率高达22%，适合家庭屋顶安装，减少电费支出。",
                 specs: [
@@ -677,7 +673,6 @@
                 id: 6, 
                 companyId: 3, 
                 name: "便携式充电站", 
-                price: "¥1,299", 
                 image: "fas fa-battery-full",
                 description: "大容量便携式电源站，可为各种电子设备充电，适合户外活动、紧急备用电源等场景使用。",
                 specs: [
@@ -855,7 +850,6 @@
                         </div>
                         <div class="product-info">
                             <div class="product-name">${product.name}</div>
-                            <div class="product-price">${product.price}</div>
                         </div>
                     `;
                     productCard.addEventListener('click', () => {
@@ -914,6 +908,7 @@
     </script>
 </body>
 </html>
+
 
 
 
