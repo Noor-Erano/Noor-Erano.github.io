@@ -514,8 +514,8 @@
 ", 
                 logo: "FT",
                 contact: {
-                    Country: "Afghanistan",
-                    Person: "Mrs. Sonita Anwari",
+                    country: "Afghanistan",
+                    person: "Mrs. Sonita Anwari",
                     email: "AWG1399@gmail.com",
                     website: "www.anwariwahid.com",
                     wechat: "S_Anwari"
@@ -598,7 +598,7 @@
                 id: 1, 
                 companyId: 1, 
                 name: "Dry rose", 
-                image: "images/SME/Ansari/1",
+                image: "images/SME/Ansari/Picture1.jpg",
                 description: "",
                 specs: [
                     "处理器：四核1.8GHz",
@@ -608,30 +608,18 @@
                 id: 2, 
                 companyId: 1, 
                 name: "bitter almond", 
-                image: "fas fa-language",
-                description: "支持超过100种语言的实时翻译设备，采用最新神经网络翻译技术，翻译准确度高，适用于商务、旅行等多种场景。",
+                image: "images/SME/Ansari/Picture2.jpg",
+                description: "",
                 specs: [
-                    "支持语言：100+种",
-                    "翻译模式：语音、文字、图像",
-                    "电池续航：8小时连续使用",
-                    "屏幕：2.4英寸触摸屏",
-                    "存储：可保存1000条翻译记录",
-                    "连接：4G、Wi-Fi、蓝牙"
                 ]
             },
              { 
                 id: 3, 
                 companyId: 1, 
                 name: "essential oil", 
-                image: "fas fa-language",
-                description: "支持超过100种语言的实时翻译设备，采用最新神经网络翻译技术，翻译准确度高，适用于商务、旅行等多种场景。",
+                image: "images/SME/Ansari/Picture3.jpg",
+                description: "",
                 specs: [
-                    "支持语言：100+种",
-                    "翻译模式：语音、文字、图像",
-                    "电池续航：8小时连续使用",
-                    "屏幕：2.4英寸触摸屏",
-                    "存储：可保存1000条翻译记录",
-                    "连接：4G、Wi-Fi、蓝牙"
                 ]
             },
             { 
@@ -794,6 +782,24 @@
                         <i class="fas fa-address-book"></i>联系方式
                     </div>
                     <div class="contact-info">
+                     <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">所在国家</div>
+                                <div class="contact-value">${company.contact.country}</div>
+                            </div>
+                        </div>
+                     <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">联系人</div>
+                                <div class="contact-value">${company.contact.person}</div>
+                            </div>
+                        </div>
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-phone"></i>
@@ -856,7 +862,7 @@
                     productCard.className = 'product-card';
                     productCard.innerHTML = `
                         <div class="product-image">
-                            <i class="${product.image}"></i>
+                             <img src="${product.image}" alt="${product.name}">
                         </div>
                         <div class="product-info">
                             <div class="product-name">${product.name}</div>
@@ -918,6 +924,7 @@
     </script>
 </body>
 </html>
+
 
 
 
