@@ -929,7 +929,7 @@
 let companies = [];
 
 function loadCSVData() {
-    alert("开始加载CSV数据...");
+    alert("开始加载企业数据...");
     
     Papa.parse('data/companies_2025.csv', {
         download: true,
@@ -953,7 +953,7 @@ function loadCSVData() {
                     }
                 }));
                 
-                alert(`成功加载 ${companies.length} 家公司数据！\n\n第一家公司：${companies[0].name}`);
+                alert(`成功加载 ${companies.length} 家公司数据！`);
                 
                 // 检查是否有初始化分类的函数，如果有则调用
                 if (typeof initCategories === 'function') {
@@ -971,10 +971,6 @@ function loadCSVData() {
     });
 }
 
-// 页面加载时开始加载数据
-document.addEventListener('DOMContentLoaded', function() {
-    loadCSVData();
-});
         const products = [
             { 
                 id: 1, 
@@ -1258,12 +1254,11 @@ document.addEventListener('DOMContentLoaded', function() {
         // 初始化页面
        document.addEventListener('DOMContentLoaded', function() {
     loadCSVData();
-    // 注意：initCategories() 现在会在 CSV 加载完成后自动调用
-    // 所以这里不需要再单独调用 initCategories()
     });
     </script>
 </body>
 </html>
+
 
 
 
