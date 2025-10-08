@@ -274,6 +274,17 @@
             margin-bottom: 10px;
             color: #2575fc;
         }
+        .category-name {
+         font-size: 1rem;
+         font-weight: bold;
+         margin-bottom: 3px;
+       }
+
+        .category-ename {
+         font-size: 0.8rem;
+         color: #666;
+         font-style: italic;
+         }
         
         /* 企业列表样式 */
         .company-card {
@@ -906,12 +917,10 @@
     <script>
         // 模拟数据 - 这里可以替换为您自己的数据
         const categories = [
-            { id: 1, name: "科技创新", icon: "fas fa-microchip" },
-            { id: 2, name: "绿色能源", icon: "fas fa-leaf" },
-            { id: 3, name: "智能家居", icon: "fas fa-home" },
-            { id: 4, name: "健康医疗", icon: "fas fa-heartbeat" },
-            { id: 5, name: "教育培训", icon: "fas fa-graduation-cap" },
-            { id: 6, name: "文化创意", icon: "fas fa-palette" }
+            { id: 1, name: "加工食品", ename:"Processed Food", icon: "fas fa-utensils" },
+            { id: 2, name: "非洲产品", ename:"African Products", icon: "fas fa-earth-africa" },
+            { id: 3, name: "消费品", ename:"Consumer Goods", icon: "fas fa-shopping-bag" },
+            { id: 4, name: "服务贸易", ename:"Trade in Service", icon: "fas fa-handshake" }
         ];
         
         const companies = [
@@ -945,7 +954,6 @@
                     wechat: "ZhiYunData"
                 }
             }
-            // 可以继续添加更多企业...
         ];
         
         const products = [
@@ -1016,12 +1024,13 @@
             categories.forEach(category => {
                 const categoryCard = document.createElement('div');
                 categoryCard.className = 'category-card';
-                categoryCard.innerHTML = `
-                    <div class="category-icon">
-                        <i class="${category.icon}"></i>
-                    </div>
-                    <div>${category.name}</div>
-                `;
+               categoryCard.innerHTML = `
+    <div class="category-icon">
+        <i class="${category.icon}"></i>
+    </div>
+    <div class="category-name">${category.name}</div>
+    <div class="category-name-en">${category.ename}</div>
+     `;
                 categoryCard.addEventListener('click', () => {
                     showCompaniesByCategory(category.id, category.name);
                 });
@@ -1235,6 +1244,7 @@
     </script>
 </body>
 </html>
+
 
 
 
