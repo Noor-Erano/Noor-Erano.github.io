@@ -972,10 +972,6 @@
     });
 }
 
-// 页面加载完成后，开始加载CSV数据
-document.addEventListener('DOMContentLoaded', function() {
-    loadCompaniesFromCSV();
-});
         const products = [
             { 
                 id: 1, 
@@ -1256,14 +1252,15 @@ document.addEventListener('DOMContentLoaded', function() {
             container.appendChild(productDetail);
             showPage('product-detail-page');
         }
-        
         // 初始化页面
         document.addEventListener('DOMContentLoaded', function() {
+            loadCompaniesFromCSV();
             initCategories();
         });
     </script>
 </body>
 </html>
+
 
 
 
