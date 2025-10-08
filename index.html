@@ -1070,8 +1070,12 @@ function loadCSVData() {
                     const companyCard = document.createElement('div');
                     companyCard.className = 'company-card';
                     companyCard.innerHTML = `
-                        <div class="company-logo">
-                            <img src="${company.logo}" alt="${company.name}">
+               <div class="company-logo">
+               ${company.logo ? 
+            `<img src="${company.logo}" alt="${company.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+             <i class="fas fa-building" style="display:none"></i>` :
+            `<i class="fas fa-building"></i>`
+        }
                         </div>
                         <div class="company-info">
                             <div class="company-name">${company.name}</div>
@@ -1258,6 +1262,7 @@ function loadCSVData() {
     </script>
 </body>
 </html>
+
 
 
 
