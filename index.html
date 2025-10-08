@@ -925,53 +925,56 @@
         ];
         
        //导入csv文件
+// 替换您现有的 companies 数据加载代码
+let companies = [];
 
-    let companies = []; // 初始化为空数组，后续通过CSV填充
-
-  // 使用Papa Parse加载和解析CSV
-   function loadCompaniesFromCSV() {
-    // 如果需要使用原始文件内容，也可使用指向 raw.githubusercontent.com 的直链
-    const csvUrl = 'data/companies_2025.csv'; 
+function loadCSVData() {
+    alert("开始加载CSV数据...");
     
-    Papa.parse(csvUrl, {
+    Papa.parse('data/companies.csv', {
         download: true,
-        header: true, // 使用CSV第一行作为键
+        header: true,
         skipEmptyLines: true,
         complete: function(results) {
-            // results.data 是一个对象数组，每个对象代表一行数据
-            companies = processParsedCompanies(results.data);
-            // 数据加载完成后，初始化分类页面（或当前应显示的页面）
-            initCategories(); 
+            if (results.data && results.data.length > 0) {
+                companies = results.data.map((company, index) => ({
+                    id: parseInt(company.id) || index + 1,
+                    categoryId: parseInt(company.categoryId) || 1,
+                    name: company.name || '',
+                    description: company.description || '',
+                    logo: company.logo || '',
+                    country: company.country || '',
+                    contact: {
+                        phone: company.phone || '',
+                        email: company.email || '',
+                        website: company.website || '',
+                        address: company.address || '',
+                        wechat: company.wechat || ''
+                    }
+                }));
+                
+                alert(`成功加载 ${companies.length} 家公司数据！\n\n第一家公司：${companies[0].name}`);
+                
+                // 检查是否有初始化分类的函数，如果有则调用
+                if (typeof initCategories === 'function') {
+                    initCategories();
+                }
+            } else {
+                alert("CSV文件为空或格式不正确");
+                companies = [];
+            }
         },
         error: function(error) {
-            console.error("加载或解析CSV时出错:", error);
+            alert("加载CSV失败！\n\n错误信息：" + error + "\n\n请检查：\n1. CSV文件路径是否正确\n2. CSV文件格式是否正确");
+            companies = [];
         }
-    });
-  }
-
-  // （可选）对解析后的数据进行后处理
- function processParsedCompanies(parsedData) {
-    return parsedData.map(company => {
-        // 确保字段匹配，处理空值
-        // 例如，如果CSV中'公司简介'列，你想映射到'description'属性
-        return {
-            id: company.id,
-            categoryId: company.categoryId,
-            name: company.name || '未提供名称',
-            description: company.description || '暂无简介',
-            logo: company.logo || 'images/default-logo.png',
-            contact: {
-                country: company.country || '未知',
-                person:  company.person|| '暂无',
-                phone: company.phone || '暂无',
-                email: company.email || '暂无',
-                website: company.website || '暂无',
-                wechat: company.wechat || '暂无'
-            }
-        };
     });
 }
 
+// 页面加载时开始加载数据
+document.addEventListener('DOMContentLoaded', function() {
+    loadCSVData();
+});
         const products = [
             { 
                 id: 1, 
@@ -1253,13 +1256,15 @@
             showPage('product-detail-page');
         }
         // 初始化页面
-        document.addEventListener('DOMContentLoaded', function() {
-            loadCompaniesFromCSV();
-            //initCategories();
-        });
+       document.addEventListener('DOMContentLoaded', function() {
+    loadCSVData();
+    // 注意：initCategories() 现在会在 CSV 加载完成后自动调用
+    // 所以这里不需要再单独调用 initCategories()
+    });
     </script>
 </body>
 </html>
+
 
 
 
