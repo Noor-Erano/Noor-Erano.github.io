@@ -58,6 +58,14 @@
             max-width: 500px;
         }
         
+        .cover-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            max-width: 300px;
+        }
+
         .enter-btn {
             background-color: white;
             color: #2575fc;
@@ -73,6 +81,10 @@
         .enter-btn:hover {
             transform: translateY(-3px);
             box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+         .enter-btn.primary {
+            background-color: #ff6b6b;
+            color: white;
         }
         
         /* 分类页面样式 */
@@ -445,7 +457,213 @@
         <div class="cover">
             <h1>2025中国国际进口博览会</h1>
             <p>新时代 共享未来</p>
+            <div class="cover-buttons">
+             <button class="enter-btn" onclick="showPage('project-intro-page')">项目介绍</button>
+            <button class="enter-btn" onclick="showPage('organizer-intro-page')">发起机构</button>
             <button class="enter-btn" onclick="showPage('categories-page')">进入展商平台</button>
+                </div>
+        </div>
+    </div>
+
+ <!-- 项目介绍页面 -->
+    <div id="project-intro-page" class="page">
+        <div class="navbar">
+            <button class="back-btn" onclick="showPage('cover-page')"><i class="fas fa-arrow-left"></i></button>
+            <div class="page-title">项目介绍</div>
+            <div></div>
+        </div>
+        <div class="intro-header">
+            <h1>2023国际科技创新展览会</h1>
+            <p>连接全球创新力量，推动科技与产业融合发展</p>
+        </div>
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-section">
+                    <h2>关于项目</h2>
+                    <p>2023国际科技创新展览会是本年度最重要的科技盛会之一，汇聚了全球顶尖的科技创新企业和前沿技术产品。展会旨在搭建一个国际化的交流平台，促进科技创新与产业应用的深度融合。</p>
+                    <p>本届展会以"智能未来，创新无限"为主题，聚焦人工智能、绿色能源、生物科技、智能制造等前沿领域，展示最新科技成果，探讨未来发展趋势。</p>
+                </div>
+                
+                <div class="intro-section">
+                    <h2>展会亮点</h2>
+                    <div class="intro-features">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h3>前沿科技</h3>
+                            <p>展示最新人工智能、机器人技术、物联网应用等前沿科技成果</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h3>产业对接</h3>
+                            <p>为参展企业提供精准的产业对接和商业合作机会</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <h3>专业论坛</h3>
+                            <p>举办多场高端论坛，邀请行业领袖分享前沿观点</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-globe-americas"></i>
+                            </div>
+                            <h3>国际参与</h3>
+                            <p>吸引来自30多个国家和地区的优秀企业参展</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="intro-section">
+                    <h2>展会日程</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023年10月15日</div>
+                            <p>展会开幕式及主论坛 - 科技创新与未来趋势</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023年10月16日</div>
+                            <p>人工智能专场 - 智能技术与产业应用</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023年10月17日</div>
+                            <p>绿色能源论坛 - 可持续发展与清洁技术</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023年10月18日</div>
+                            <p>生物科技研讨会 - 医疗创新与健康未来</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023年10月19日</div>
+                            <p>闭幕式及优秀创新项目颁奖典礼</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="intro-section">
+                    <h2>参展范围</h2>
+                    <ul style="padding-left: 20px; line-height: 1.8;">
+                        <li>人工智能与大数据</li>
+                        <li>机器人技术与自动化</li>
+                        <li>新能源与节能环保</li>
+                        <li>生物技术与医疗健康</li>
+                        <li>新材料与先进制造</li>
+                        <li>智慧城市与物联网</li>
+                        <li>数字创意与文化科技</li>
+                        <li>金融科技与区块链</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 发起机构介绍页面 -->
+    <div id="organizer-intro-page" class="page">
+        <div class="navbar">
+            <button class="back-btn" onclick="showPage('cover-page')"><i class="fas fa-arrow-left"></i></button>
+            <div class="page-title">发起机构</div>
+            <div></div>
+        </div>
+        <div class="intro-header">
+            <h1>发起机构介绍</h1>
+            <p>汇聚行业力量，推动科技创新生态建设</p>
+        </div>
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-section">
+                    <h2>主办单位</h2>
+                    <p>2023国际科技创新展览会由多家权威机构和行业领军企业联合发起，致力于打造具有国际影响力的科技创新交流平台。</p>
+                    
+                    <div class="organizer-grid">
+                        <div class="organizer-card">
+                            <div class="organizer-logo">
+                                <i class="fas fa-atom"></i>
+                            </div>
+                            <h3>国家科技创新中心</h3>
+                            <p>国家级科技创新平台，致力于推动前沿技术研发和成果转化，为科技创新提供全方位支持。</p>
+                        </div>
+                        <div class="organizer-card">
+                            <div class="organizer-logo">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                            <h3>国际科技产业联盟</h3>
+                            <p>汇聚全球科技产业资源，促进国际技术交流与合作，构建开放创新的产业生态。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="intro-section">
+                    <h2>协办单位</h2>
+                    <div class="organizer-grid">
+                        <div class="organizer-card">
+                            <div class="organizer-logo">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <h3>科技创新研究院</h3>
+                            <p>专注于前沿技术研究，为展会提供专业的技术支持和学术指导。</p>
+                        </div>
+                        <div class="organizer-card">
+                            <div class="organizer-logo">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>高新技术产业协会</h3>
+                            <p>代表高新技术企业利益，推动产业政策优化和市场环境建设。</p>
+                        </div>
+                        <div class="organizer-card">
+                            <div class="organizer-logo">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3>国际技术转移中心</h3>
+                            <p>促进国际技术交流与转移，搭建全球创新资源对接平台。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="intro-section">
+                    <h2>支持单位</h2>
+                    <ul style="padding-left: 20px; line-height: 1.8;">
+                        <li>国家发展和改革委员会</li>
+                        <li>科学技术部</li>
+                        <li>工业和信息化部</li>
+                        <li>商务部</li>
+                        <li>中国国际贸易促进委员会</li>
+                        <li>各地方政府科技主管部门</li>
+                    </ul>
+                </div>
+                
+                <div class="intro-section">
+                    <h2>组织机构使命</h2>
+                    <p>我们的使命是通过搭建高水平国际交流平台，促进科技创新要素的集聚与流动，推动科技成果转化和产业化，培育具有全球竞争力的创新型企业，为建设创新型国家和世界科技强国贡献力量。</p>
+                    
+                    <div class="intro-features" style="margin-top: 25px;">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3>愿景</h3>
+                            <p>成为全球最具影响力的科技创新交流平台，推动构建开放合作的国际创新生态。</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <h3>使命</h3>
+                            <p>连接全球创新资源，促进技术转移转化，服务产业升级和经济社会发展。</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3>价值观</h3>
+                            <p>开放、合作、创新、共赢，致力于为全球科技创新共同体创造价值。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
@@ -611,6 +829,9 @@
                 page.classList.remove('active');
             });
             document.getElementById(pageId).classList.add('active');
+             if (pageId === 'categories-page') {
+                initCategories();
+            }
         }
         
         // 初始化分类页面
@@ -840,6 +1061,7 @@
     </script>
 </body>
 </html>
+
 
 
 
