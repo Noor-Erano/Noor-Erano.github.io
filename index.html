@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>展商信息平台</title>
@@ -923,39 +924,58 @@
             { id: 4, name: "服务贸易", ename:"Trade in Service", icon: "fas fa-handshake" }
         ];
         
-        const companies = [
-             { 
-                id: 1, 
-                categoryId: 1, 
-                name: "Ansari Wahid Group of companies", 
-                description: "Ansari Wahid Group of Companies specializes in high-quality agricultural and natural products, including bitter almonds, dry Damask roses, and premium essential oils. With strong roots in Afghanistan’s fertile lands, we combine tradition with innovation, offering eco-friendly processing and sustainable cultivation. Our competitive advantage lies in purity, authenticity, and consistent international-grade quality.", 
-                logo: "images/company2-logo.png",
-                contact: {
-                    person: "Mrs. Sonita Anwari",
-                    country: "Afghanistan",
-                    person: "Mrs. Sonita Anwari",
-                    email: "AWG1399@gmail.com",
-                    website: "www.anwariwahid.com",
-                    wechat: "S_Anwari"
-                }
-            },
+       //导入csv文件
 
-            { 
-                id: 2, 
-                categoryId: 1, 
-                name: "智云数据", 
-                description: "智云数据是大数据分析与云服务提供商，为企业提供全方位的数据解决方案。我们的平台支持PB级数据处理，帮助企业从海量数据中提取价值，实现数据驱动的决策。", 
-                logo: "images/company2-logo.png", // 替换为您的Logo图片路径
-                contact: {
-                    phone: "400-234-5678",
-                    email: "info@zhiyun.com",
-                    website: "www.zhiyun.com",
-                    address: "上海市浦东新区张江高科技园区",
-                    wechat: "ZhiYunData"
-                }
+    let companies = []; // 初始化为空数组，后续通过CSV填充
+
+  // 使用Papa Parse加载和解析CSV
+   function loadCompaniesFromCSV() {
+    // 如果需要使用原始文件内容，也可使用指向 raw.githubusercontent.com 的直链
+    const csvUrl = 'data/companies_2025.csv'; 
+    
+    Papa.parse(csvUrl, {
+        download: true,
+        header: true, // 使用CSV第一行作为键
+        skipEmptyLines: true,
+        complete: function(results) {
+            // results.data 是一个对象数组，每个对象代表一行数据
+            companies = processParsedCompanies(results.data);
+            // 数据加载完成后，初始化分类页面（或当前应显示的页面）
+            initCategories(); 
+        },
+        error: function(error) {
+            console.error("加载或解析CSV时出错:", error);
+        }
+    });
+  }
+
+  // （可选）对解析后的数据进行后处理
+ function processParsedCompanies(parsedData) {
+    return parsedData.map(company => {
+        // 确保字段匹配，处理空值
+        // 例如，如果CSV中'公司简介'列，你想映射到'description'属性
+        return {
+            id: company.id,
+            categoryId: company.categoryId,
+            name: company.name || '未提供名称',
+            description: company.description || '暂无简介',
+            logo: company.logo || 'images/default-logo.png',
+            contact: {
+                country: company.country || '未知',
+                person:  company.person|| '暂无',
+                phone: company.phone || '暂无',
+                email: company.email || '暂无',
+                website: company.website || '暂无',
+                wechat: company.wechat || '暂无'
             }
-        ];
-        
+        };
+    });
+}
+
+// 页面加载完成后，开始加载CSV数据
+document.addEventListener('DOMContentLoaded', function() {
+    loadCompaniesFromCSV();
+});
         const products = [
             { 
                 id: 1, 
@@ -1244,6 +1264,7 @@
     </script>
 </body>
 </html>
+
 
 
 
