@@ -87,7 +87,7 @@
            border: 1px solid rgba(0, 0, 0, 0.1); /* 边框颜色调整 */
         }
         
-       .intro-title-with-icon {
+.intro-title-with-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -355,7 +355,34 @@
             line-height: 1.6;
             margin-bottom: 20px;
         }
-        
+
+        .company-title-with-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.company-title-with-icon i {
+  font-size: 1rem;
+  color: #1a2a6c; /* 和项目介绍 icon 一样 */
+  margin-bottom: 5px;
+}
+
+.company-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #1a2a6c; /* 中文字体同样颜色 */
+  margin-bottom: 4px;
+}
+
+.company-title-en {
+  font-size: 1rem;
+  color: #666;
+  font-style: italic;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
         .contact-info {
             display: grid;
             grid-template-columns: 1fr;
@@ -388,7 +415,7 @@
         
         .contact-label {
             font-size: 0.9rem;
-            color: #666;
+            color: #2575fc;
             margin-bottom: 3px;
         }
         
@@ -1228,16 +1255,20 @@ function showPage(pageId) {
                     </div>
                 </div>
                 <div class="company-body">
-                    <div class="section-title">
-                        <i class="fas fa-info-circle"></i>公司简介
-                    </div>
+                 <div class="company-title-with-icon">
+               <i class="fas fa-info-circle"></i>
+                <span class="company-title">公司简介</span>
+            <div class="company-title-en">Company Introduction</div>
+                   </div>
                     <div class="company-description">
                         ${company.description}
                     </div>
-                    
-                    <div class="section-title">
-                        <i class="fas fa-address-book"></i>联系方式
-                    </div>
+
+                    <div class="company-title-with-icon">
+               <i class="fas fa-address-book"></i>
+                <span class="company-title">联系方式</span>
+            <div class="company-title-en">Company Contact</div>
+                   </div>
                     <div class="contact-info">
                      <div class="contact-item">
                             <div class="contact-icon">
@@ -1372,6 +1403,7 @@ function showPage(pageId) {
     </script>
 </body>
 </html>
+
 
 
 
