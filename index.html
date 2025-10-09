@@ -1119,15 +1119,15 @@ function goToVerticalSlide(index) {
         
         // 页面切换函数
         function showPage(pageId) {
-            document.querySelectorAll('.page').forEach(page => {
-                page.classList.remove('active');
-            });
-            document.getElementById(pageId).classList.add('active');
-             if (pageId === 'companies-page') {
-                initCategories();
-                 window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
-        }
+    document.querySelectorAll('.page').forEach(page => {
+        page.classList.remove('active');
+    });
+    document.getElementById(pageId).classList.add('active');
+    if (pageId === 'companies-page') {
+        initCategories();
+        window.scrollTo(0, 0); // 直接跳到顶部，无动画
+    }
+}
         
         // 初始化分类页面
         function initCategories() {
@@ -1361,6 +1361,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
