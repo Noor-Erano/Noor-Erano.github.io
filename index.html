@@ -1121,6 +1121,7 @@ function goToVerticalSlide(index) {
         function showPage(pageId) {
             document.querySelectorAll('.page').forEach(page => {
                 page.classList.remove('active');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
             document.getElementById(pageId).classList.add('active');
              if (pageId === 'categories-page') {
@@ -1361,6 +1362,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
