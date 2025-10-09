@@ -424,11 +424,12 @@
         
         /* 产品列表样式 */
         .products-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
-        }
+         gap: 15px;
+         margin-top: 20px;
+         padding-bottom: 10px;    /* 产品区底部留空 */
+         padding-left: 10px;      /* 产品区左侧留空 */
+         padding-right: 10px;     /* 产品区右侧留空 */
+         }
         
         .product-card {
             background-color: white;
@@ -941,7 +942,7 @@
             <div class="company-detail">
              <div class="company-title-with-icon">
               <i class="fas fa-box-open"> 产品展示</i>
-            <div class="company-title-en">Product</div>
+            <div class="company-title-en">Product Display</div>
                    </div>
             <div class="products-grid" id="company-products-container">
                 <!-- 企业产品将通过JavaScript动态生成 -->
@@ -1402,6 +1403,7 @@ function showPage(pageId) {
     </script>
 </body>
 </html>
+
 
 
 
