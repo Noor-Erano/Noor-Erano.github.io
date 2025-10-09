@@ -36,24 +36,17 @@
         
         /* 封面样式 */
        .cover {
-            min-height: 100vh;
-            background: linear-gradient(135deg, #1a2a6c 0%, #2a3a7c 100%);
-            color: white;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .cover::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('images/cover-bg.jpg') center/cover no-repeat;
-            opacity: 0.1;
-            z-index: 1;
-        }
+    min-height: 100vh;
+    background: white; /* 改为白色背景 */
+    color: #333; /* 文字颜色改为深色 */
+    position: relative;
+    overflow: hidden;
+   }
+
+   /* 移除之前的背景图片和渐变 */
+    .cover::before {
+    display: none; /* 移除之前的背景效果 */
+   }
         
         .cover-content {
             position: relative;
@@ -84,13 +77,13 @@
         
         /* 简介区域 */
         .intro-section {
-            background-color: rgba(255, 255, 255, 0.1);
+           background-color: rgba(0, 0, 0, 0.03); /* 改为浅灰色背景 */
             backdrop-filter: blur(10px);
             border-radius: 15px;
             padding: 30px;
             margin-bottom: 40px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+           border: 1px solid rgba(0, 0, 0, 0.1); /* 边框颜色调整 */
         }
         
         .intro-title {
@@ -113,7 +106,7 @@
         }
         
         .intro-card {
-            background-color: rgba(255, 255, 255, 0.15);
+            background-color: rgba(0, 0, 0, 0.02); /* 卡片背景调整 */
             border-radius: 10px;
             padding: 20px;
             transition: transform 0.3s ease, background-color 0.3s ease;
@@ -189,7 +182,7 @@
         }
         
         .category-card {
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: rgba(0, 0, 0, 0.02); /* 分类卡片背景调整 */
             backdrop-filter: blur(10px);
             border-radius: 15px;
             padding: 30px 20px;
@@ -539,7 +532,125 @@
             display: flex;
             align-items: center;
         }
-        
+        /* 组织Logo样式 */
+    .org-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+      }
+
+   .org-logo img {
+    height: 50px; /* 根据实际Logo尺寸调整 */
+    width: auto;
+     }
+    /* 竖屏图片轮播样式 */
+.vertical-slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* 限制最大宽度，适应竖屏图片 */
+    height: 70vh; /* 使用视口高度，填满手机屏幕 */
+    margin: 0 auto 40px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.vertical-slideshow .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.vertical-slideshow .slide.active {
+    opacity: 1;
+}
+
+.vertical-slideshow .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 确保图片填满容器 */
+}
+
+/* 轮播控制按钮 */
+.vertical-slideshow .slide-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 11;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-slideshow .slide-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.vertical-slideshow .slide-control.prev {
+    left: 15px;
+}
+
+.vertical-slideshow .slide-control.next {
+    right: 15px;
+}
+
+/* 轮播指示器 */
+.vertical-slideshow .slide-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 11;
+}
+
+.vertical-slideshow .indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.vertical-slideshow .indicator.active {
+    background-color: white;
+}
+
+.vertical-slideshow .indicator:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .vertical-slideshow {
+        height: 60vh; /* 在较小屏幕上调整高度 */
+        max-width: 90%; /* 在手机上使用更宽的比例 */
+    }
+}
+
+@media (max-width: 480px) {
+    .vertical-slideshow {
+        height: 50vh; /* 在非常小的屏幕上进一步调整高度 */
+    }
+ }
         .page-title {
             font-size: 1.2rem;
             font-weight: bold;
@@ -594,12 +705,40 @@
         <div class="cover">
             <div class="container">
                 <div class="cover-content">
+                     <!-- 添加组织Logo -->
+           <div class="org-logo">
+             <img src="images/org-logo.png" alt="组织Logo">
+               </div>
+    
                     <!-- 标题区域 -->
                     <div class="cover-header">
                         <div class="cii-logo">CIIE</div>
                         <div class="cii-subtitle">中国国际进口博览会</div>
                     </div>
-                    
+     <!-- 新增：竖屏图片轮播 -->
+    <div class="vertical-slideshow">
+        <div class="slide active">
+            <img src="images/slides/slide1.jpg" alt="展会图片1">
+        </div>
+        <div class="slide">
+            <img src="images/slides/slide2.jpg" alt="展会图片2">
+        </div>
+        <div class="slide">
+            <img src="images/slides/slide3.jpg" alt="展会图片3">
+        </div>
+        
+        <!-- 轮播控制 -->
+        <button class="slide-control prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="slide-control next" onclick="changeSlide(1)">&#10095;</button>
+        
+        <!-- 指示器 -->
+        <div class="slide-indicators">
+            <span class="indicator active" onclick="goToSlide(0)"></span>
+            <span class="indicator" onclick="goToSlide(1)"></span>
+            <span class="indicator" onclick="goToSlide(2)"></span>
+        </div>
+    </div>
+
                     <!-- 简介区域 -->
                     <div class="intro-section">
                         <h2 class="intro-title">展会简介</h2>
@@ -838,8 +977,74 @@ function loadCSVData() {
         }
     });
 }
+  // 竖屏轮播功能
+let currentVerticalSlide = 0;
+let verticalSlideInterval;
 
-        const products = [
+function initVerticalSlideshow() {
+    const slides = document.querySelectorAll('.vertical-slideshow .slide');
+    const indicators = document.querySelectorAll('.vertical-slideshow .indicator');
+    
+    // 开始自动轮播
+    startVerticalSlideShow();
+    
+    // 鼠标悬停时暂停轮播
+    const slideshow = document.querySelector('.vertical-slideshow');
+    if (slideshow) {
+        slideshow.addEventListener('mouseenter', pauseVerticalSlideShow);
+        slideshow.addEventListener('mouseleave', startVerticalSlideShow);
+    }
+}
+
+function startVerticalSlideShow() {
+    verticalSlideInterval = setInterval(() => {
+        changeVerticalSlide(1);
+    }, 4000); // 每4秒切换一次
+}
+
+function pauseVerticalSlideShow() {
+    clearInterval(verticalSlideInterval);
+}
+
+function changeVerticalSlide(direction) {
+    const slides = document.querySelectorAll('.vertical-slideshow .slide');
+    const indicators = document.querySelectorAll('.vertical-slideshow .indicator');
+    
+    if (slides.length === 0) return;
+    
+    // 隐藏当前幻灯片
+    slides[currentVerticalSlide].classList.remove('active');
+    indicators[currentVerticalSlide].classList.remove('active');
+    
+    // 计算新幻灯片索引
+    currentVerticalSlide = (currentVerticalSlide + direction + slides.length) % slides.length;
+    
+    // 显示新幻灯片
+    slides[currentVerticalSlide].classList.add('active');
+    indicators[currentVerticalSlide].classList.add('active');
+}
+
+function goToVerticalSlide(index) {
+    const slides = document.querySelectorAll('.vertical-slideshow .slide');
+    const indicators = document.querySelectorAll('.vertical-slideshow .indicator');
+    
+    if (slides.length === 0) return;
+    
+    // 隐藏当前幻灯片
+    slides[currentVerticalSlide].classList.remove('active');
+    indicators[currentVerticalSlide].classList.remove('active');
+    
+    // 显示选定幻灯片
+    currentVerticalSlide = index;
+    slides[currentVerticalSlide].classList.add('active');
+    indicators[currentVerticalSlide].classList.add('active');
+    
+    // 重置自动轮播计时器
+    clearInterval(verticalSlideInterval);
+    startVerticalSlideShow();
+  }
+
+     const products = [
             { 
                 id: 1, 
                 companyId: 1, 
@@ -1125,11 +1330,13 @@ function loadCSVData() {
         }
         // 初始化页面
        document.addEventListener('DOMContentLoaded', function() {
-    loadCSVData();
+            initVerticalSlideshow(); // 初始化竖屏轮播
+           loadCSVData();
     });
     </script>
 </body>
 </html>
+
 
 
 
