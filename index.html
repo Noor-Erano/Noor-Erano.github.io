@@ -549,9 +549,9 @@
    .vertical-slideshow {
     position: relative;
     width: 100%;
-    max-width: 400px; /* 限制最大宽度，适应竖屏图片 */
-    height: 70vh; /* 使用视口高度，填满手机屏幕 */
-    margin: 0 auto 40px;
+    max-width: 90vw; /* 限制最大宽度，适应竖屏图片 */
+    height: 90vh; /* 使用视口高度，填满手机屏幕 */
+    margin: 0 auto 4px;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -642,14 +642,14 @@
 /* 响应式调整 */
 @media (max-width: 768px) {
     .vertical-slideshow {
-        height: 60vh; /* 在较小屏幕上调整高度 */
-        max-width: 90%; /* 在手机上使用更宽的比例 */
+        height: 90vh; /* 在较小屏幕上调整高度 */
+        max-width: 90vw; /* 在手机上使用更宽的比例 */
     }
 }
 
 @media (max-width: 480px) {
     .vertical-slideshow {
-        height: 50vh; /* 在非常小的屏幕上进一步调整高度 */
+        height: 90vh; /* 在非常小的屏幕上进一步调整高度 */
     }
  }
         .page-title {
@@ -1347,6 +1347,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
