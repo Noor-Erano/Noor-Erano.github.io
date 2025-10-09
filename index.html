@@ -724,24 +724,37 @@
             }
         }
 /*滑动显示产品*/
-      @media (max-width: 768px) {
+     @media (max-width: 768px) {
   .products-grid {
     display: flex !important;
     flex-direction: row;
     overflow-x: auto;
     gap: 15px;
-    flex-wrap: nowrap; /* 关键：不换行，避免最后一个撑满 */
+    flex-wrap: nowrap;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     scrollbar-width: thin;
     scrollbar-color: #4fc3f7 #f0f0f0;
+    -webkit-overflow-scrolling: touch; /* 添加平滑滚动 */
+    align-items: stretch; /* 确保所有卡片高度一致 */
   }
+  
   .product-card {
+    width: 180px !important; /* 强制固定宽度 */
+    flex: none !important;   /* 禁用flex增长和收缩 */
     min-width: 180px;
-    max-width: 220px;   /* 可根据实际需要调整 */
-    flex: 0 0 180px;    /* 固定宽度，所有卡片一样宽 */
+    max-width: 180px;        /* 确保最大宽度与最小宽度相同 */
     box-sizing: border-box;
+    overflow: hidden;        /* 防止内容溢出影响布局 */
+  }
+  
+  /* 添加滚动提示 */
+  .products-grid:after {
+    content: '';
+    display: block;
+    min-width: 10px;
+    height: 1px;
   }
 }
         @media (min-width: 768px) {
@@ -1425,6 +1438,7 @@ function showPage(pageId) {
     </script>
 </body>
 </html>
+
 
 
 
