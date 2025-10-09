@@ -87,28 +87,27 @@
            border: 1px solid rgba(0, 0, 0, 0.1); /* 边框颜色调整 */
         }
         
-        .intro-title-with-icon, .section-title-with-icon {
+        .intro-title-with-icon, {
         display: flex;
         flex-direction: column;
         align-items: center;
          margin-bottom: 30px;
          }
 
-.intro-title-with-icon i,
-.section-title-with-icon i {
+.intro-title-with-icon i,  {
   font-size: 2rem;
   color: #4fc3f7;
   margin-bottom: 5px;
 }
 
-.intro-title, .section-title {
+.intro-title, {
   font-size: 1.6rem;
   font-weight: bold;
   color: #1a2a6c;
   margin-bottom: 4px;
 }
 
-.intro-title-en, .section-title-en {
+.intro-title-en, {
   font-size: 1rem;
   color: #666;
   font-style: italic;
@@ -189,13 +188,6 @@
         /* 展商分类区域 */
           .categories-section {
             margin-bottom: 40px;
-        }
-        
-        .section-title {
-            font-size: 1.8rem;
-            text-align: center;
-            margin-bottom: 30px;
-            color: #fff;
         }
         
         .categories-grid {
@@ -784,10 +776,10 @@
                     
                     <!-- 展商分类区域 -->
                     <div class="intro-section">
-                        <div class="section-title-with-icon">
+                        <div class="intro-title-with-icon">
                <i class="fas fa-users"></i>
-                <span class="section-title">展商名单</span>
-            <div class="section-title-en">Exhibitor List</div>
+                <span class="intro-title">展商名单</span>
+            <div class="intro-title-en">Exhibitor List</div>
                    </div>
                         <div class="categories-grid" id="categories-container">
                             <!-- 分类将通过JavaScript动态生成 -->
@@ -1368,6 +1360,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
