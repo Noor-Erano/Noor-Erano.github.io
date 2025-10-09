@@ -588,7 +588,7 @@
     font-size: 20px;
     padding: 12px;
     cursor: pointer;
-    z-index: 11;
+    z-index: 100;
     transition: background-color 0.3s;
     border-radius: 50%;
     width: 40px;
@@ -996,7 +996,17 @@ function initVerticalSlideshow() {
         slideshow.addEventListener('mouseleave', startVerticalSlideShow);
     }
 }
-
+// 添加左右箭头事件监听
+    const prevArrow = document.querySelector('.vertical-slideshow .slide-control.prev');
+    const nextArrow = document.querySelector('.vertical-slideshow .slide-control.next');
+    
+    if (prevArrow) {
+        prevArrow.addEventListener('click', () => changeVerticalSlide(-1));
+    }
+    
+    if (nextArrow) {
+        nextArrow.addEventListener('click', () => changeVerticalSlide(1));
+    }
 function startVerticalSlideShow() {
     verticalSlideInterval = setInterval(() => {
         changeVerticalSlide(1);
@@ -1337,6 +1347,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
