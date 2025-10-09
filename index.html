@@ -424,8 +424,10 @@
         
         /* 产品列表样式 */
         .products-grid {
-         gap: 15px;
-         margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
          padding-bottom: 10px;    /* 产品区底部留空 */
          padding-left: 10px;      /* 产品区左侧留空 */
          padding-right: 10px;     /* 产品区右侧留空 */
@@ -1403,6 +1405,7 @@ function showPage(pageId) {
     </script>
 </body>
 </html>
+
 
 
 
