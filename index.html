@@ -94,33 +94,20 @@
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.cii-subtitle {
-    font-size: 1.4rem;
-    color: #1a2a6c; /* 使用CIIE主色调 */
+
+  .cii-subtitle {
+    font-size: 1.2rem;
+    color: #1a2a6c;
     margin-bottom: 30px;
-    font-weight: 600; /* 适中字重，不显笨重 */
-    letter-spacing: 1px;
-    position: relative;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 25px;
+    border-radius: 10px;
     display: inline-block;
-    padding: 0 20px;
-}
-    .cii-subtitle::before,
-.cii-subtitle::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 30px;
-    height: 1px;
-    background: #1a2a6c;
-    opacity: 0.5;
-}
-
-.cii-subtitle::before {
-    left: -10px;
-}
-
-.cii-subtitle::after {
-    right: -10px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(26, 42, 108, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
         /* 中文标题更突出 */
 .cii-logo:nth-child(1) {
@@ -775,14 +762,11 @@ margin-top: 5px;
     .cover-header::before {
         top: 5px;
     }
-     .cii-subtitle {
-        font-size: 1.1rem;
-        padding: 0 15px;
-    }
     
-    .cii-subtitle::before,
-    .cii-subtitle::after {
-        width: 20px;
+    .cii-subtitle {
+        font-size: 1rem;
+        padding: 8px 20px;
+        border-radius: 8px;
     }
 }
 
@@ -1609,6 +1593,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
