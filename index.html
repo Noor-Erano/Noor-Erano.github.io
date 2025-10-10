@@ -421,17 +421,33 @@
         .contact-value {
             font-weight: bold;
         }
-        
+        /* 统一公司详情页内各部分的边距 */
+  .company-description,
+   .contact-info {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* 确保产品展示标题与其他标题对齐 */
+.company-detail > .company-title-with-icon {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
         /* 产品列表样式 */
         .products-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
-         padding-bottom: 10px;    /* 产品区底部留空 */
-         padding-left: 10px;      /* 产品区左侧留空 */
-         padding-right: 10px;     /* 产品区右侧留空 */
-         }
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;      /* 统一使用15px边距 */
+    padding-right: 15px;     /* 统一使用15px边距 */
+    box-sizing: border-box;  /* 确保内边距包含在宽度内 */
+    width: 100%;
+}
         
         .product-card {
             background-color: white;
@@ -1438,6 +1454,7 @@ function showPage(pageId) {
     </script>
 </body>
 </html>
+
 
 
 
