@@ -1,4 +1,4 @@
-﻿catergoryId,country,name,description,person,phone,email,website,wechat,logo,capacity,size,export,commitment
+﻿categoryId,country,name,description,person,phone,email,website,wechat,logo,capacity,size,export,commitment
 3,Burundi布隆迪,KLARIZA SPRL,"Welcome to Klariza SPRL, a Burundian company dedicated to producing high-quality, natural cosmetics products from Moringa. Our mission is to promote natural beauty and wellness while supporting. Sustainable agriculture and empowering women in our community.
 欢迎来到Klariza SPRL，这家布隆迪企业致力于采用辣木原料生产高品质天然化妆品。我们的使命是倡导自然之美与健康生活，同时支持可持续农业发展，并赋能社区女性。",Mrs. Estella KAMARIZA,+257 79331250,Kcklariza.bdi@gmail.com,www.klariza.bi,wxid_25p2q1bmfa0a12,logo.jpg,10000Lts/month,35 Personne,"Rwanda / Uganda/ DR Congo Liban/ Belgium /France/ Japan / Germany
 卢旺达 / 乌干达 / 刚果民主共和国 / 黎巴嫩 / 比利时 / 法国 / 日本 / 德国","Klariza SPRL is committed to social responsibility through job creation, sustainability, and empowering women in Burundi.
@@ -272,3 +272,4 @@ LFP 是一家在泰国拥有 30 多年生产经验的企业，主营罐装 / 袋
 1, Uzbekistan乌兹别克斯坦,"""Optimum Fruits"" LLC","“Optimum Fruits” is one of the companies in Uzbekistan engaged in the production and export of dried fruits, nuts, and legumes. The company’s export markets cover 10 countries, with an annual export volume of 3.1 million USD. Currently, the company actively cooperates with China, Türkiye, and Azerbaijan in trade and economic relations. Company has registered in customs system for imported goods and authorized by Chinese quarantine to export agricultural products from Uzbekistan to China.
 Optimum Fruits 是乌兹别克斯坦从事干果、坚果和豆类生产及出口的公司之一。该公司的出口市场覆盖 10 个国家，年出口额为 310 万美元。目前，该公司积极与中国、土耳其和阿塞拜疆开展贸易和经济合作。该公司已在海关系统中进行了进口货物注册，并获得中国检疫部门的授权，可将乌兹别克斯坦的农产品出口到中国。",Mr. Asadbek Bekmirzayev ,9.98995E+11,optimumdryfruits@gmail.com,,Bekmirzaev_Asadbek,logo.jpg,350 tons per month每月350吨,30 workers 30个工人,10 countries (half EU) 10 个国家（其中一半为欧盟国家）,"30% of factory workers are women.
 30%公司员工是女性"
+
