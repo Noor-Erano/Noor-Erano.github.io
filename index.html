@@ -359,7 +359,7 @@
         .company-title-with-icon {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .company-title-with-icon i {
@@ -1052,6 +1052,7 @@ function loadCSVData() {
                     export: company.export || '',
                     commitment: company.commitment || '',
                     contact: {
+                        person: company.person || '',
                         phone: company.phone || '',
                         email: company.email || '',
                         website: company.website || '',
@@ -1328,6 +1329,15 @@ function showPage(pageId) {
                 <div class="company-title-en">Company Details</div>
             </div>
             <div class="contact-info">
+             <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">所在国家</div>
+                                <div class="contact-value">${company.contact.country|| '暂无信息'}</div>
+                            </div>
+                        </div>
                 <div class="contact-item">
                     <div class="contact-icon">
                         <i class="fas fa-industry"></i>
@@ -1370,15 +1380,6 @@ function showPage(pageId) {
             <div class="company-title-en">Contact</div>
                    </div>
                     <div class="contact-info">
-                     <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-globe"></i>
-                            </div>
-                            <div class="contact-details">
-                                <div class="contact-label">所在国家</div>
-                                <div class="contact-value">${company.contact.country}</div>
-                            </div>
-                        </div>
                          <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-user"></i>
@@ -1503,6 +1504,7 @@ function showPage(pageId) {
     </script>
 </body>
 </html>
+
 
 
 
