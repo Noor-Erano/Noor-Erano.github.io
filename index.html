@@ -96,18 +96,17 @@
 
 
   .cii-subtitle {
-    font-size: 1.2rem;
-    color: #1a2a6c;
-    margin-bottom: 30px;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c3e6d; /* 比主标题稍浅的蓝色 */
+    margin-bottom: 3px;
     letter-spacing: 0.5px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px 25px;
-    border-radius: 10px;
-    display: inline-block;
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(26, 42, 108, 0.1);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    /* 使用更柔和的渐变 */
+    background: linear-gradient(135deg, #2c3e6d 0%, #5d9cec 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
         /* 中文标题更突出 */
 .cii-logo:nth-child(1) {
@@ -748,9 +747,6 @@ margin-top: 5px;
         font-size: 2.2rem;
     }
     
-    .cii-subtitle {
-        font-size: 1rem;
-    }
     
     .cover-header::before,
     .cover-header::after {
@@ -764,9 +760,8 @@ margin-top: 5px;
     }
     
     .cii-subtitle {
-        font-size: 1rem;
-        padding: 8px 20px;
-        border-radius: 8px;
+        font-size: 2rem;
+       margin-bottom: 5px;
     }
 }
 
@@ -798,7 +793,7 @@ margin-top: 5px;
     }
     
     .cii-subtitle {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
         @keyframes fadeIn {
@@ -1593,6 +1588,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
