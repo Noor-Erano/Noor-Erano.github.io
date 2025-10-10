@@ -95,12 +95,32 @@
 }
 
 .cii-subtitle {
-    font-size: 1.2rem;
-    color: #555;
+    font-size: 1.4rem;
+    color: #1a2a6c; /* 使用CIIE主色调 */
     margin-bottom: 30px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    font-weight: 600; /* 适中字重，不显笨重 */
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+}
+    .cii-subtitle::before,
+.cii-subtitle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 1px;
+    background: #1a2a6c;
+    opacity: 0.5;
+}
+
+.cii-subtitle::before {
+    left: -10px;
+}
+
+.cii-subtitle::after {
+    right: -10px;
 }
         /* 中文标题更突出 */
 .cii-logo:nth-child(1) {
@@ -754,6 +774,15 @@ margin-top: 5px;
     
     .cover-header::before {
         top: 5px;
+    }
+     .cii-subtitle {
+        font-size: 1.1rem;
+        padding: 0 15px;
+    }
+    
+    .cii-subtitle::before,
+    .cii-subtitle::after {
+        width: 20px;
     }
 }
 
@@ -1580,6 +1609,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
