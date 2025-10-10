@@ -60,38 +60,48 @@
             position: relative;
             text-align: center;
             margin-bottom: 40px;
-            padding-top: 30px;
+           padding: 40px 0 20px;
         }
         /* 添加ITC/CIIE风格的装饰线 */
   .cover-header::before,
   .cover-header::after {
     content: '';
     position: absolute;
+    left: 15%;
+    width: 70%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #1a2a6c, transparent);
+    background: linear-gradient(90deg, transparent, #1a2a6c, #4fc3f7, #1a2a6c, transparent);
+}
+.cover-header::before {
+    top: 10px;
 }
 
+.cover-header::after {
+    bottom: 0;
+}
         
-        .cii-logo {
-    /* CIIE主色调 - 深蓝色 */
-    color: #1a2a6c;
-    /* 或者使用渐变：CIIE蓝 + ITC蓝 */
-    background: linear-gradient(135deg, #1a2a6c 0%, #005eb8 100%);
+      .cii-logo {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #1a2a6c 0%, #4fc3f7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 700; /* 适中字重，避免过于笨重 */
-    line-height: 1.3; /* 改善可读性 */
-    letter-spacing: 0.5px; /* 适度字间距 */
+    background-clip: text;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-family: 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-    .cii-subtitle {
-    /* ITC辅助色 - 深灰色 */
-    color: #333333;
-    font-weight: 500; /* 比正文字重稍高 */
-    line-height: 1.5;
-    font-size: 1.1rem;
-    }
-
+.cii-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
         /* 中文标题更突出 */
 .cii-logo:nth-child(1) {
     font-size: 3rem;
@@ -723,22 +733,27 @@ margin-top: 5px;
         height: 90vh; /* 在较小屏幕上调整高度 */
         max-width: 90vw; /* 在手机上使用更宽的比例 */
     }
-    .cii-logo:nth-child(1) {
-        font-size: 2.2rem;
+   .cover-header {
+        padding: 30px 0 15px;
     }
     
-    .cii-logo:nth-child(2) {
-        font-size: 1.6rem;
+    .cii-logo {
+        font-size: 2.2rem;
     }
     
     .cii-subtitle {
         font-size: 1rem;
     }
     
-    /* 移动端简化装饰元素 */
     .cover-header::before,
     .cover-header::after {
+        left: 10%;
+        width: 80%;
         height: 1px;
+    }
+    
+    .cover-header::before {
+        top: 5px;
     }
 }
 
@@ -1565,6 +1580,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
