@@ -477,11 +477,25 @@ margin-top: 5px;
         }
         
         .contact-label {
-            font-size: 0.9rem;
-            color: #4fc3f7;
-            margin-bottom: 3px;
+            display: flex;
+           flex-direction: column;
+           margin-bottom: 3px;
         }
-        
+
+        .label-zh {
+     font-size: 0.9rem;
+    color: #4fc3f7;
+    margin-bottom: 3px;
+    line-height: 1.2;
+   }
+
+.label-en {
+    font-size: 0.7rem;
+    color:  #666;
+    opacity: 0.8;
+    font-style: italic;
+    line-height: 1.2;
+   }
         .contact-value {
             font-weight: bold;
         }
@@ -798,6 +812,13 @@ margin-top: 5px;
     .card-title-with-en i {
         font-size: 1.3rem;
         margin-right: 10px;
+    }
+    .label-zh {
+        font-size: 0.85rem;
+    }
+    
+    .label-en {
+        font-size: 0.65rem;
     }
 }
 
@@ -1466,7 +1487,10 @@ function goToVerticalSlide(index) {
                                 <i class="fas fa-globe"></i>
                             </div>
                             <div class="contact-details">
-                                <div class="contact-label">所在国家</div>
+                               <div class="contact-label">
+                       <div class="label-zh">所在国家</div>
+                      <div class="label-en">Country</div>
+                      </div>
                                 <div class="contact-value">${company.country|| '暂无信息'}</div>
                             </div>
                         </div>
@@ -1475,7 +1499,10 @@ function goToVerticalSlide(index) {
                         <i class="fas fa-industry"></i>
                     </div>
                     <div class="contact-details">
-                        <div class="contact-label">生产能力</div>
+                        <div class="contact-label">
+            <div class="label-zh">生产能力</div>
+            <div class="label-en">Production Capacity</div>
+        </div>
                         <div class="contact-value">${company.capacity || '暂无信息'}</div>
                     </div>
                 </div>
@@ -1484,7 +1511,10 @@ function goToVerticalSlide(index) {
                         <i class="fas fa-chart-bar"></i>
                     </div>
                     <div class="contact-details">
-                        <div class="contact-label">公司规模</div>
+                       <div class="contact-label">
+            <div class="label-zh">公司规模</div>
+            <div class="label-en">Company Size</div>
+        </div>
                         <div class="contact-value">${company.size || '暂无信息'}</div>
                     </div>
                 </div>
@@ -1493,7 +1523,10 @@ function goToVerticalSlide(index) {
                         <i class="fas fa-ship"></i>
                     </div>
                     <div class="contact-details">
-                        <div class="contact-label">出口情况</div>
+                      <div class="contact-label">
+            <div class="label-zh">出口情况</div>
+            <div class="label-en">Export Experience</div>
+        </div>
                         <div class="contact-value">${company.export || '暂无信息'}</div>
                     </div>
                 </div>
@@ -1502,7 +1535,10 @@ function goToVerticalSlide(index) {
                         <i class="fas fa-handshake"></i>
                     </div>
                     <div class="contact-details">
-                        <div class="contact-label">社会承诺</div>
+                       <div class="contact-label">
+            <div class="label-zh">合作承诺</div>
+            <div class="label-en">Commitment to Cooperation</div>
+         </div>
                         <div class="contact-value">${company.commitment || '暂无信息'}</div>
                     </div>
                 </div>
@@ -1517,7 +1553,10 @@ function goToVerticalSlide(index) {
                                 <i class="fas fa-user"></i>
                             </div>
                             <div class="contact-details">
-                                <div class="contact-label">联系人</div>
+                                <div class="contact-label">
+            <div class="label-zh">联系人</div>
+            <div class="label-en">Contact Person</div>
+            </div>
                                 <div class="contact-value">${company.contact.person}</div>
                             </div>
                         </div>
@@ -1526,7 +1565,10 @@ function goToVerticalSlide(index) {
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div class="contact-details">
-                                <div class="contact-label">联系电话</div>
+                               <div class="contact-label">
+            <div class="label-zh">联系电话</div>
+            <div class="label-en">Phone Number</div>
+        </div>
                                 <div class="contact-value">${company.contact.phone}</div>
                             </div>
                         </div>
@@ -1535,7 +1577,10 @@ function goToVerticalSlide(index) {
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <div class="contact-details">
-                                <div class="contact-label">电子邮箱</div>
+                                <div class="contact-label">
+            <div class="label-zh">电子邮箱</div>
+            <div class="label-en">Email Address</div>
+        </div>
                                 <div class="contact-value">${company.contact.email}</div>
                             </div>
                         </div>
@@ -1544,7 +1589,10 @@ function goToVerticalSlide(index) {
                                 <i class="fas fa-globe"></i>
                             </div>
                             <div class="contact-details">
-                                <div class="contact-label">官方网站</div>
+                               <div class="contact-label">
+            <div class="label-zh">官方网站</div>
+            <div class="label-en">Official Website</div>
+        </div>
                                 <div class="contact-value">${company.contact.website}</div>
                             </div>
                         </div>
@@ -1553,7 +1601,10 @@ function goToVerticalSlide(index) {
                                 <i class="fab fa-weixin"></i>
                             </div>
                             <div class="contact-details">
-                                <div class="contact-label">微信号</div>
+                               <div class="contact-label">
+            <div class="label-zh">微信号</div>
+            <div class="label-en">WeChat ID</div>
+             </div>
                                 <div class="contact-value">${company.contact.wechat}</div>
                             </div>
                         </div>
@@ -1636,6 +1687,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
