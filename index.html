@@ -1199,8 +1199,135 @@ margin-top: 5px;
                 grid-template-columns: 1fr 1fr;
             }
         }
+        /* 底边栏样式 */
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-top: 1px solid #e9ecef;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    flex: 1;
+    max-width: 120px;
+}
+
+.nav-item:hover {
+    background: rgba(79, 195, 247, 0.1);
+    transform: translateY(-2px);
+}
+
+.nav-item.active {
+    color: #4fc3f7;
+}
+
+.nav-item i {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #1a2a6c;
+}
+
+.nav-item span {
+    font-size: 0.8rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-item.active i,
+.nav-item.active span {
+    color: #4fc3f7;
+}
+
+/* 确保页面内容不被底边栏遮挡 */
+.container {
+    padding-bottom: 70px; /* 为底边栏留出空间 */
+}
+/* 公司列表页面特殊处理 */
+.companies-layout {
+    min-height: calc(100vh - 130px); /* 减去顶部导航栏和底边栏的高度 */
+}
+/* 封面页不需要底边栏 */
+/*#cover-page .bottom-navbar {
+    display: none;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+    .bottom-navbar {
+        padding: 8px 0;
+    }
+    
+    .nav-item {
+        padding: 6px 10px;
+    }
+    
+    .nav-item i {
+        font-size: 1.3rem;
+    }
+    
+    .nav-item span {
+        font-size: 0.75rem;
+    }
+    
+    .container {
+        padding-bottom: 60px;
+    }
+    .companies-layout {
+        min-height: calc(100vh - 120px);
+    }
+}
+
+/* 超小屏幕优化 */
+@media (max-width: 480px) {
+    .bottom-navbar {
+        padding: 6px 0;
+    }
+    
+    .nav-item {
+        padding: 5px 8px;
+    }
+    
+    .nav-item i {
+        font-size: 1.2rem;
+    }
+    
+    .nav-item span {
+        font-size: 0.7rem;
+    }
+    
+    .container {
+        padding-bottom: 55px;
+    }
+}
     </style>
 </head>
+  <!-- 底边栏 -->
+<div class="bottom-navbar">
+    <div class="nav-item" onclick="goToCover()">
+        <i class="fas fa-home"></i>
+        <span>首页</span>
+    </div>
+    <div class="nav-item" onclick="goToCompanies()">
+        <i class="fas fa-building"></i>
+        <span>展商</span>
+    </div>
+</div>  
 <body>
    <!-- 封面页面 -->
     <div id="cover-page" class="page active">
@@ -1661,7 +1788,41 @@ function goToVerticalSlide(index) {
         // 页面切换函数
        let coverScrollTop = 0;
 
-    function showPage(pageId) {
+    // 底边栏导航功能
+function goToCover() {
+    showPage('cover-page');
+    updateBottomNavActive('cover');
+}
+
+function goToCompanies() {
+    // 如果已经有选中的分类，显示该分类的公司列表
+    if (currentCategoryId && categories.length > 0) {
+        const category = categories.find(c => c.id === currentCategoryId);
+        showCompaniesByCategory(currentCategoryId, category.name);
+    } else {
+        // 否则显示第一个分类的公司列表
+        const firstCategory = categories[0];
+        showCompaniesByCategory(firstCategory.id, firstCategory.name);
+    }
+    updateBottomNavActive('companies');
+}
+
+// 更新底边栏激活状态
+function updateBottomNavActive(activePage) {
+    const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach(item => {
+        item.classList.remove('active');
+    });
+    
+    if (activePage === 'cover') {
+        document.querySelector('.nav-item:nth-child(1)').classList.add('active');
+    } else if (activePage === 'companies') {
+        document.querySelector('.nav-item:nth-child(2)').classList.add('active');
+    }
+}
+
+// 修改现有的 showPage 函数，在页面切换时更新底边栏状态
+function showPage(pageId) {
     // 记录 cover 页滚动位置
     const activePage = document.querySelector('.page.active');
     if (activePage && activePage.id === 'cover-page') {
@@ -1673,16 +1834,61 @@ function goToVerticalSlide(index) {
     });
     document.getElementById(pageId).classList.add('active');
 
-    if (pageId === 'companies-page') {
-        initCategories();
-        window.scrollTo(0, 0); // 可选：进入公司列表时回顶部
-    } else if (pageId === 'cover-page') {
-        window.scrollTo(0, coverScrollTop); // 恢复 cover 页原来的滚动位置
+    // 更新底边栏显示状态
+    updateBottomNavDisplay();
+    
+    // 更新底边栏激活状态
+    if (pageId === 'cover-page') {
+        updateBottomNavActive('cover');
+    } else if (pageId === 'companies-page') {
+        updateBottomNavActive('companies');
+    } else {
+        // 其他页面不激活任何底边栏项目
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(item => {
+            item.classList.remove('active');
+        });
     }
-        else if (pageId === 'company-detail-page') {
-       window.scrollTo(0, 0);// 恢复 cover 页原来的滚动位置
+
+    if (pageId === 'companies-page') {
+        // 初始化左边栏
+        initSidebarCategories();
+        // 如果没有当前选中的分类，默认选中第一个分类
+        if (!currentCategoryId && categories.length > 0) {
+            currentCategoryId = categories[0].id;
+        }
+        // 更新左边栏激活状态
+        updateSidebarActive(currentCategoryId);
+        window.scrollTo(0, 0);
+    } else if (pageId === 'cover-page') {
+        window.scrollTo(0, coverScrollTop);
+    } else if (pageId === 'company-detail-page') {
+        window.scrollTo(0, 0);
     }
 }
+
+// 更新底边栏显示状态
+function updateBottomNavDisplay() {
+    const bottomNav = document.querySelector('.bottom-navbar');
+    const currentPage = document.querySelector('.page.active');
+    
+    if (currentPage && currentPage.id === 'cover-page') {
+        bottomNav.style.display = 'none';
+    } else {
+        bottomNav.style.display = 'flex';
+    }
+}
+
+// 在页面加载时初始化底边栏状态
+document.addEventListener('DOMContentLoaded', function() {
+    initVerticalSlideshow();
+    loadCSVData();
+    initSidebarCategories();
+    
+    // 初始化底边栏状态
+    updateBottomNavDisplay();
+    updateBottomNavActive('cover');
+});
         
         // 初始化分类页面
         function initCategories() {
@@ -2067,6 +2273,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
