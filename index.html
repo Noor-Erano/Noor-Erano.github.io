@@ -213,11 +213,37 @@
     color: #666;
 }
         
-        .intro-card p {
-            font-size: 1rem;
-            line-height: 1.6;
-            opacity: 0.9;
-        }
+       /* 介绍卡片双语内容样式 */
+.intro-content.bilingual-content {
+    line-height: 1.6;
+}
+
+.intro-card .bilingual-zh {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.intro-card .bilingual-en {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .intro-card .bilingual-zh {
+        font-size: 0.95rem;
+        margin-bottom: 6px;
+    }
+    
+    .intro-card .bilingual-en {
+        font-size: 0.85rem;
+    }
+}
       .read-more {
             text-align: center;
             margin-top: 12px;
@@ -1028,7 +1054,7 @@ margin-top: 5px;
                     <div class="intro-section">
                         <div class="intro-title-with-icon">
             <i class="fas fa-info-circle"></i>
-       <span class="intro-title">展会简介</span>
+       <span class="intro-title">项目简介</span>
           <div class="intro-title-en">Expo Introduction</div>
             </div>
                         <div class="intro-content">
@@ -1040,7 +1066,10 @@ margin-top: 5px;
                       <div class="card-title-en">Project Introduction</div>
                      </div>
                        </div>
-                                <p>中国国际进口博览会（CIIE）是世界上第一个以进口为主题的国家级展会，旨在支持贸易自由化和经济全球化。展会汇聚全球优质企业，展示最新产品和技术，促进国际经贸合作。</p>
+                               <div class="intro-content bilingual-content">
+                <div class="bilingual-zh">本目录由联合国国际贸易中心（ITC)在支持组织xx个发展中国家和最不发达国家的中小微企业参加于2025年11月5日至10日在中国上海举行的中国国际进口博览会（CIIE）的背景下编制。</div>
+                <div class="bilingual-en">This catalogue was produced by the International Trade Centre (ITC) within the context of the support provided to organize the participation of micro, small and medium sized enterprises (MSMEs) from 29 developing and least developed countries (LDCs) in the China International Import Expo (CIIE) in shanghai, China, on 5-10 November 2025. </div>
+            </div>
                                 <div class="read-more">
                                     <a href="javascript:void(0)" class="read-more-btn" onclick="showPage('project-intro-page')">
                                         查看更多 / Read More <i class="fas fa-chevron-right"></i>
@@ -1056,7 +1085,10 @@ margin-top: 5px;
                     <div class="card-title-en">Organizers</div>
                     </div>
                     </div>
-                                <p>由中国商务部与上海市人民政府共同主办，得到世界贸易组织、联合国贸易和发展会议、联合国工业发展组织等国际组织的大力支持。致力于打造国际一流的进口博览会。</p>
+                              <div class="intro-content bilingual-content">
+                <div class="bilingual-zh">联合国国际贸易中心是唯一一个完全致力于支持中小微企业国际化的发展机构，其使命是促进包容和可持续的经济发展，为实现联合国全球可持续发展日标作出贡献。</div>
+                <div class="bilingual-en">ITC is the only development agency that is fuly dedicated to supporting the internationalization of MSMEs. ITC's mission is to foster inclusive andsustainable economic development and contribute to achieving the United Nations Global Goals for Sustainable Development.</div>
+            </div>
                                 <div class="read-more">
                                     <a href="javascript:void(0)" class="read-more-btn" onclick="showPage('organizer-intro-page')">
                                         查看更多 / Read More <i class="fas fa-chevron-right"></i>
@@ -1784,6 +1816,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
