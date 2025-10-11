@@ -184,17 +184,34 @@
             background-color: rgba(255, 255, 255, 0.2);
         }
         
-        .intro-card h3 {
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-        }
-        
-        .intro-card h3 i {
-            margin-right: 10px;
-            color: #4fc3f7;
-        }
+        .card-title-with-en {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+
+    .card-title-with-en i {
+    font-size: 1.5rem;
+    color: #1a2a6c;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+   .card-title-content {
+    flex: 1;
+}
+
+ .card-title-zh {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1a2a6c;
+    margin-bottom: 4px;
+}
+
+.card-title-en {
+    font-size: 0.9rem;
+    color: #666;
+}
         
         .intro-card p {
             font-size: 1rem;
@@ -770,6 +787,18 @@ margin-top: 5px;
         word-break: break-word;
         word-wrap: break-word;
     }
+    .card-title-zh {
+        font-size: 1.2rem;
+    }
+    
+    .card-title-en {
+        font-size: 0.85rem;
+    }
+    
+    .card-title-with-en i {
+        font-size: 1.3rem;
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -920,7 +949,13 @@ margin-top: 5px;
             </div>
                         <div class="intro-content">
                             <div class="intro-card">
-                                <h3><i class="fas fa-info-circle"></i>项目介绍</h3>
+                         <div class="card-title-with-en">
+                         <i class="fas fa-info-circle"></i>
+                        <div class="card-title-content">
+                       <div class="card-title-zh">项目介绍</div>
+                      <div class="card-title-en">Project Introduction</div>
+                     </div>
+                       </div>
                                 <p>中国国际进口博览会（CIIE）是世界上第一个以进口为主题的国家级展会，旨在支持贸易自由化和经济全球化。展会汇聚全球优质企业，展示最新产品和技术，促进国际经贸合作。</p>
                                 <div class="read-more">
                                     <a href="javascript:void(0)" class="read-more-btn" onclick="showPage('project-intro-page')">
@@ -930,7 +965,13 @@ margin-top: 5px;
                             </div>
     
                             <div class="intro-card">
-                                <h3><i class="fas fa-users"></i>发起机构</h3>
+                    <div class="card-title-with-en">
+                    <i class="fas fa-users"></i>
+                    <div class="card-title-content">
+                    <div class="card-title-zh">发起机构</div>
+                    <div class="card-title-en">Organizers</div>
+                    </div>
+                    </div>
                                 <p>由中国商务部与上海市人民政府共同主办，得到世界贸易组织、联合国贸易和发展会议、联合国工业发展组织等国际组织的大力支持。致力于打造国际一流的进口博览会。</p>
                                 <div class="read-more">
                                     <a href="javascript:void(0)" class="read-more-btn" onclick="showPage('organizer-intro-page')">
@@ -1595,6 +1636,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
