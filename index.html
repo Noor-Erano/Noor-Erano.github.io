@@ -496,9 +496,31 @@ margin-top: 5px;
     font-style: italic;
     line-height: 1.2;
    }
-        .contact-value {
-            font-weight: bold;
-        }
+       /* 双语内容样式 */
+.bilingual-content {
+    line-height: 1.6;
+}
+
+.bilingual-zh {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.bilingual-en {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+.no-info {
+    color: #999;
+    font-style: italic;
+}
+
         /* 统一公司详情页内各部分的边距 */
   .company-description,
    .contact-info {
@@ -819,6 +841,14 @@ margin-top: 5px;
     
     .label-en {
         font-size: 0.65rem;
+    }
+    .bilingual-zh {
+        font-size: 0.95rem;
+        margin-bottom: 6px;
+    }
+    
+    .bilingual-en {
+        font-size: 0.85rem;
     }
 }
 
@@ -1195,12 +1225,18 @@ function loadCSVData() {
                     categoryId: parseInt(company.categoryId) || 1,
                     name: company.name || '',
                     description: company.description || '',
+                    description_en: company.description_en || '',
                     logo: company.logo || '',
                     country: company.country || '',
+                    country_en: company.country_en || '',
                     capacity: company.capacity || '',
+                    capacity_en: company.capacity_en || '',
                     size: company.size || '',
+                    size_en: company.size_en || '',
                     export: company.export || '',
+                    export_en: company.export_en || '',
                     commitment: company.commitment || '',
+                    commitment_en: company.commitment_en || '',
                     contact: {
                         person: company.person || '',
                         phone: company.phone || '',
@@ -1463,7 +1499,25 @@ function goToVerticalSlide(index) {
             
             showPage('companies-page');
         }
-        
+
+        // 双语文本显示函数
+function formatBilingualText(zhText, enText) {
+    if (!zhText && !enText) {
+        return '<div class="no-info">暂无信息</div>';
+    }
+    
+    let html = '';
+    
+    if (zhText) {
+        html += `<div class="bilingual-zh">${zhText}</div>`;
+    }
+    
+    if (enText) {
+        html += `<div class="bilingual-en">${enText}</div>`;
+    }
+    
+    return html;
+}
         // 显示企业详情
         function showCompanyDetail(companyId) {
             const container = document.getElementById('company-detail-container');
@@ -1494,9 +1548,9 @@ function goToVerticalSlide(index) {
                <i class="fas fa-info-circle"> 公司简介</i>
             <div class="company-title-en">Company Introduction</div>
                    </div>
-                    <div class="company-description">
-                        ${company.description}
-                    </div>
+                     <div class="company-description bilingual-content">
+                ${formatBilingualText(company.description, company.description_en)}
+            </div>
             <!-- 新增：公司详情部分 -->
             <div class="company-title-with-icon">
                 <i class="fas fa-building"> 公司详情</i>
@@ -1512,7 +1566,9 @@ function goToVerticalSlide(index) {
                        <div class="label-zh">所在国家</div>
                       <div class="label-en">Country</div>
                       </div>
-                                <div class="contact-value">${company.country|| '暂无信息'}</div>
+                              <div class="contact-value bilingual-content">
+                            ${formatBilingualText(company.country, company.country_en)}
+                        </div>
                             </div>
                         </div>
                 <div class="contact-item">
@@ -1524,7 +1580,9 @@ function goToVerticalSlide(index) {
             <div class="label-zh">生产能力</div>
             <div class="label-en">Production Capacity</div>
         </div>
-                        <div class="contact-value">${company.capacity || '暂无信息'}</div>
+                        <div class="contact-value bilingual-content">
+                            ${formatBilingualText(company.capacity, company.capacity_en)}
+                        </div>
                     </div>
                 </div>
                 <div class="contact-item">
@@ -1536,7 +1594,9 @@ function goToVerticalSlide(index) {
             <div class="label-zh">公司规模</div>
             <div class="label-en">Company Size</div>
         </div>
-                        <div class="contact-value">${company.size || '暂无信息'}</div>
+                       <div class="contact-value bilingual-content">
+                            ${formatBilingualText(company.size, company.size_en)}
+                        </div>
                     </div>
                 </div>
                 <div class="contact-item">
@@ -1548,7 +1608,9 @@ function goToVerticalSlide(index) {
             <div class="label-zh">出口情况</div>
             <div class="label-en">Export Experience</div>
         </div>
-                        <div class="contact-value">${company.export || '暂无信息'}</div>
+                      <div class="contact-value bilingual-content">
+                            ${formatBilingualText(company.export, company.export_en)}
+                        </div>
                     </div>
                 </div>
                 <div class="contact-item">
@@ -1560,7 +1622,9 @@ function goToVerticalSlide(index) {
             <div class="label-zh">合作承诺</div>
             <div class="label-en">Commitment to Cooperation</div>
          </div>
-                        <div class="contact-value">${company.commitment || '暂无信息'}</div>
+                       <div class="contact-value bilingual-content">
+                            ${formatBilingualText(company.commitment, company.commitment_en)}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1708,6 +1772,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
