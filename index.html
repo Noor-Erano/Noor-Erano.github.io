@@ -1265,7 +1265,7 @@ margin-top: 5px;
 /* 封面页不需要底边栏 */
 /*#cover-page .bottom-navbar {
     display: none;
-}
+}*/
 
 /* 移动端优化 */
 @media (max-width: 768px) {
@@ -1871,12 +1871,7 @@ function showPage(pageId) {
 function updateBottomNavDisplay() {
     const bottomNav = document.querySelector('.bottom-navbar');
     const currentPage = document.querySelector('.page.active');
-    
-    if (currentPage && currentPage.id === 'cover-page') {
-        bottomNav.style.display = 'none';
-    } else {
         bottomNav.style.display = 'flex';
-    }
 }
 
 // 在页面加载时初始化底边栏状态
@@ -2273,6 +2268,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
