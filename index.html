@@ -1289,7 +1289,16 @@ margin-top: 5px;
         padding-bottom: 30px;
     }
     .companies-layout {
-        min-height: calc(100vh - 120px);
+        min-height: calc(100vh - 110px);
+    }
+    .companies-content {
+        height: calc(100vh - 110px); /* 移动端调整 */
+        padding: 15px;
+    }
+    
+    /* 左边栏在移动端的高度调整 */
+    .sidebar {
+        height: calc(100vh - 110px); /* 与内容区域保持一致 */
     }
 }
 
@@ -2268,6 +2277,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
