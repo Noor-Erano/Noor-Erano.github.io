@@ -1228,13 +1228,42 @@ function loadCSVData() {
         }
     });
 }
-  // 竖屏轮播功能
+// 竖屏轮播功能
 let currentVerticalSlide = 0;
 let verticalSlideInterval;
 
 function initVerticalSlideshow() {
     const slides = document.querySelectorAll('.vertical-slideshow .slide');
     const indicators = document.querySelectorAll('.vertical-slideshow .indicator');
+    
+    // 添加左右箭头事件监听
+    const prevArrow = document.querySelector('.vertical-slideshow .slide-control.prev');
+    const nextArrow = document.querySelector('.vertical-slideshow .slide-control.next');
+    
+    if (prevArrow) {
+        prevArrow.addEventListener('click', () => {
+            pauseVerticalSlideShow();
+            changeVerticalSlide(-1);
+            startVerticalSlideShow();
+        });
+    }
+    
+    if (nextArrow) {
+        nextArrow.addEventListener('click', () => {
+            pauseVerticalSlideShow();
+            changeVerticalSlide(1);
+            startVerticalSlideShow();
+        });
+    }
+    
+    // 添加指示器点击事件
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+            pauseVerticalSlideShow();
+            goToVerticalSlide(index);
+            startVerticalSlideShow();
+        });
+    });
     
     // 开始自动轮播
     startVerticalSlideShow();
@@ -1246,25 +1275,23 @@ function initVerticalSlideshow() {
         slideshow.addEventListener('mouseleave', startVerticalSlideShow);
     }
 }
-// 添加左右箭头事件监听
-    const prevArrow = document.querySelector('.vertical-slideshow .slide-control.prev');
-    const nextArrow = document.querySelector('.vertical-slideshow .slide-control.next');
-    
-    if (prevArrow) {
-        prevArrow.addEventListener('click', () => changeVerticalSlide(-1));
-    }
-    
-    if (nextArrow) {
-        nextArrow.addEventListener('click', () => changeVerticalSlide(1));
-    }
+
 function startVerticalSlideShow() {
+    // 清除可能存在的旧计时器
+    if (verticalSlideInterval) {
+        clearInterval(verticalSlideInterval);
+    }
+    
     verticalSlideInterval = setInterval(() => {
         changeVerticalSlide(1);
     }, 4000); // 每4秒切换一次
 }
 
 function pauseVerticalSlideShow() {
-    clearInterval(verticalSlideInterval);
+    if (verticalSlideInterval) {
+        clearInterval(verticalSlideInterval);
+        verticalSlideInterval = null;
+    }
 }
 
 function changeVerticalSlide(direction) {
@@ -1283,7 +1310,6 @@ function changeVerticalSlide(direction) {
     // 显示新幻灯片
     slides[currentVerticalSlide].classList.add('active');
     indicators[currentVerticalSlide].classList.add('active');
-     startVerticalSlideShow();
 }
 
 function goToVerticalSlide(index) {
@@ -1300,12 +1326,7 @@ function goToVerticalSlide(index) {
     currentVerticalSlide = index;
     slides[currentVerticalSlide].classList.add('active');
     indicators[currentVerticalSlide].classList.add('active');
-    
-    // 重置自动轮播计时器
-    clearInterval(verticalSlideInterval);
-    startVerticalSlideShow();
-  }
-
+}
      const products = [
             { 
                 id: 1, 
@@ -1687,6 +1708,7 @@ function goToVerticalSlide(index) {
     </script>
 </body>
 </html>
+
 
 
 
