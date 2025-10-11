@@ -841,7 +841,98 @@ margin-top: 5px;
 .vertical-slideshow .indicator:hover {
     background-color: rgba(255, 255, 255, 0.8);
 }
+/* 左边栏样式 */
+.sidebar {
+    width: 200px;
+    background: #f8f9fa;
+    border-right: 1px solid #e9ecef;
+    padding: 20px 0;
+    position: sticky;
+    top: 60px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
 
+.sidebar-category {
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-category:hover {
+    background: rgba(79, 195, 247, 0.1);
+}
+
+.sidebar-category.active {
+    background: rgba(79, 195, 247, 0.15);
+    border-left-color: #4fc3f7;
+    color: #1a2a6c;
+    font-weight: 600;
+}
+
+.sidebar-category i {
+    margin-right: 10px;
+    color: #4fc3f7;
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar-title {
+    padding: 0 20px 15px;
+    font-weight: bold;
+    color: #1a2a6c;
+    border-bottom: 1px solid #e9ecef;
+    margin-bottom: 10px;
+}
+
+/* 公司列表布局 */
+.companies-layout {
+    display: flex;
+    min-height: calc(100vh - 60px);
+}
+
+.companies-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .companies-layout {
+        flex-direction: column;
+    }
+    /*公司左边栏*/
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+    }
+    
+    .sidebar-categories {
+        display: flex;
+        overflow-x: auto;
+        padding: 10px 0;
+    }
+    
+    .sidebar-category {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        padding: 10px 15px;
+        border-left: none;
+        border-bottom: 3px solid transparent;
+    }
+    
+    .sidebar-category.active {
+        border-left: none;
+        border-bottom-color: #4fc3f7;
+    }
+}
 /* 响应式调整 */
 @media (max-width: 768px) {
     .vertical-slideshow {
@@ -1212,18 +1303,30 @@ margin-top: 5px;
         </div>
     </div> 
     <!-- 企业列表页面 -->
-    <div id="companies-page" class="page">
-        <div class="navbar">
-             <button class="back-btn" onclick="showPage('cover-page')"><i class="fas fa-arrow-left"></i></button>
-            <div class="page-title" id="companies-page-title">企业列表</div>
-            <div></div> <!-- 占位元素 -->
+    <!-- 企业列表页面 -->
+<div id="companies-page" class="page">
+    <div class="navbar">
+        <button class="back-btn" onclick="showPage('cover-page')"><i class="fas fa-arrow-left"></i></button>
+        <div class="page-title" id="companies-page-title">企业列表</div>
+        <div></div>
+    </div>
+    <div class="companies-layout">
+        <!-- 左边栏 -->
+        <div class="sidebar">
+            <div class="sidebar-title">展商分类</div>
+            <div class="sidebar-categories" id="sidebar-categories">
+                <!-- 分类将通过JavaScript动态生成 -->
+            </div>
         </div>
-        <div class="container">
+        
+        <!-- 公司列表内容 -->
+        <div class="companies-content">
             <div id="companies-container">
                 <!-- 企业将通过JavaScript动态生成 -->
             </div>
         </div>
     </div>
+</div>
     
     <!-- 企业详情页面 -->
     <div id="company-detail-page" class="page">
@@ -1500,46 +1603,89 @@ function goToVerticalSlide(index) {
                 container.appendChild(categoryCard);
             });
         }
-        
+// 全局变量记录当前选中的分类
+let currentCategoryId = null;
+
+// 初始化左边栏分类
+function initSidebarCategories() {
+    const sidebarContainer = document.getElementById('sidebar-categories');
+    sidebarContainer.innerHTML = '';
+    
+    categories.forEach(category => {
+        const categoryItem = document.createElement('div');
+        categoryItem.className = 'sidebar-category';
+        categoryItem.innerHTML = `
+            <i class="${category.icon}"></i>
+            <span>${category.name}</span>
+        `;
+        categoryItem.addEventListener('click', () => {
+            showCompaniesByCategory(category.id, category.name);
+        });
+        sidebarContainer.appendChild(categoryItem);
+    });
+}
+
+// 更新左边栏激活状态
+function updateSidebarActive(categoryId) {
+    const sidebarItems = document.querySelectorAll('.sidebar-category');
+    sidebarItems.forEach(item => {
+        item.classList.remove('active');
+    });
+    
+    // 找到对应的分类项并激活
+    const activeItem = Array.from(sidebarItems).find(item => {
+        return item.querySelector('i').className.includes(categories.find(c => c.id === categoryId).icon);
+    });
+    
+    if (activeItem) {
+        activeItem.classList.add('active');
+    }
+}
         // 显示特定分类下的企业
-        function showCompaniesByCategory(categoryId, categoryName) {
-            const container = document.getElementById('companies-container');
-            const title = document.getElementById('companies-page-title');
-            
-            title.textContent = categoryName;
-            container.innerHTML = '';
-            
-            const filteredCompanies = companies.filter(company => company.categoryId === categoryId);
-            
-            if (filteredCompanies.length === 0) {
-                container.innerHTML = '<p>暂无相关企业信息</p>';
-            } else {
-                filteredCompanies.forEach(company => {
-                    const companyCard = document.createElement('div');
-                    companyCard.className = 'company-card';
-                    companyCard.innerHTML = `
-               <div class="company-logo">
-               ${company.logo ? 
-            `<img src="${company.logo}" alt="${company.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-             <i class="fas fa-home" style="display:none"></i>` :
-            `<i class="fas fa-home"></i>`
-        }
-                        </div>
-                        <div class="company-info">
-                            <div class="company-name">${company.name}</div>
-                            <div class="company-desc">${company.description}</div>
-                        </div>
-                        <i class="fas fa-chevron-right" style="color: #ccc;"></i>
-                    `;
-                    companyCard.addEventListener('click', () => {
-                        showCompanyDetail(company.id);
-                    });
-                    container.appendChild(companyCard);
-                });
-            }
-            
-            showPage('companies-page');
-        }
+       function showCompaniesByCategory(categoryId, categoryName) {
+    const container = document.getElementById('companies-container');
+    const title = document.getElementById('companies-page-title');
+    
+    // 更新当前选中的分类
+    currentCategoryId = categoryId;
+    
+    // 更新左边栏激活状态
+    updateSidebarActive(categoryId);
+    
+    title.textContent = categoryName;
+    container.innerHTML = '';
+    
+    const filteredCompanies = companies.filter(company => company.categoryId === categoryId);
+    
+    if (filteredCompanies.length === 0) {
+        container.innerHTML = '<p style="text-align: center; padding: 40px; color: #666;">暂无相关企业信息</p>';
+    } else {
+        filteredCompanies.forEach(company => {
+            const companyCard = document.createElement('div');
+            companyCard.className = 'company-card';
+            companyCard.innerHTML = `
+                <div class="company-logo">
+                    ${company.logo ? 
+                        `<img src="${company.logo}" alt="${company.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                         <i class="fas fa-home" style="display:none"></i>` :
+                        `<i class="fas fa-home"></i>`
+                    }
+                </div>
+                <div class="company-info">
+                    <div class="company-name">${company.name}</div>
+                    <div class="company-desc">${company.description}</div>
+                </div>
+                <i class="fas fa-chevron-right" style="color: #ccc;"></i>
+            `;
+            companyCard.addEventListener('click', () => {
+                howCompanyDetail(company.id);
+            });
+            container.appendChild(companyCard);
+        });
+    }
+    
+    showPage('companies-page');
+}
 
         // 双语文本显示函数
 function formatBilingualText(zhText, enText) {
@@ -1559,6 +1705,7 @@ function formatBilingualText(zhText, enText) {
     
     return html;
 }
+
         // 显示企业详情
         function showCompanyDetail(companyId) {
             const container = document.getElementById('company-detail-container');
@@ -1812,10 +1959,13 @@ function formatBilingualText(zhText, enText) {
        document.addEventListener('DOMContentLoaded', function() {
             initVerticalSlideshow(); // 初始化竖屏轮播
            loadCSVData();
+           // 初始化左边栏（在数据加载完成后会再次调用）
+    initSidebarCategories();
     });
     </script>
 </body>
 </html>
+
 
 
 
