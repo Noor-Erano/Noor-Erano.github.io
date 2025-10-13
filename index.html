@@ -1589,7 +1589,6 @@ margin-top: 5px;
         <div class="container" style="padding: 20px;">
             <div style="max-width: 800px; margin: 0 auto;">
                 <h1 style="text-align: center; margin-bottom: 30px; color: #1a2a6c;">中国国际进口博览会</h1>
-                
                 <div style="background: white; border-radius: 10px; padding: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
                     <h2 style="color: #1a2a6c; margin-bottom: 20px;">项目简介</h2>
                   <div class="intro-content bilingual-content">
@@ -1678,6 +1677,7 @@ margin-top: 5px;
             </div>
         </div>
     </div> 
+        </div>
     <!-- 企业列表页面 -->
 <div id="companies-page" class="page">
     <div class="navbar">
@@ -1704,29 +1704,30 @@ margin-top: 5px;
 </div>
     
     <!-- 企业详情页面 -->
-    <div id="company-detail-page" class="page">
-        <div class="navbar">
-            <button class="back-btn" onclick="showPage('companies-page')"><i class="fas fa-arrow-left"></i></button>
-            <div class="page-title" id="company-detail-page-title">企业详情</div>
-            <div></div> <!-- 占位元素 -->
+   <!-- 企业详情页面 -->
+<div id="company-detail-page" class="page">
+    <div class="navbar">
+        <button class="back-btn" onclick="showPage('companies-page')"><i class="fas fa-arrow-left"></i></button>
+        <div class="page-title" id="company-detail-page-title">企业详情</div>
+        <div></div> <!-- 占位元素 -->
+    </div>
+    <div class="container">
+        <div id="company-detail-container">
+            <!-- 企业详情将通过JavaScript动态生成 -->
         </div>
-        <div class="container">
-            <div id="company-detail-container">
-                  </div>
-                <!-- 企业详情将通过JavaScript动态生成 -->
-            <div class="company-detail">
-                 <div class="company-body">
-             <div class="company-title-with-icon">
-              <i class="fas fa-box-open"> 产品展示</i>
-            <div class="company-title-en">Product Display</div>
-                   </div>
-            <div class="products-grid" id="company-products-container">
-                <!-- 企业产品将通过JavaScript动态生成 -->
+        <div class="company-detail">
+            <div class="company-body">
+                <div class="company-title-with-icon">
+                    <i class="fas fa-box-open"> 产品展示</i>
+                    <div class="company-title-en">Product Display</div>
+                </div>
+                <div class="products-grid" id="company-products-container">
+                    <!-- 企业产品将通过JavaScript动态生成 -->
+                </div>
             </div>
         </div>
-    </div>
-        </div>
-         </div>
+    </div> <!-- 这里添加了缺少的 container 结束标签 -->
+</div>
     <!-- 产品详情页面 -->
      <!--<div id="product-detail-page" class="page">
          <div class="navbar">
@@ -2429,6 +2430,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
