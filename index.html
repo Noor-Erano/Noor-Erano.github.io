@@ -1620,7 +1620,7 @@ let companies = [];
 function loadCSVData() {
     alert("开始加载企业数据...");
     
-    Papa.parse('data/companies_20251011.csv', {
+    Papa.parse('data/companies_20251013.csv', {
         download: true,
         header: true,
         skipEmptyLines: true,
@@ -1643,6 +1643,8 @@ function loadCSVData() {
                     export_en: company.export_en || '',
                     commitment: company.commitment || '',
                     commitment_en: company.commitment_en || '',
+                    product: company.product || '',
+                    product_en: company.product_en || '',
                     contact: {
                         person: company.person || '',
                         phone: company.phone || '',
@@ -1985,7 +1987,9 @@ function updateSidebarActive(categoryId) {
                 </div>
                 <div class="company-info">
                     <div class="company-name">${company.name}</div>
-                    <div class="company-desc">${company.description}</div>
+                    <div class="company-desc bilingual-content">
+                        ${formatBilingualText(company.product, company.product_en)}
+                    </div>
                 </div>
                 <i class="fas fa-chevron-right" style="color: #ccc;"></i>
             `;
@@ -2277,6 +2281,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
