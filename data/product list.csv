@@ -1,304 +1,304 @@
 id,companyId,number,product,product_en,name,product_img
-1,1,1,辣木油,Moringa Oil,KLARIZA SPRL,SME/KLARIZA SPRL/1.jpg
-2,1,2,辣木身体润肤膏,Moringa Body Balm,KLARIZA SPRL,SME/KLARIZA SPRL/2.jpg
-3,1,3,辣木润唇膏,Moringa Lip Balm,KLARIZA SPRL,SME/KLARIZA SPRL/3.jpg
-4,1,4,辣木皂,Moringa Soap,KLARIZA SPRL,SME/KLARIZA SPRL/4.jpg
-5,3,1,手工编织围巾,Handwoven scarves,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/1.jpg"
-6,3,2,披肩,shawls,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/2.jpg"
-7,3,3,斗篷,ponchos,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/3.jpg"
-8,3,4,毛巾,towels,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/4.jpg"
-9,3,5,手工编织披毯,handwoven throws,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/5.jpg"
-10,3,6,桌旗,table runners,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/6.jpg"
-11,3,7,手工钩织的帽子,hand crocheted hat,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/7.jpg"
-12,4,1,身体乳,body creams,Sava Shea Company Limited,SME/Sava Shea Company Limited/1.jpg
-13,4,2,沐浴露,shower gels,Sava Shea Company Limited,SME/Sava Shea Company Limited/2.jpg
-14,4,3,润唇膏,lip balm,Sava Shea Company Limited,SME/Sava Shea Company Limited/3.jpg
-15,4,4,非洲黑皂,African black soap,Sava Shea Company Limited,SME/Sava Shea Company Limited/4.jpg
-16,4,5,护发及身体乳霜,hair and body butters,Sava Shea Company Limited,SME/Sava Shea Company Limited/5.jpg
-17,4,6,未精炼乳木果油和洗发水身体乳,Unrefined sheabutter and hair shampoos,Sava Shea Company Limited,SME/Sava Shea Company Limited/6.jpg
-18,5,1,即用型精油,Ready-to-use Essential oils,Green Fields Oils Factory,SME/Green Fields Oils Factory/1.jpg
-19,5,2,冷榨油,Cold Pressed oils,Green Fields Oils Factory,SME/Green Fields Oils Factory/2.jpg
-20,6,1,孕妇装与哺乳装,Maternity & Nursing clothing,EVERYTHING MATERNITY KENYA,SME/EVERYTHING MATERNITY KENYA/1.jpg
-21,6,2,母婴健康必备品,Baby & Mum Wellness essentials,EVERYTHING MATERNITY KENYA,SME/EVERYTHING MATERNITY KENYA/2.jpg
-22,6,3,产后及住院用品套装,Postpartum & hospital kits,EVERYTHING MATERNITY KENYA,SME/EVERYTHING MATERNITY KENYA/3.jpg
-23,6,4,礼品解决方案,gifting solutions,EVERYTHING MATERNITY KENYA,SME/EVERYTHING MATERNITY KENYA/4.jpg
-24,7,1,服装与服饰,Clothing & apparel,Iko Ziwa Africa Ltd /Kiko Romeo,SME/Iko Ziwa Africa Ltd /Kiko Romeo/1.jpg
-25,7,2,纺织品&设计咨询&高端公司制服,textiles& design consulting& high-end company uniforms,Iko Ziwa Africa Ltd /Kiko Romeo,SME/Iko Ziwa Africa Ltd /Kiko Romeo/2.jpg
-26,8,1,剑麻篮子,Sisal baskets,Naskia ventures limited,SME/Naskia ventures limited/1.jpg
-27,9,1,围巾,scarves,Union of handicraftsmen Kyrgyz Republic,SME/Union of handicraftsmen Kyrgyz Republic/1.jpg
-28,9,2,家居装饰品,home decorations,Union of handicraftsmen Kyrgyz Republic,SME/Union of handicraftsmen Kyrgyz Republic/2.jpg
-29,9,3,玩具,toys,Union of handicraftsmen Kyrgyz Republic,SME/Union of handicraftsmen Kyrgyz Republic/3.jpg
-30,10,1,精油（热带香桃木精油、天竺葵精油、生姜精油、 Ravensara 精油、尼傲油、桉树精油……）,"Essential Oils (Ravintsara, Geranium, Ginger, Ravensara, Niaouli, Eucalyptus,…) ",MG SAKAY,SME/MG SAKAY/1.jpg
-31,10,2,植物油,Vegetal Oils ,MG SAKAY,SME/MG SAKAY/2.jpg
-32,11,1,陶瓷制品,Ceramic products,Dedza Pottery,SME/Dedza Pottery/1.jpg
-33,11,2,酒店旅游服务,Hospitality/Tourism services,Dedza Pottery,SME/Dedza Pottery/2.jpg
+1,1,1,辣木油,Moringa Oil,KLARIZA SPRL,images/SME/KLARIZA SPRL/1.jpg
+2,1,2,辣木身体润肤膏,Moringa Body Balm,KLARIZA SPRL,images/SME/KLARIZA SPRL/2.jpg
+3,1,3,辣木润唇膏,Moringa Lip Balm,KLARIZA SPRL,images/SME/KLARIZA SPRL/3.jpg
+4,1,4,辣木皂,Moringa Soap,KLARIZA SPRL,images/SME/KLARIZA SPRL/4.jpg
+5,3,1,手工编织围巾,Handwoven scarves,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","images/SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/1.jpg"
+6,3,2,披肩,shawls,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","images/SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/2.jpg"
+7,3,3,斗篷,ponchos,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","images/SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/3.jpg"
+8,3,4,毛巾,towels,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","images/SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/4.jpg"
+9,3,5,手工编织披毯,handwoven throws,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","images/SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/5.jpg"
+10,3,6,桌旗,table runners,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","images/SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/6.jpg"
+11,3,7,手工钩织的帽子,hand crocheted hat,"Jano Handicraft Enterprise -- ""Shimena""  with Brand name","images/SME/Jano Handicraft Enterprise -- ""Shimena""  with Brand name/7.jpg"
+12,4,1,身体乳,body creams,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/1.jpg
+13,4,2,沐浴露,shower gels,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/2.jpg
+14,4,3,润唇膏,lip balm,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/3.jpg
+15,4,4,非洲黑皂,African black soap,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/4.jpg
+16,4,5,护发及身体乳霜,hair and body butters,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/5.jpg
+17,4,6,未精炼乳木果油和洗发水身体乳,Unrefined sheabutter and hair shampoos,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/6.jpg
+18,5,1,即用型精油,Ready-to-use Essential oils,Green Fields Oils Factory,images/SME/Green Fields Oils Factory/1.jpg
+19,5,2,冷榨油,Cold Pressed oils,Green Fields Oils Factory,images/SME/Green Fields Oils Factory/2.jpg
+20,6,1,孕妇装与哺乳装,Maternity & Nursing clothing,EVERYTHING MATERNITY KENYA,images/SME/EVERYTHING MATERNITY KENYA/1.jpg
+21,6,2,母婴健康必备品,Baby & Mum Wellness essentials,EVERYTHING MATERNITY KENYA,images/SME/EVERYTHING MATERNITY KENYA/2.jpg
+22,6,3,产后及住院用品套装,Postpartum & hospital kits,EVERYTHING MATERNITY KENYA,images/SME/EVERYTHING MATERNITY KENYA/3.jpg
+23,6,4,礼品解决方案,gifting solutions,EVERYTHING MATERNITY KENYA,images/SME/EVERYTHING MATERNITY KENYA/4.jpg
+24,7,1,服装与服饰,Clothing & apparel,Iko Ziwa Africa Ltd /Kiko Romeo,images/SME/Iko Ziwa Africa Ltd /Kiko Romeo/1.jpg
+25,7,2,纺织品&设计咨询&高端公司制服,textiles& design consulting& high-end company uniforms,Iko Ziwa Africa Ltd /Kiko Romeo,images/SME/Iko Ziwa Africa Ltd /Kiko Romeo/2.jpg
+26,8,1,剑麻篮子,Sisal baskets,Naskia ventures limited,images/SME/Naskia ventures limited/1.jpg
+27,9,1,围巾,scarves,Union of handicraftsmen Kyrgyz Republic,images/SME/Union of handicraftsmen Kyrgyz Republic/1.jpg
+28,9,2,家居装饰品,home decorations,Union of handicraftsmen Kyrgyz Republic,images/SME/Union of handicraftsmen Kyrgyz Republic/2.jpg
+29,9,3,玩具,toys,Union of handicraftsmen Kyrgyz Republic,images/SME/Union of handicraftsmen Kyrgyz Republic/3.jpg
+30,10,1,精油（热带香桃木精油、天竺葵精油、生姜精油、 Ravensara 精油、尼傲油、桉树精油……）,"Essential Oils (Ravintsara, Geranium, Ginger, Ravensara, Niaouli, Eucalyptus,…) ",MG SAKAY,images/SME/MG SAKAY/1.jpg
+31,10,2,植物油,Vegetal Oils ,MG SAKAY,images/SME/MG SAKAY/2.jpg
+32,11,1,陶瓷制品,Ceramic products,Dedza Pottery,images/SME/Dedza Pottery/1.jpg
+33,11,2,酒店旅游服务,Hospitality/Tourism services,Dedza Pottery,images/SME/Dedza Pottery/2.jpg
 34,12,1,百分百羊毛针织服饰,100% cashmere knitted
-clothing,Sain tumen cashmere LLC,SME/Sain tumen cashmere LLC/1.jpg
+clothing,Sain tumen cashmere LLC,images/SME/Sain tumen cashmere LLC/1.jpg
 35,12,2,百分百羊毛针织配饰,100% cashmere knitted
 accessories
-,Sain tumen cashmere LLC,SME/Sain tumen cashmere LLC/2.jpg
-36,13,1,解决方案材料,Solution paints,COLORADO,SME/COLORADO/1.jpg
-37,13,2,建筑涂料,Architectural paints,COLORADO,SME/COLORADO/2.jpg
-38,13,3,工业涂料,Industrial paints,COLORADO,SME/COLORADO/3.jpg
-39,13,4,汽车修补漆,Automotive car refinish,COLORADO,SME/COLORADO/4.jpg
-40,13,5,木器漆,wood paints,COLORADO,SME/COLORADO/5.jpg
-41,14,1, 颂钵, Singing Bowls,BEST HIMALAYA EXPORT PVT LTD,SME/BEST HIMALAYA EXPORT PVT LTD/1.jpg
-42,14,2,毛毡制品,Felt Products,BEST HIMALAYA EXPORT PVT LTD,SME/BEST HIMALAYA EXPORT PVT LTD/2.jpg
-43,15,1,披肩,Shawl,Divya Pashmina Udyog,SME/Divya Pashmina Udyog/1.jpg
-44,15,2,毛衣,Sweater,Divya Pashmina Udyog,SME/Divya Pashmina Udyog/2.jpg
-45,15,3,围巾,Scarf,Divya Pashmina Udyog,SME/Divya Pashmina Udyog/3.jpg
-46,15,4,女用披肩,Stoles,Divya Pashmina Udyog,SME/Divya Pashmina Udyog/4.jpg
-47,15,5,毯子,Blankets,Divya Pashmina Udyog,SME/Divya Pashmina Udyog/5.jpg
-48,15,6,帽子,Cap,Divya Pashmina Udyog,SME/Divya Pashmina Udyog/6.jpg
-49,15,7,成衣,Garments,Divya Pashmina Udyog,SME/Divya Pashmina Udyog/7.jpg
-50,16,1,适用于婴儿儿童及母亲的头发护理产品,"Skin & Hair care for Baby, Kid, Mom.","BEBEBALM, INC.","SME/BEBEBALM, INC./1.jpg"
-51,16,2,应对瘙痒的油,Oil for Itchy rash,"BEBEBALM, INC.","SME/BEBEBALM, INC./2.jpg"
-52,16,3,有助于改善睡眠以及缓解压力的精油,Sleep and stress essential oils,"BEBEBALM, INC.","SME/BEBEBALM, INC./3.jpg"
-53,16,4,洗发皂,Shampoo bar,"BEBEBALM, INC.","SME/BEBEBALM, INC./4.jpg"
+,Sain tumen cashmere LLC,images/SME/Sain tumen cashmere LLC/2.jpg
+36,13,1,解决方案材料,Solution paints,COLORADO,images/SME/COLORADO/1.jpg
+37,13,2,建筑涂料,Architectural paints,COLORADO,images/SME/COLORADO/2.jpg
+38,13,3,工业涂料,Industrial paints,COLORADO,images/SME/COLORADO/3.jpg
+39,13,4,汽车修补漆,Automotive car refinish,COLORADO,images/SME/COLORADO/4.jpg
+40,13,5,木器漆,wood paints,COLORADO,images/SME/COLORADO/5.jpg
+41,14,1, 颂钵, Singing Bowls,BEST HIMALAYA EXPORT PVT LTD,images/SME/BEST HIMALAYA EXPORT PVT LTD/1.jpg
+42,14,2,毛毡制品,Felt Products,BEST HIMALAYA EXPORT PVT LTD,images/SME/BEST HIMALAYA EXPORT PVT LTD/2.jpg
+43,15,1,披肩,Shawl,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/1.jpg
+44,15,2,毛衣,Sweater,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/2.jpg
+45,15,3,围巾,Scarf,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/3.jpg
+46,15,4,女用披肩,Stoles,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/4.jpg
+47,15,5,毯子,Blankets,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/5.jpg
+48,15,6,帽子,Cap,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/6.jpg
+49,15,7,成衣,Garments,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/7.jpg
+50,16,1,适用于婴儿儿童及母亲的头发护理产品,"Skin & Hair care for Baby, Kid, Mom.","BEBEBALM, INC.","images/SME/BEBEBALM, INC./1.jpg"
+51,16,2,应对瘙痒的油,Oil for Itchy rash,"BEBEBALM, INC.","images/SME/BEBEBALM, INC./2.jpg"
+52,16,3,有助于改善睡眠以及缓解压力的精油,Sleep and stress essential oils,"BEBEBALM, INC.","images/SME/BEBEBALM, INC./3.jpg"
+53,16,4,洗发皂,Shampoo bar,"BEBEBALM, INC.","images/SME/BEBEBALM, INC./4.jpg"
 54,16,5,用于快速缓解症状的深色薄荷膏,. Deep mint rub for quick relief
-,"BEBEBALM, INC.","SME/BEBEBALM, INC./5.jpg"
-55,17,1,鞋履,FOOTWARE,MAYO trading company ltd,SME/MAYO trading company ltd/1.jpg
+,"BEBEBALM, INC.","images/SME/BEBEBALM, INC./5.jpg"
+55,17,1,鞋履,FOOTWARE,MAYO trading company ltd,images/SME/MAYO trading company ltd/1.jpg
 56,17,2,包袋
-,BAGS,MAYO trading company ltd,SME/MAYO trading company ltd/2.jpg
-57,17,3, 钱包,WALLETS,MAYO trading company ltd,SME/MAYO trading company ltd/3.jpg
-58,17,4,学童鞋履及皮革配饰,SCHOOL SHOES & LEATHER ACCESSORIES,MAYO trading company ltd,SME/MAYO trading company ltd/4.jpg
+,BAGS,MAYO trading company ltd,images/SME/MAYO trading company ltd/2.jpg
+57,17,3, 钱包,WALLETS,MAYO trading company ltd,images/SME/MAYO trading company ltd/3.jpg
+58,17,4,学童鞋履及皮革配饰,SCHOOL SHOES & LEATHER ACCESSORIES,MAYO trading company ltd,images/SME/MAYO trading company ltd/4.jpg
 59,18,1,手工皂
-,Handmade soap,The Empress Kingdom,SME/The Empress Kingdom/1.jpg
-60,18,2,糖蜡,Sugar wax,The Empress Kingdom,SME/The Empress Kingdom/2.jpg
-61,18,3,身体磨砂膏,Body Scrubs,The Empress Kingdom,SME/The Empress Kingdom/3.jpg
-62,18,4,香水油,perfume oil,The Empress Kingdom,SME/The Empress Kingdom/4.jpg
-63,18,5,润唇膏,lip balm ,The Empress Kingdom,SME/The Empress Kingdom/5.jpg
-64,18,6,沐浴泡澡球,bath soak,The Empress Kingdom,SME/The Empress Kingdom/6.jpg
-65,18,7,固体香水,solid perfume,The Empress Kingdom,SME/The Empress Kingdom/7.jpg
-66,18,8,精油,Essential oils,The Empress Kingdom,SME/The Empress Kingdom/8.jpg
-67,19,1,化妆品,cosmetic,El bochra company,SME/El bochra company/1.jpg
-68,19,2,  食品,food ,El bochra company,SME/El bochra company/2.jpg
-69,22,1,椰子精华,COCONUT SERUM,Mekong Coconut Oil Company Limited,SME/Mekong Coconut Oil Company Limited/1.jpg
+,Handmade soap,The Empress Kingdom,images/SME/The Empress Kingdom/1.jpg
+60,18,2,糖蜡,Sugar wax,The Empress Kingdom,images/SME/The Empress Kingdom/2.jpg
+61,18,3,身体磨砂膏,Body Scrubs,The Empress Kingdom,images/SME/The Empress Kingdom/3.jpg
+62,18,4,香水油,perfume oil,The Empress Kingdom,images/SME/The Empress Kingdom/4.jpg
+63,18,5,润唇膏,lip balm ,The Empress Kingdom,images/SME/The Empress Kingdom/5.jpg
+64,18,6,沐浴泡澡球,bath soak,The Empress Kingdom,images/SME/The Empress Kingdom/6.jpg
+65,18,7,固体香水,solid perfume,The Empress Kingdom,images/SME/The Empress Kingdom/7.jpg
+66,18,8,精油,Essential oils,The Empress Kingdom,images/SME/The Empress Kingdom/8.jpg
+67,19,1,化妆品,cosmetic,El bochra company,images/SME/El bochra company/1.jpg
+68,19,2,  食品,food ,El bochra company,images/SME/El bochra company/2.jpg
+69,22,1,椰子精华,COCONUT SERUM,Mekong Coconut Oil Company Limited,images/SME/Mekong Coconut Oil Company Limited/1.jpg
 70,22,2,
-椰子护发精华液,COCONUT HAIR SERUM,Mekong Coconut Oil Company Limited,SME/Mekong Coconut Oil Company Limited/2.jpg
-71,23,1,手工串珠耳饰,Handbeaded earrings,Authentic Crafts Limited (Namayo jewellery brand name),SME/Authentic Crafts Limited (Namayo jewellery brand name)/1.jpg
-72,23,2,戒指,rings,Authentic Crafts Limited (Namayo jewellery brand name),SME/Authentic Crafts Limited (Namayo jewellery brand name)/2.jpg
+椰子护发精华液,COCONUT HAIR SERUM,Mekong Coconut Oil Company Limited,images/SME/Mekong Coconut Oil Company Limited/2.jpg
+71,23,1,手工串珠耳饰,Handbeaded earrings,Authentic Crafts Limited (Namayo jewellery brand name),images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/1.jpg
+72,23,2,戒指,rings,Authentic Crafts Limited (Namayo jewellery brand name),images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/2.jpg
 73,23,3,
-项链,necklaces,Authentic Crafts Limited (Namayo jewellery brand name),SME/Authentic Crafts Limited (Namayo jewellery brand name)/3.jpg
-74,24,1,野外探险,Wilderness Safaris,Eana Safari Travel,SME/Eana Safari Travel/1.jpg
-75,24,2,钻石之旅,Diamond Tourism,Eana Safari Travel,SME/Eana Safari Travel/2.jpg
-76,24,3,博茨瓦纳邮票,Botswana Postage Stamps,Eana Safari Travel,SME/Eana Safari Travel/3.jpg
-77,26,1,旅游软件,Travada,APP COMPANY LIMITED,SME/APP COMPANY LIMITED/1.jpg
-78,26,2,数字销售平台,Mindsmend ,APP COMPANY LIMITED,SME/APP COMPANY LIMITED/2.jpg
-79,27,1,木薯/树薯,cassava/ manioc,GBNM Systèmes Marketing Digital,SME/GBNM Systèmes Marketing Digital/1.jpg
-80,27,2,艺术产品,artistic products ,GBNM Systèmes Marketing Digital,SME/GBNM Systèmes Marketing Digital/2.jpg
-81,29,1,提供端到端的综合技术解决方案的专家：从数字化到统一通信、IT管理、网络安全、SaaS/ PaaS/ MSP解决方案和IT外包。,"Experts in delivering end‑to‑end, integrated tech solutions: from transformation digital to unified communications, IT management, cybersecurity, SaaS/PaaS/MSP solutions and IT outsourcing. ",KYRIOS CONSULTING INTEGRADORES TECNOLOGICOS KYRIOSCONS S.A,SME/KYRIOS CONSULTING INTEGRADORES TECNOLOGICOS KYRIOSCONS S.A/1.jpg
-82,30,1,忠诚度项目,Loyalty programs ,Promotick,SME/Promotick/1.jpg
-83,30,2,激励平台,Incentive platforms ,Promotick,SME/Promotick/2.jpg
-84,30,3,全球采购服务,Global sourcing service,Promotick,SME/Promotick/3.jpg
-85,31,1,女性滑板车 & 自行车培训,Women' scooter & bicycle training ,Dosy,SME/Dosy/1.jpg
-86,31,2,环保服务,eco-friendly services ,Dosy,SME/Dosy/2.jpg
-87,32,1,优质有机咖啡,Premium organic coffee ,Grupo Gurús S.,SME/Grupo Gurús S./1.jpg
-88,32,2,优质有机巧克力,fine organic chocolate ,Grupo Gurús S.,SME/Grupo Gurús S./2.jpg
-89,32,3,正宗手工纺织品,authentic handcrafted textiles,Grupo Gurús S.,SME/Grupo Gurús S./3.jpg
-90,32,4,特产工艺娃娃,unique artisan dolls ,Grupo Gurús S.,SME/Grupo Gurús S./4.jpg
-91,33,1,融合了AI驱动的NDVI与NDWI的卫星作物诊断,Satellite-based crop diagnostics with AI-driven NDVI &NDWI insights,Rootskart,SME/Rootskart/1.jpg
-92,35,1,导游&野生观光,Tours & Safaris ,ASARAY TOURS LTD,SME/ASARAY TOURS LTD/1.jpg
-93,37,1, 人力资源管理与外包服务,Manpower management & Outsourcing Services,ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD,SME/ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD/1.jpg
-94,38,1,由社区主导的恢复项目所产生的售前碳信用额度,Pre-sale carbon credits from community-led restoration projects,Sustainable Farming Solutions,SME/Sustainable Farming Solutions/1.jpg
-95,39,1,战略品牌管理,Strategic Brand management,Sphere Media Technologies Co Ltd,SME/Sphere Media Technologies Co Ltd/1.jpg
-96,39,2,数字营销,digital marketing,Sphere Media Technologies Co Ltd,SME/Sphere Media Technologies Co Ltd/2.jpg
-97,39,3,技术解决方案,technology solutions,Sphere Media Technologies Co Ltd,SME/Sphere Media Technologies Co Ltd/3.jpg
-98,39,4,内容创作,content creation,Sphere Media Technologies Co Ltd,SME/Sphere Media Technologies Co Ltd/4.jpg
-99,40,1,墨西哥的投资与贸易合规情况，为国际业务项目提供设计与支持，促销、公共及企业事务,"Investment and trade compliance in Mexico，provides design and support for international business projects ，promotion, public and corporate affairs",Business Facilitation and Trading Mexico,SME/Business Facilitation and Trading Mexico/1.jpg
-100,41,1,定制地毯设计软件,Custom Carpet Design Software,Alternative Technology Pvt Ltd,SME/Alternative Technology Pvt Ltd/1.jpg
-101,42,1,产品开发服务,Product Development Services,ClassNotes SMC-Private Limited,SME/ClassNotes SMC-Private Limited/1.jpg
-102,42,2,软件开发服务,Software Development Services,ClassNotes SMC-Private Limited,SME/ClassNotes SMC-Private Limited/2.jpg
-103,42,3, 创业咨询,Entrepreneurship Consultation,ClassNotes SMC-Private Limited,SME/ClassNotes SMC-Private Limited/3.jpg
-104,43,1, 全部 2D 动画服务,All 2D Animation Services,Emottoons Animation and Gadgets Shop,SME/Emottoons Animation and Gadgets Shop/1.jpg
-105,44,1,食品与有机废弃物管理教育及咨询服务,Food & Organic waste management education and consultancy,Siel Environmental Services Limited,SME/Siel Environmental Services Limited/1.jpg
-106,45,1, 心理辅导与咨询课程,Psychological and couching sessions,"IE ""Ganatly Mekan""","SME/IE ""Ganatly Mekan""/1.jpg"
-107,46,1, 软件开发与咨询服务,Software Development & Consultancy,Sumic IT Solutions Ltd.,SME/Sumic IT Solutions Ltd./1.jpg
-108,46,2, 移动应用开发,Mobile Application Development,Sumic IT Solutions Ltd.,SME/Sumic IT Solutions Ltd./2.jpg
-109,46,3, 网站设计与开发,Website Design and Development,Sumic IT Solutions Ltd.,SME/Sumic IT Solutions Ltd./3.jpg
-110,46,4,  电子商务解决方案,E-Commerce Solutions,Sumic IT Solutions Ltd.,SME/Sumic IT Solutions Ltd./4.jpg
-111,46,5,数字营销,Digital Marketing ,Sumic IT Solutions Ltd.,SME/Sumic IT Solutions Ltd./5.jpg
-112,46,6, IT培训,IT Trainings,Sumic IT Solutions Ltd.,SME/Sumic IT Solutions Ltd./6.jpg
-113,47,1, 培训,Training,Food Elimu Africa,SME/Food Elimu Africa/1.jpg
-114,47,2, ISO实施,ISO Implementation,Food Elimu Africa,SME/Food Elimu Africa/2.jpg
-115,47,3, 认证审计,Certification Auditing,Food Elimu Africa,SME/Food Elimu Africa/3.jpg
-116,47,4,监管指引与人工智能解决方案,Certification Auditing,Food Elimu Africa,SME/Food Elimu Africa/4.jpg
-117,48,1, 柑橘类水果：橙子、葡萄柚、柠檬、青柠,"Citrus Fruits: Orange. Nartjies, Lemons, Lime",Forestry & Citrus Research,SME/Forestry & Citrus Research/1.jpg
-118,48,2,通过Plant Master应用获取碳积分,Access to Carbon Credits through Plant Master App,Forestry & Citrus Research,SME/Forestry & Citrus Research/2.jpg
-119,49,1,哈斯鳄梨,Hass avocados,GREEN NATURAL COMPANY LTD,SME/GREEN NATURAL COMPANY LTD/1.jpg
-120,49,2,绿色冷冻去皮香蕉     ,Green flozen babanas,GREEN NATURAL COMPANY LTD,SME/GREEN NATURAL COMPANY LTD/2.jpg
-121,49,3,水果,fruits,GREEN NATURAL COMPANY LTD,SME/GREEN NATURAL COMPANY LTD/3.jpg
-122,50,1,豆类,Beans,MAZINGWA INVESTMENT,SME/MAZINGWA INVESTMENT/1.jpg
-123,50,2,玉米粉,Maize flour,MAZINGWA INVESTMENT,SME/MAZINGWA INVESTMENT/2.jpg
-124,50,3,大豆粉,Soy flour,MAZINGWA INVESTMENT,SME/MAZINGWA INVESTMENT/3.jpg
-125,51,1,哈斯鳄梨,Hass Avocado,Trade Legacy Burundi,SME/Trade Legacy Burundi/1.jpg
-126,51,2,鳄梨油（冷榨）,Avocado Oil (cold-pressed),Trade Legacy Burundi,SME/Trade Legacy Burundi/2.jpg
-127,51,3,大豆（非转基因）,Soybeans (Non-GMO),Trade Legacy Burundi,SME/Trade Legacy Burundi/3.jpg
-128,51,4,辣椒（鲜或干）,Chili (fresh or dried),Trade Legacy Burundi,SME/Trade Legacy Burundi/4.jpg
-129,53,1,原蜜,Raw honey,Sustainable Development Africa Trading and Innovation,SME/Sustainable Development Africa Trading and Innovation/1.jpg
-130,53,2,未经精炼的乳木果油,unrefined shea butter,Sustainable Development Africa Trading and Innovation,SME/Sustainable Development Africa Trading and Innovation/2.jpg
-131,53,3,烤花生,roasted peanuts ,Sustainable Development Africa Trading and Innovation,SME/Sustainable Development Africa Trading and Innovation/3.jpg
-132,54,1,香料,Spices,PHAEL FLOR EXPORT,SME/PHAEL FLOR EXPORT/1.jpg
-133,54,2,精油,essential oils,PHAEL FLOR EXPORT,SME/PHAEL FLOR EXPORT/2.jpg
-134,54,3,香草二氧化碳萃取物,vanilla CO2 extracts,PHAEL FLOR EXPORT,SME/PHAEL FLOR EXPORT/3.jpg
-135,55,1,农业科技平台,Agritech Platform,"Agrosell, Lda","SME/Agrosell, Lda/1.jpg"
-136,56,1,咖啡,Coffee,TIGGER CUSTOM COMPANY,SME/TIGGER CUSTOM COMPANY/1.jpg
-137,56,2,乳木果油,Shea butter,TIGGER CUSTOM COMPANY,SME/TIGGER CUSTOM COMPANY/2.jpg
-138,57,1,尼罗河乳木果油,Nilotica Shea Butter,Urban South Group,SME/Urban South Group/1.jpg
-139,57,2,天然蜂蜜,Natural Honey,Urban South Group,SME/Urban South Group/2.jpg
-140,57,3,阿拉伯胶,Gum Arabic,Urban South Group,SME/Urban South Group/3.jpg
-141,57,4,非洲卡宴辣椒,African Cayenne papers,Urban South Group,SME/Urban South Group/4.jpg
-142,57,5,利马豆/棉豆, Lima beans,Urban South Group,SME/Urban South Group/5.jpg
-143,57,6,班巴拉豆,Bambara Nuts,Urban South Group,SME/Urban South Group/6.jpg
-144,58,1,绿咖啡豆,Green coffee beans,Bayaaya specialty coffee ltd,SME/Bayaaya specialty coffee ltd/1.jpg
-145,58,2,烘焙咖啡豆/熟咖啡豆,Roasted coffee beans,Bayaaya specialty coffee ltd,SME/Bayaaya specialty coffee ltd/2.jpg
-146,58,3,研磨咖啡粉,ground coffee,Bayaaya specialty coffee ltd,SME/Bayaaya specialty coffee ltd/3.jpg
-147,59,1,新鲜鳄梨/牛油果,Fresh Avocado,GBRI BUSINESS SOLUTIONS COMPANY LIMITED,SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/1.jpg
-148,59,2,鳄梨油/牛油果油,Avocado oil ,GBRI BUSINESS SOLUTIONS COMPANY LIMITED,SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/2.jpg
-149,60,1,干玫瑰,Dry rose,Ansari Wahid Group of Companies,SME/Ansari Wahid Group of Companies/1.jpg
-150,60,2,苦杏仁,bitter almond,Ansari Wahid Group of Companies,SME/Ansari Wahid Group of Companies/2.jpg
-151,60,3,精油,essential oil,Ansari Wahid Group of Companies,SME/Ansari Wahid Group of Companies/3.jpg
-152,63,1, 黑/白芝麻籽,Black/white sesame seeds,Agroexportaciones del Sur S.R.L.,SME/Agroexportaciones del Sur S.R.L./1.jpg
+项链,necklaces,Authentic Crafts Limited (Namayo jewellery brand name),images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/3.jpg
+74,24,1,野外探险,Wilderness Safaris,Eana Safari Travel,images/SME/Eana Safari Travel/1.jpg
+75,24,2,钻石之旅,Diamond Tourism,Eana Safari Travel,images/SME/Eana Safari Travel/2.jpg
+76,24,3,博茨瓦纳邮票,Botswana Postage Stamps,Eana Safari Travel,images/SME/Eana Safari Travel/3.jpg
+77,26,1,旅游软件,Travada,APP COMPANY LIMITED,images/SME/APP COMPANY LIMITED/1.jpg
+78,26,2,数字销售平台,Mindsmend ,APP COMPANY LIMITED,images/SME/APP COMPANY LIMITED/2.jpg
+79,27,1,木薯/树薯,cassava/ manioc,GBNM Systèmes Marketing Digital,images/SME/GBNM Systèmes Marketing Digital/1.jpg
+80,27,2,艺术产品,artistic products ,GBNM Systèmes Marketing Digital,images/SME/GBNM Systèmes Marketing Digital/2.jpg
+81,29,1,提供端到端的综合技术解决方案的专家：从数字化到统一通信、IT管理、网络安全、SaaS/ PaaS/ MSP解决方案和IT外包。,"Experts in delivering end‑to‑end, integrated tech solutions: from transformation digital to unified communications, IT management, cybersecurity, SaaS/PaaS/MSP solutions and IT outsourcing. ",KYRIOS CONSULTING INTEGRADORES TECNOLOGICOS KYRIOSCONS S.A,images/SME/KYRIOS CONSULTING INTEGRADORES TECNOLOGICOS KYRIOSCONS S.A/1.jpg
+82,30,1,忠诚度项目,Loyalty programs ,Promotick,images/SME/Promotick/1.jpg
+83,30,2,激励平台,Incentive platforms ,Promotick,images/SME/Promotick/2.jpg
+84,30,3,全球采购服务,Global sourcing service,Promotick,images/SME/Promotick/3.jpg
+85,31,1,女性滑板车 & 自行车培训,Women' scooter & bicycle training ,Dosy,images/SME/Dosy/1.jpg
+86,31,2,环保服务,eco-friendly services ,Dosy,images/SME/Dosy/2.jpg
+87,32,1,优质有机咖啡,Premium organic coffee ,Grupo Gurús S.,images/SME/Grupo Gurús S./1.jpg
+88,32,2,优质有机巧克力,fine organic chocolate ,Grupo Gurús S.,images/SME/Grupo Gurús S./2.jpg
+89,32,3,正宗手工纺织品,authentic handcrafted textiles,Grupo Gurús S.,images/SME/Grupo Gurús S./3.jpg
+90,32,4,特产工艺娃娃,unique artisan dolls ,Grupo Gurús S.,images/SME/Grupo Gurús S./4.jpg
+91,33,1,融合了AI驱动的NDVI与NDWI的卫星作物诊断,Satellite-based crop diagnostics with AI-driven NDVI &NDWI insights,Rootskart,images/SME/Rootskart/1.jpg
+92,35,1,导游&野生观光,Tours & Safaris ,ASARAY TOURS LTD,images/SME/ASARAY TOURS LTD/1.jpg
+93,37,1, 人力资源管理与外包服务,Manpower management & Outsourcing Services,ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD,images/SME/ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD/1.jpg
+94,38,1,由社区主导的恢复项目所产生的售前碳信用额度,Pre-sale carbon credits from community-led restoration projects,Sustainable Farming Solutions,images/SME/Sustainable Farming Solutions/1.jpg
+95,39,1,战略品牌管理,Strategic Brand management,Sphere Media Technologies Co Ltd,images/SME/Sphere Media Technologies Co Ltd/1.jpg
+96,39,2,数字营销,digital marketing,Sphere Media Technologies Co Ltd,images/SME/Sphere Media Technologies Co Ltd/2.jpg
+97,39,3,技术解决方案,technology solutions,Sphere Media Technologies Co Ltd,images/SME/Sphere Media Technologies Co Ltd/3.jpg
+98,39,4,内容创作,content creation,Sphere Media Technologies Co Ltd,images/SME/Sphere Media Technologies Co Ltd/4.jpg
+99,40,1,墨西哥的投资与贸易合规情况，为国际业务项目提供设计与支持，促销、公共及企业事务,"Investment and trade compliance in Mexico，provides design and support for international business projects ，promotion, public and corporate affairs",Business Facilitation and Trading Mexico,images/SME/Business Facilitation and Trading Mexico/1.jpg
+100,41,1,定制地毯设计软件,Custom Carpet Design Software,Alternative Technology Pvt Ltd,images/SME/Alternative Technology Pvt Ltd/1.jpg
+101,42,1,产品开发服务,Product Development Services,ClassNotes SMC-Private Limited,images/SME/ClassNotes SMC-Private Limited/1.jpg
+102,42,2,软件开发服务,Software Development Services,ClassNotes SMC-Private Limited,images/SME/ClassNotes SMC-Private Limited/2.jpg
+103,42,3, 创业咨询,Entrepreneurship Consultation,ClassNotes SMC-Private Limited,images/SME/ClassNotes SMC-Private Limited/3.jpg
+104,43,1, 全部 2D 动画服务,All 2D Animation Services,Emottoons Animation and Gadgets Shop,images/SME/Emottoons Animation and Gadgets Shop/1.jpg
+105,44,1,食品与有机废弃物管理教育及咨询服务,Food & Organic waste management education and consultancy,Siel Environmental Services Limited,images/SME/Siel Environmental Services Limited/1.jpg
+106,45,1, 心理辅导与咨询课程,Psychological and couching sessions,"IE ""Ganatly Mekan""","images/SME/IE ""Ganatly Mekan""/1.jpg"
+107,46,1, 软件开发与咨询服务,Software Development & Consultancy,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd./1.jpg
+108,46,2, 移动应用开发,Mobile Application Development,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd./2.jpg
+109,46,3, 网站设计与开发,Website Design and Development,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd./3.jpg
+110,46,4,  电子商务解决方案,E-Commerce Solutions,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd./4.jpg
+111,46,5,数字营销,Digital Marketing ,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd./5.jpg
+112,46,6, IT培训,IT Trainings,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd./6.jpg
+113,47,1, 培训,Training,Food Elimu Africa,images/SME/Food Elimu Africa/1.jpg
+114,47,2, ISO实施,ISO Implementation,Food Elimu Africa,images/SME/Food Elimu Africa/2.jpg
+115,47,3, 认证审计,Certification Auditing,Food Elimu Africa,images/SME/Food Elimu Africa/3.jpg
+116,47,4,监管指引与人工智能解决方案,Certification Auditing,Food Elimu Africa,images/SME/Food Elimu Africa/4.jpg
+117,48,1, 柑橘类水果：橙子、葡萄柚、柠檬、青柠,"Citrus Fruits: Orange. Nartjies, Lemons, Lime",Forestry & Citrus Research,images/SME/Forestry & Citrus Research/1.jpg
+118,48,2,通过Plant Master应用获取碳积分,Access to Carbon Credits through Plant Master App,Forestry & Citrus Research,images/SME/Forestry & Citrus Research/2.jpg
+119,49,1,哈斯鳄梨,Hass avocados,GREEN NATURAL COMPANY LTD,images/SME/GREEN NATURAL COMPANY LTD/1.jpg
+120,49,2,绿色冷冻去皮香蕉     ,Green flozen babanas,GREEN NATURAL COMPANY LTD,images/SME/GREEN NATURAL COMPANY LTD/2.jpg
+121,49,3,水果,fruits,GREEN NATURAL COMPANY LTD,images/SME/GREEN NATURAL COMPANY LTD/3.jpg
+122,50,1,豆类,Beans,MAZINGWA INVESTMENT,images/SME/MAZINGWA INVESTMENT/1.jpg
+123,50,2,玉米粉,Maize flour,MAZINGWA INVESTMENT,images/SME/MAZINGWA INVESTMENT/2.jpg
+124,50,3,大豆粉,Soy flour,MAZINGWA INVESTMENT,images/SME/MAZINGWA INVESTMENT/3.jpg
+125,51,1,哈斯鳄梨,Hass Avocado,Trade Legacy Burundi,images/SME/Trade Legacy Burundi/1.jpg
+126,51,2,鳄梨油（冷榨）,Avocado Oil (cold-pressed),Trade Legacy Burundi,images/SME/Trade Legacy Burundi/2.jpg
+127,51,3,大豆（非转基因）,Soybeans (Non-GMO),Trade Legacy Burundi,images/SME/Trade Legacy Burundi/3.jpg
+128,51,4,辣椒（鲜或干）,Chili (fresh or dried),Trade Legacy Burundi,images/SME/Trade Legacy Burundi/4.jpg
+129,53,1,原蜜,Raw honey,Sustainable Development Africa Trading and Innovation,images/SME/Sustainable Development Africa Trading and Innovation/1.jpg
+130,53,2,未经精炼的乳木果油,unrefined shea butter,Sustainable Development Africa Trading and Innovation,images/SME/Sustainable Development Africa Trading and Innovation/2.jpg
+131,53,3,烤花生,roasted peanuts ,Sustainable Development Africa Trading and Innovation,images/SME/Sustainable Development Africa Trading and Innovation/3.jpg
+132,54,1,香料,Spices,PHAEL FLOR EXPORT,images/SME/PHAEL FLOR EXPORT/1.jpg
+133,54,2,精油,essential oils,PHAEL FLOR EXPORT,images/SME/PHAEL FLOR EXPORT/2.jpg
+134,54,3,香草二氧化碳萃取物,vanilla CO2 extracts,PHAEL FLOR EXPORT,images/SME/PHAEL FLOR EXPORT/3.jpg
+135,55,1,农业科技平台,Agritech Platform,"Agrosell, Lda","images/SME/Agrosell, Lda/1.jpg"
+136,56,1,咖啡,Coffee,TIGGER CUSTOM COMPANY,images/SME/TIGGER CUSTOM COMPANY/1.jpg
+137,56,2,乳木果油,Shea butter,TIGGER CUSTOM COMPANY,images/SME/TIGGER CUSTOM COMPANY/2.jpg
+138,57,1,尼罗河乳木果油,Nilotica Shea Butter,Urban South Group,images/SME/Urban South Group/1.jpg
+139,57,2,天然蜂蜜,Natural Honey,Urban South Group,images/SME/Urban South Group/2.jpg
+140,57,3,阿拉伯胶,Gum Arabic,Urban South Group,images/SME/Urban South Group/3.jpg
+141,57,4,非洲卡宴辣椒,African Cayenne papers,Urban South Group,images/SME/Urban South Group/4.jpg
+142,57,5,利马豆/棉豆, Lima beans,Urban South Group,images/SME/Urban South Group/5.jpg
+143,57,6,班巴拉豆,Bambara Nuts,Urban South Group,images/SME/Urban South Group/6.jpg
+144,58,1,绿咖啡豆,Green coffee beans,Bayaaya specialty coffee ltd,images/SME/Bayaaya specialty coffee ltd/1.jpg
+145,58,2,烘焙咖啡豆/熟咖啡豆,Roasted coffee beans,Bayaaya specialty coffee ltd,images/SME/Bayaaya specialty coffee ltd/2.jpg
+146,58,3,研磨咖啡粉,ground coffee,Bayaaya specialty coffee ltd,images/SME/Bayaaya specialty coffee ltd/3.jpg
+147,59,1,新鲜鳄梨/牛油果,Fresh Avocado,GBRI BUSINESS SOLUTIONS COMPANY LIMITED,images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/1.jpg
+148,59,2,鳄梨油/牛油果油,Avocado oil ,GBRI BUSINESS SOLUTIONS COMPANY LIMITED,images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/2.jpg
+149,60,1,干玫瑰,Dry rose,Ansari Wahid Group of Companies,images/SME/Ansari Wahid Group of Companies/1.jpg
+150,60,2,苦杏仁,bitter almond,Ansari Wahid Group of Companies,images/SME/Ansari Wahid Group of Companies/2.jpg
+151,60,3,精油,essential oil,Ansari Wahid Group of Companies,images/SME/Ansari Wahid Group of Companies/3.jpg
+152,63,1, 黑/白芝麻籽,Black/white sesame seeds,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L./1.jpg
 153,63,2,
 黑/白奇亚籽
-, black/white chia seeds,Agroexportaciones del Sur S.R.L.,SME/Agroexportaciones del Sur S.R.L./2.jpg
-154,63,3,藜麦,quinoa,Agroexportaciones del Sur S.R.L.,SME/Agroexportaciones del Sur S.R.L./3.jpg
-155,63,4,豆类, beans,Agroexportaciones del Sur S.R.L.,SME/Agroexportaciones del Sur S.R.L./4.jpg
-156,63,5,花生, peanuts,Agroexportaciones del Sur S.R.L.,SME/Agroexportaciones del Sur S.R.L./5.jpg
-157,64,1,调味酱,Award-winning Sauces,Macentyrer Investments T/A Maungo Craft,SME/Macentyrer Investments T/A Maungo Craft/1.jpg
-158,64,2,糖浆剂,Syrups,Macentyrer Investments T/A Maungo Craft,SME/Macentyrer Investments T/A Maungo Craft/2.jpg
-159,64,3,果酱, Jams,Macentyrer Investments T/A Maungo Craft,SME/Macentyrer Investments T/A Maungo Craft/3.jpg
-160,64,4,饮料, Juice,Macentyrer Investments T/A Maungo Craft,SME/Macentyrer Investments T/A Maungo Craft/4.jpg
-161,64,5,茶叶, Tea,Macentyrer Investments T/A Maungo Craft,SME/Macentyrer Investments T/A Maungo Craft/5.jpg
-162,65,1,（新鲜的姜黄）,Fresh turmeric,Falusán Cía Ltda,SME/Falusán Cía Ltda/1.jpg
-163,65,2,生姜,fresh ginger,Falusán Cía Ltda,SME/Falusán Cía Ltda/2.jpg
-164,65,3,功能性饮料, functional beverage,Falusán Cía Ltda,SME/Falusán Cía Ltda/3.jpg
-165,65,4,浸剂与茶饮,infusions & teas,Falusán Cía Ltda,SME/Falusán Cía Ltda/4.jpg
-166,65,5,粉末状超级食品(一些人认为有益健康且可防病的食品) ,powdered superfoods,Falusán Cía Ltda,SME/Falusán Cía Ltda/5.jpg
-167,65,6,生巧克力, raw chocolate,Falusán Cía Ltda,SME/Falusán Cía Ltda/6.jpg
-168,65,7,可可粉,cocoa powder,Falusán Cía Ltda,SME/Falusán Cía Ltda/7.jpg
-169,65,8,dried fruits干果  premixes预混料,,Falusán Cía Ltda,SME/Falusán Cía Ltda/8.jpg
-170,66,1,NFC饮料,NFC Juice ,FL PROCESADOS DEL ECUADOR SA,SME/FL PROCESADOS DEL ECUADOR SA/1.jpg
-171,66,2,浓缩果汁, Fruit Concentrate,FL PROCESADOS DEL ECUADOR SA,SME/FL PROCESADOS DEL ECUADOR SA/2.jpg
-172,66,3,干果,Dried Fruit ,FL PROCESADOS DEL ECUADOR SA,SME/FL PROCESADOS DEL ECUADOR SA/3.jpg
-173,67,1,冷冻果泥,Frozen pulps,Healthy Food Marcalman Ecuador SAS,SME/Healthy Food Marcalman Ecuador SAS/1.jpg
-174,67,2,调味酱, sauces,Healthy Food Marcalman Ecuador SAS,SME/Healthy Food Marcalman Ecuador SAS/2.jpg
-175,67,3,果酱, jams,Healthy Food Marcalman Ecuador SAS,SME/Healthy Food Marcalman Ecuador SAS/3.jpg
-176,67,4,糖浆剂, syrups,Healthy Food Marcalman Ecuador SAS,SME/Healthy Food Marcalman Ecuador SAS/4.jpg
-177,67,5,浇料,toppings,Healthy Food Marcalman Ecuador SAS,SME/Healthy Food Marcalman Ecuador SAS/5.jpg
-178,68,1,大米,rice,Rehana,SME/Rehana/1.jpg
-179,68,2,糖,sugar,Rehana,SME/Rehana/2.jpg
-180,68,3,面粉, flour,Rehana,SME/Rehana/3.jpg
+, black/white chia seeds,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L./2.jpg
+154,63,3,藜麦,quinoa,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L./3.jpg
+155,63,4,豆类, beans,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L./4.jpg
+156,63,5,花生, peanuts,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L./5.jpg
+157,64,1,调味酱,Award-winning Sauces,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments T/A Maungo Craft/1.jpg
+158,64,2,糖浆剂,Syrups,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments T/A Maungo Craft/2.jpg
+159,64,3,果酱, Jams,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments T/A Maungo Craft/3.jpg
+160,64,4,饮料, Juice,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments T/A Maungo Craft/4.jpg
+161,64,5,茶叶, Tea,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments T/A Maungo Craft/5.jpg
+162,65,1,（新鲜的姜黄）,Fresh turmeric,Falusán Cía Ltda,images/SME/Falusán Cía Ltda/1.jpg
+163,65,2,生姜,fresh ginger,Falusán Cía Ltda,images/SME/Falusán Cía Ltda/2.jpg
+164,65,3,功能性饮料, functional beverage,Falusán Cía Ltda,images/SME/Falusán Cía Ltda/3.jpg
+165,65,4,浸剂与茶饮,infusions & teas,Falusán Cía Ltda,images/SME/Falusán Cía Ltda/4.jpg
+166,65,5,粉末状超级食品(一些人认为有益健康且可防病的食品) ,powdered superfoods,Falusán Cía Ltda,images/SME/Falusán Cía Ltda/5.jpg
+167,65,6,生巧克力, raw chocolate,Falusán Cía Ltda,images/SME/Falusán Cía Ltda/6.jpg
+168,65,7,可可粉,cocoa powder,Falusán Cía Ltda,images/SME/Falusán Cía Ltda/7.jpg
+169,65,8,dried fruits干果  premixes预混料,,Falusán Cía Ltda,images/SME/Falusán Cía Ltda/8.jpg
+170,66,1,NFC饮料,NFC Juice ,FL PROCESADOS DEL ECUADOR SA,images/SME/FL PROCESADOS DEL ECUADOR SA/1.jpg
+171,66,2,浓缩果汁, Fruit Concentrate,FL PROCESADOS DEL ECUADOR SA,images/SME/FL PROCESADOS DEL ECUADOR SA/2.jpg
+172,66,3,干果,Dried Fruit ,FL PROCESADOS DEL ECUADOR SA,images/SME/FL PROCESADOS DEL ECUADOR SA/3.jpg
+173,67,1,冷冻果泥,Frozen pulps,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/1.jpg
+174,67,2,调味酱, sauces,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/2.jpg
+175,67,3,果酱, jams,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/3.jpg
+176,67,4,糖浆剂, syrups,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/4.jpg
+177,67,5,浇料,toppings,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/5.jpg
+178,68,1,大米,rice,Rehana,images/SME/Rehana/1.jpg
+179,68,2,糖,sugar,Rehana,images/SME/Rehana/2.jpg
+180,68,3,面粉, flour,Rehana,images/SME/Rehana/3.jpg
 181,68,4,
-豆类,Legumes,Rehana,SME/Rehana/4.jpg
-182,68,5,调味料, spices,Rehana,SME/Rehana/5.jpg
-183,68,6,食用油,edible oils,Rehana,SME/Rehana/6.jpg
-184,68,7,醋,vinegar,Rehana,SME/Rehana/7.jpg
+豆类,Legumes,Rehana,images/SME/Rehana/4.jpg
+182,68,5,调味料, spices,Rehana,images/SME/Rehana/5.jpg
+183,68,6,食用油,edible oils,Rehana,images/SME/Rehana/6.jpg
+184,68,7,醋,vinegar,Rehana,images/SME/Rehana/7.jpg
 185,69,1,冷冻养殖凡纳滨对虾（南美白对虾）,Frozen farmed Penaeus Vannamei shrimp​,Camarones del Sur S.A. de C.V.
-,SME/Camarones del Sur S.A. de C.V.
+,images/SME/Camarones del Sur S.A. de C.V.
 /1.jpg
 186,70,1,红茶,Black tea ,Eco Jambo Limited
-,SME/Eco Jambo Limited
+,images/SME/Eco Jambo Limited
 /1.jpg
 187,70,2,绿茶,Green Tea,Eco Jambo Limited
-,SME/Eco Jambo Limited
+,images/SME/Eco Jambo Limited
 /2.jpg
 188,71,1,牛油果,Avocado,KONZA TROPICALS LIMITED
-,SME/KONZA TROPICALS LIMITED
+,images/SME/KONZA TROPICALS LIMITED
 /1.jpg
 189,71,2,干果, Dried Fruits,KONZA TROPICALS LIMITED
-,SME/KONZA TROPICALS LIMITED
+,images/SME/KONZA TROPICALS LIMITED
 /2.jpg
 190,71,3,牛油果油
 ,Avocado Oils,KONZA TROPICALS LIMITED
-,SME/KONZA TROPICALS LIMITED
+,images/SME/KONZA TROPICALS LIMITED
 /3.jpg
 191,71,4,夏威夷果（澳洲坚果）
 ,Macadamia,KONZA TROPICALS LIMITED
-,SME/KONZA TROPICALS LIMITED
+,images/SME/KONZA TROPICALS LIMITED
 /4.jpg
 192,72,1,草本茶（生姜茶、姜黄茶、鹅莓茶）
 ,"Herbal Tea (Ginger, Turmeric, Gooseberry)​","2DaY Consultant Sole Co.,Ltd
-","SME/2DaY Consultant Sole Co.,Ltd
+","images/SME/2DaY Consultant Sole Co.,Ltd
 /1.jpg"
 193,72,2,草本粉（姜黄粉、生姜粉、黑芝麻粉）
 ,"Herbal Powder (Turmeric Powder, Ginger Powder, Black Sesame)​","2DaY Consultant Sole Co.,Ltd
-","SME/2DaY Consultant Sole Co.,Ltd
+","images/SME/2DaY Consultant Sole Co.,Ltd
 /2.jpg"
 194,72,3,天然个护（贝拉香檬草本洗发露）
 ,Natural Personal Care (Bella Herbal Shampoo with Bergamot)​,"2DaY Consultant Sole Co.,Ltd
-","SME/2DaY Consultant Sole Co.,Ltd
+","images/SME/2DaY Consultant Sole Co.,Ltd
 /3.jpg"
 195,74,1,生咖啡豆
 ,Green Coffee bean,The Boloven Plateau Coffee Producer Cooperative
-,SME/The Boloven Plateau Coffee Producer Cooperative
+,images/SME/The Boloven Plateau Coffee Producer Cooperative
 /1.jpg
 196,74,2,烘焙咖啡豆​
 ,Roasted bean​,The Boloven Plateau Coffee Producer Cooperative
-,SME/The Boloven Plateau Coffee Producer Cooperative
+,images/SME/The Boloven Plateau Coffee Producer Cooperative
 /2.jpg
 197,76,1,酸奶饮品
-,Curd drinks,Teso foods,SME/Teso foods/1.jpg
+,Curd drinks,Teso foods,images/SME/Teso foods/1.jpg
 198,76,2,酸奶球
-,Curd balls,Teso foods,SME/Teso foods/2.jpg
+,Curd balls,Teso foods,images/SME/Teso foods/2.jpg
 199,76,3,干酸奶块
-,dried curds,Teso foods,SME/Teso foods/3.jpg
+,dried curds,Teso foods,images/SME/Teso foods/3.jpg
 200,76,4,植物基乳品（非乳制）
-,Non-dairy,Teso foods,SME/Teso foods/4.jpg
+,Non-dairy,Teso foods,images/SME/Teso foods/4.jpg
 201,76,5,全脂奶粉
-,Whole Milk Powder,Teso foods,SME/Teso foods/5.jpg
+,Whole Milk Powder,Teso foods,images/SME/Teso foods/5.jpg
 202,77,1,阿甘油
 ,Argan oil,PRIVA TRADING
-,SME/PRIVA TRADING
+,images/SME/PRIVA TRADING
 /1.jpg
 203,77,2,仙人掌籽油
 ,Prickly pear seed oil,PRIVA TRADING
-,SME/PRIVA TRADING
+,images/SME/PRIVA TRADING
 /2.jpg
 204,77,3,花水
 ,floral waters,PRIVA TRADING
-,SME/PRIVA TRADING
+,images/SME/PRIVA TRADING
 /3.jpg
 205,77,4,藏红花,Saffron,PRIVA TRADING
-,SME/PRIVA TRADING
+,images/SME/PRIVA TRADING
 /4.jpg
-206,78,1,泡打粉,Baking powder,Societé Marocaine de Fabrication et Conditionnement,SME/Societé Marocaine de Fabrication et Conditionnement/1.jpg
-207,78,2, 汤类与高汤,Soups and broths,Societé Marocaine de Fabrication et Conditionnement,SME/Societé Marocaine de Fabrication et Conditionnement/2.jpg
-208,78,3,墨西哥薄饼,TORTILLA,Societé Marocaine de Fabrication et Conditionnement,SME/Societé Marocaine de Fabrication et Conditionnement/3.jpg
-209,78,4,焦糖布丁,FLANS,Societé Marocaine de Fabrication et Conditionnement,SME/Societé Marocaine de Fabrication et Conditionnement/4.jpg
-210,78,5,糕点奶油,Pastry cream,Societé Marocaine de Fabrication et Conditionnement,SME/Societé Marocaine de Fabrication et Conditionnement/5.jpg
-211,78,6,冰淇淋预拌粉,ice cream mix,Societé Marocaine de Fabrication et Conditionnement,SME/Societé Marocaine de Fabrication et Conditionnement/6.jpg
-212,78,7,混合香料,spices mix,Societé Marocaine de Fabrication et Conditionnement,SME/Societé Marocaine de Fabrication et Conditionnement/7.jpg
-213,79,1,木薯粉”,Cassava Flour,Royal Winosa Industries Ltd,SME/Royal Winosa Industries Ltd/1.jpg
-214,79,2,淀粉,Starch,Royal Winosa Industries Ltd,SME/Royal Winosa Industries Ltd/2.jpg
-215,79,3, 木薯片,Chips,Royal Winosa Industries Ltd,SME/Royal Winosa Industries Ltd/3.jpg
-216,79,4,大蕉粉,Plantain flour,Royal Winosa Industries Ltd,SME/Royal Winosa Industries Ltd/4.jpg
-217,79,5,豆类面粉和香料,Beans Flour and Species ,Royal Winosa Industries Ltd,SME/Royal Winosa Industries Ltd/5.jpg
-218,80,1,沙丁鱼和咖啡,Sardines and coffee,MEGA Prime Foods Inc.,SME/MEGA Prime Foods Inc./1.jpg
-219,81,1,泰国阿拉比卡咖啡,Thai Arabica Coffee,"Hillkoff co.,ltd.","SME/Hillkoff co.,ltd./1.jpg"
-220,81,2,意式浓缩低碳咖啡,Espresso Low Carbon Coffee,"Hillkoff co.,ltd.","SME/Hillkoff co.,ltd./2.jpg"
-221,81,3,咖啡樱桃提取物,Coffee cherry extract,"Hillkoff co.,ltd.","SME/Hillkoff co.,ltd./3.jpg"
-222,81,4,咖啡樱桃茶,Coffee cherry tea,"Hillkoff co.,ltd.","SME/Hillkoff co.,ltd./4.jpg"
-223,82,1,罐装 / 袋装甜玉米粒,Canned/Pouch Sweet Corn Kernels,"Lampang Food Products Co., Ltd.","SME/Lampang Food Products Co., Ltd./1.jpg"
-224,82,2,应季水果,Seasonal Fruits,"Lampang Food Products Co., Ltd.","SME/Lampang Food Products Co., Ltd./2.jpg"
-225,82,3,糖棕籽,Sugar Palm Seed,"Lampang Food Products Co., Ltd.","SME/Lampang Food Products Co., Ltd./3.jpg"
-226,82,4,腌制品,Pickled items ,"Lampang Food Products Co., Ltd.","SME/Lampang Food Products Co., Ltd./4.jpg"
-227,83,1,咖啡,Coffee,Mrutu Agro-Solutions Company Limited,SME/Mrutu Agro-Solutions Company Limited/1.jpg
-228,83,2,腰果,cashew nuts,Mrutu Agro-Solutions Company Limited,SME/Mrutu Agro-Solutions Company Limited/2.jpg
-229,83,3,香料,spices,Mrutu Agro-Solutions Company Limited,SME/Mrutu Agro-Solutions Company Limited/3.jpg
-230,83,4,蜂蜜,honey,Mrutu Agro-Solutions Company Limited,SME/Mrutu Agro-Solutions Company Limited/4.jpg
-231,83,5,幼苗,seedlings,Mrutu Agro-Solutions Company Limited,SME/Mrutu Agro-Solutions Company Limited/5.jpg
-232,83,6,农业综合企业咨询,agribusiness consultancy,Mrutu Agro-Solutions Company Limited,SME/Mrutu Agro-Solutions Company Limited/6.jpg
-233,83,7,农业储蓄,AgriSave,Mrutu Agro-Solutions Company Limited,SME/Mrutu Agro-Solutions Company Limited/7.jpg
-234,83,8,农业投入品与机械化,agro-inputs & mechanization,Mrutu Agro-Solutions Company Limited,SME/Mrutu Agro-Solutions Company Limited/8.jpg
-235,84,1,葡萄干,Raisins,"""Eastern Agro Export"" Limited Liability Company","SME/""Eastern Agro Export"" Limited Liability Company/1.jpg"
-236,84,2,杏干,Dried apricots,"""Eastern Agro Export"" Limited Liability Company","SME/""Eastern Agro Export"" Limited Liability Company/2.jpg"
-237,84,3,西梅干, Prunes,"""Eastern Agro Export"" Limited Liability Company","SME/""Eastern Agro Export"" Limited Liability Company/3.jpg"
-238,84,4,绿豆,Mung beans,"""Eastern Agro Export"" Limited Liability Company","SME/""Eastern Agro Export"" Limited Liability Company/4.jpg"
-239,84,5,花生,Peanuts,"""Eastern Agro Export"" Limited Liability Company","SME/""Eastern Agro Export"" Limited Liability Company/5.jpg"
-240,85,1,杏干,Dried apricots,"""Optimum Fruits"" LLC","SME/""Optimum Fruits"" LLC/1.jpg"
-241,85,2,葡萄干,Raisins,"""Optimum Fruits"" LLC","SME/""Optimum Fruits"" LLC/2.jpg"
-242,85,3,西梅干,Prunes,"""Optimum Fruits"" LLC","SME/""Optimum Fruits"" LLC/3.jpg"
-243,85,4,绿豆,Mung beans,"""Optimum Fruits"" LLC","SME/""Optimum Fruits"" LLC/4.jpg"
+206,78,1,泡打粉,Baking powder,Societé Marocaine de Fabrication et Conditionnement,images/SME/Societé Marocaine de Fabrication et Conditionnement/1.jpg
+207,78,2, 汤类与高汤,Soups and broths,Societé Marocaine de Fabrication et Conditionnement,images/SME/Societé Marocaine de Fabrication et Conditionnement/2.jpg
+208,78,3,墨西哥薄饼,TORTILLA,Societé Marocaine de Fabrication et Conditionnement,images/SME/Societé Marocaine de Fabrication et Conditionnement/3.jpg
+209,78,4,焦糖布丁,FLANS,Societé Marocaine de Fabrication et Conditionnement,images/SME/Societé Marocaine de Fabrication et Conditionnement/4.jpg
+210,78,5,糕点奶油,Pastry cream,Societé Marocaine de Fabrication et Conditionnement,images/SME/Societé Marocaine de Fabrication et Conditionnement/5.jpg
+211,78,6,冰淇淋预拌粉,ice cream mix,Societé Marocaine de Fabrication et Conditionnement,images/SME/Societé Marocaine de Fabrication et Conditionnement/6.jpg
+212,78,7,混合香料,spices mix,Societé Marocaine de Fabrication et Conditionnement,images/SME/Societé Marocaine de Fabrication et Conditionnement/7.jpg
+213,79,1,木薯粉”,Cassava Flour,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/1.jpg
+214,79,2,淀粉,Starch,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/2.jpg
+215,79,3, 木薯片,Chips,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/3.jpg
+216,79,4,大蕉粉,Plantain flour,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/4.jpg
+217,79,5,豆类面粉和香料,Beans Flour and Species ,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/5.jpg
+218,80,1,沙丁鱼和咖啡,Sardines and coffee,MEGA Prime Foods Inc.,images/SME/MEGA Prime Foods Inc./1.jpg
+219,81,1,泰国阿拉比卡咖啡,Thai Arabica Coffee,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd./1.jpg"
+220,81,2,意式浓缩低碳咖啡,Espresso Low Carbon Coffee,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd./2.jpg"
+221,81,3,咖啡樱桃提取物,Coffee cherry extract,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd./3.jpg"
+222,81,4,咖啡樱桃茶,Coffee cherry tea,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd./4.jpg"
+223,82,1,罐装 / 袋装甜玉米粒,Canned/Pouch Sweet Corn Kernels,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd./1.jpg"
+224,82,2,应季水果,Seasonal Fruits,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd./2.jpg"
+225,82,3,糖棕籽,Sugar Palm Seed,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd./3.jpg"
+226,82,4,腌制品,Pickled items ,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd./4.jpg"
+227,83,1,咖啡,Coffee,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/1.jpg
+228,83,2,腰果,cashew nuts,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/2.jpg
+229,83,3,香料,spices,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/3.jpg
+230,83,4,蜂蜜,honey,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/4.jpg
+231,83,5,幼苗,seedlings,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/5.jpg
+232,83,6,农业综合企业咨询,agribusiness consultancy,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/6.jpg
+233,83,7,农业储蓄,AgriSave,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/7.jpg
+234,83,8,农业投入品与机械化,agro-inputs & mechanization,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/8.jpg
+235,84,1,葡萄干,Raisins,"""Eastern Agro Export"" Limited Liability Company","images/SME/""Eastern Agro Export"" Limited Liability Company/1.jpg"
+236,84,2,杏干,Dried apricots,"""Eastern Agro Export"" Limited Liability Company","images/SME/""Eastern Agro Export"" Limited Liability Company/2.jpg"
+237,84,3,西梅干, Prunes,"""Eastern Agro Export"" Limited Liability Company","images/SME/""Eastern Agro Export"" Limited Liability Company/3.jpg"
+238,84,4,绿豆,Mung beans,"""Eastern Agro Export"" Limited Liability Company","images/SME/""Eastern Agro Export"" Limited Liability Company/4.jpg"
+239,84,5,花生,Peanuts,"""Eastern Agro Export"" Limited Liability Company","images/SME/""Eastern Agro Export"" Limited Liability Company/5.jpg"
+240,85,1,杏干,Dried apricots,"""Optimum Fruits"" LLC","images/SME/""Optimum Fruits"" LLC/1.jpg"
+241,85,2,葡萄干,Raisins,"""Optimum Fruits"" LLC","images/SME/""Optimum Fruits"" LLC/2.jpg"
+242,85,3,西梅干,Prunes,"""Optimum Fruits"" LLC","images/SME/""Optimum Fruits"" LLC/3.jpg"
+243,85,4,绿豆,Mung beans,"""Optimum Fruits"" LLC","images/SME/""Optimum Fruits"" LLC/4.jpg"
 244,85,5,花生
-, Peanuts,"""Optimum Fruits"" LLC","SME/""Optimum Fruits"" LLC/5.jpg"
+, Peanuts,"""Optimum Fruits"" LLC","images/SME/""Optimum Fruits"" LLC/5.jpg"
