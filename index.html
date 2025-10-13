@@ -299,15 +299,27 @@
 @media (max-width: 768px) {
     #project-intro-page .bilingual-zh {
         font-size: 0.95rem;
-        line-height: 1.6; /* 移动端保持1.6行高 */
-        margin-bottom: 10px;
+        line-height: 1.8; /* 移动端保持1.6行高 */
+        margin-bottom: 5px;
     }
     
     #project-intro-page .bilingual-en {
         font-size: 0.85rem;
         line-height: 1.6; /* 移动端保持1.6行高 */
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
+     #organizer-intro-page .bilingual-zh {
+        font-size: 0.95rem;
+        line-height: 1.8; /* 移动端保持1.6行高 */
+        margin-bottom: 5px;
+    }
+    
+    #organizer-intro-page .bilingual-en {
+        font-size: 0.85rem;
+        line-height: 1.6; /* 移动端保持1.6行高 */
+        margin-bottom: 5px;
+    }
+    
 }
 
 /* 超小屏幕进一步优化 */
@@ -1649,9 +1661,11 @@ margin-top: 5px;
                         <div style="text-align: center; padding: 20px; border: 1px solid #e9ecef; border-radius: 8px;">
                             <i class="fas fa-landmark" style="font-size: 3rem; color: #1a2a6c; margin-bottom: 15px;"></i>
                             <h3>国际贸易中心(International Trade Centre)</h3>
+                             <div class="intro-content bilingual-content">
                             <div class="bilingual-zh">联合国国际贸易中心是唯一一个完全致力于支持中小微企业国际化的发展机构，其使命是促进包容和可持续的经济发展，为实现联合国全球可持续发展日标作出贡献。</div>
                 <div class="bilingual-en">ITC is the only development agency that is fuly dedicated to supporting the internationalization of MSMEs. ITC's mission is to foster inclusive andsustainable economic development and contribute to achieving the United Nations Global Goals for Sustainable Development.</div>
             </div>
+                            </div>
                         </div>
                         <div style="text-align: center; padding: 20px; border: 1px solid #e9ecef; border-radius: 8px;">
                             <i class="fas fa-city" style="font-size: 3rem; color: #1a2a6c; margin-bottom: 15px;"></i>
@@ -1726,7 +1740,7 @@ margin-top: 5px;
                 </div>
             </div>
         </div>
-    </div> <!-- 这里添加了缺少的 container 结束标签 -->
+    </div> 
 </div>
     <!-- 产品详情页面 -->
      <!--<div id="product-detail-page" class="page">
@@ -2430,6 +2444,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
