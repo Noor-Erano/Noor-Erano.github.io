@@ -1752,6 +1752,35 @@ function loadCSVData() {
         }
     });
 }
+
+// 新增：加载产品CSV数据
+function loadProductCSVData() {
+    Papa.parse('data/product list.csv', { // 请确保路径指向您的产品CSV文件
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+            if (results.data && results.data.length > 0) {
+                // 将解析后的数据赋值给全局变量 products
+                window.products = results.data.map((product, index) => ({
+                    id: parseInt(product.id) || index + 1,
+                    companyId: parseInt(product.companyId) || 1,
+                    name: product.product || '',
+                    name_en: product.product_en || '',
+                    image: product.product_img || '',
+                }));
+                console.log(`成功加载 ${window.products.length} 条产品数据！`);
+            } else {
+                console.warn("产品CSV文件为空或格式不正确");
+                window.products = [];
+            }
+        },
+        error: function(error) {
+            console.error("加载产品CSV失败，请检查文件路径和格式。错误信息：", error);
+            window.products = [];
+        }
+    });
+}
 // 竖屏轮播功能
 let currentVerticalSlide = 0;
 let verticalSlideInterval;
@@ -1851,30 +1880,6 @@ function goToVerticalSlide(index) {
     slides[currentVerticalSlide].classList.add('active');
     indicators[currentVerticalSlide].classList.add('active');
 }
-     const products = [
-            { 
-                id: 1, 
-                companyId: 60, 
-                name: "干玫瑰", 
-                name_en: "Dry Rose", 
-                image: "images/SME/Ansari/Picture1.jpg", // 替换为您的产品图片路径
-            },
-            { 
-                id: 2, 
-                companyId: 60, 
-                name: "苦杏仁", 
-                name_en: "Bitter Almond", 
-                image: "images/SME/Ansari/Picture2.jpg", // 替换为您的产品图片路径
-            },
-             { 
-                id: 3, 
-                companyId: 60, 
-                name: "精油", 
-                name_en: "Essential oil", 
-                image: "images/SME/Ansari/Picture3.jpg", // 替换为您的产品图片路径
-            }
-            
-        ];
         
         // 页面切换函数
        let coverScrollTop = 0;
@@ -2110,7 +2115,8 @@ function formatBilingualText(zhText, enText) {
             const title = document.getElementById('company-detail-page-title');
             
             const company = companies.find(c => c.id === companyId);
-            const filteredProducts = products.filter(product => product.companyId === companyId);
+            // 改为使用从CSV加载的产品数据
+           const filteredProducts = window.products ? window.products.filter(product => parseInt(product.companyId) === parseInt(companyId)) : [];
             
             title.textContent = company.name;
             container.innerHTML = '';
@@ -2293,9 +2299,15 @@ function formatBilingualText(zhText, enText) {
                 filteredProducts.forEach(product => {
                     const productCard = document.createElement('div');
                     productCard.className = 'product-card';
-                   productCard.innerHTML = `
+                  productCard.innerHTML = `
     <div class="product-image">
-        <img src="${product.image}" alt="${product.name_zh}">
+        ${product.image ? 
+            `<img src="${product.image}" alt="${product.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">` : 
+            ''
+        }
+        <div class="product-image-placeholder" style="${product.image ? 'display:none;' : ''} display:flex; align-items:center; justify-content:center; width:100%; height:100%; background-color:#f0f0f0; color:#666; font-size:0.8rem; text-align:center; padding:5px; box-sizing:border-box;">
+            ${product.name || '产品图片'}
+        </div>
     </div>
     <div class="product-info">
         <div class="product-name bilingual-content">
@@ -2356,12 +2368,14 @@ function formatBilingualText(zhText, enText) {
        document.addEventListener('DOMContentLoaded', function() {
             initVerticalSlideshow(); // 初始化竖屏轮播
            loadCSVData();
+           loadProductCSVData(); // 新增：加载产品数据
            // 初始化左边栏（在数据加载完成后会再次调用）
     initSidebarCategories();
     });
     </script>
 </body>
 </html>
+
 
 
 
