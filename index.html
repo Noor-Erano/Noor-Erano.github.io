@@ -1988,7 +1988,8 @@ function updateSidebarActive(categoryId) {
                 <div class="company-info">
                     <div class="company-name">${company.name}</div>
                     <div class="company-desc bilingual-content">
-                        ${formatBilingualText(company.product, company.product_en)}
+                    <div class="bilingual-zh">${company.product}</div>
+                    <div class="bilingual-en">${company.product_en}</div>
                     </div>
                 </div>
                 <i class="fas fa-chevron-right" style="color: #ccc;"></i>
@@ -2281,6 +2282,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
