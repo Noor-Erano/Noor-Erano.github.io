@@ -273,6 +273,12 @@
             font-size: 0.9rem;
         }
         /* 项目介绍详情页面双语内容样式 */
+        #project-intro-page {
+    min-height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 80px; /* 为底部导航栏留出空间 */
+    box-sizing: border-box;
+}
 #project-intro-page .bilingual-content {
     line-height: 1.6;
 }
@@ -283,6 +289,7 @@
     font-size: 1rem;
     line-height: 1.6; /* 设置行高为1.6 */
     display: block;
+    text-align: justify; /* 两端对齐 */
 }
 
 #project-intro-page .bilingual-en {
@@ -293,10 +300,34 @@
     opacity: 0.9;
     display: block;
     margin-bottom: 12px;
+    text-align: justify; /* 两端对齐 */
+}
+
+#organizer-intro-page .bilingual-zh {
+    margin-bottom: 12px;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6; /* 设置行高为1.6 */
+    display: block;
+    text-align: justify; /* 两端对齐 */
+}
+
+#organizer-intro-page .bilingual-en {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 1.6; /* 设置行高为1.6 */
+    opacity: 0.9;
+    display: block;
+    margin-bottom: 12px;
+    text-align: justify; /* 两端对齐 */
 }
 
 /* 移动端适配 */
 @media (max-width: 768px) {
+    #project-intro-page {
+        padding-bottom: 70px; /* 移动端底部导航栏稍矮 */
+    }
     #project-intro-page .bilingual-zh {
         font-size: 1.1rem;
         line-height: 1.8; /* 移动端保持1.6行高 */
@@ -334,6 +365,51 @@
         font-size: 0.8rem;
         line-height: 1.6;
         margin-bottom: 4px;
+    }
+}
+        /* 发起机构详情页面居中样式 */
+.org-header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.org-header-center i {
+    font-size: 3rem;
+    color: #1a2a6c;
+    margin-bottom: 15px;
+}
+
+.org-header-center h3 {
+    color: #1a2a6c;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .org-header-center i {
+        font-size: 2.5rem;
+        margin-bottom: 12px;
+    }
+    
+    .org-header-center h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* 超小屏幕优化 */
+@media (max-width: 480px) {
+    .org-header-center i {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    .org-header-center h3 {
+        font-size: 1.1rem;
     }
 }
         /* 展商分类区域 */
@@ -1631,9 +1707,11 @@ margin-top: 5px;
                 
                 <div style="background: white; border-radius: 10px; padding: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
                     <h2 style="color: #1a2a6c; margin-bottom: 20px;">主办单位</h2>
-                      <div class="detail-bilingual-content">
-                            <i class="fas fa-landmark" style="font-size: 3rem; color: #1a2a6c; margin-bottom: 15px;"></i>
-                            <h3 style="color: #1a2a6c; margin-bottom: 20px"> 国际贸易中心(International Trade Centre)</h3>
+                    <div class="org-header-center">
+                     
+                            <i class="fas fa-landmark" ></i>
+                            <h3> 国际贸易中心(International Trade Centre)</h3>
+              </div>
                              <div class="detail-bilingual-content">
                             <div class="bilingual-zh">联合国国际贸易中心是唯一一个完全致力于支持中小微企业国际化的发展机构，其使命是促进包容和可持续的经济发展，为实现联合国全球可持续发展日标作出贡献。</div>
                 <div class="bilingual-en">ITC is the only development agency that is fuly dedicated to supporting the internationalization of MSMEs. ITC's mission is to foster inclusive andsustainable economic development and contribute to achieving the United Nations Global Goals for Sustainable Development.</div>
@@ -2395,6 +2473,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
