@@ -540,40 +540,65 @@
         }
         
         .company-header {
-            background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
-            color: white;
-            padding: 20px;
-            display: flex;
-            align-items: center;
-        }
-        
-        .company-header-logo {
-            width: 80px;
-            height: 80px;
-            border-radius: 12px;
-            background-color: rgba(255,255,255,0.2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 20px;
-            overflow: hidden;
-        }
-        
-        .company-header-logo img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+    background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        .company-header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+        .company-header-logo-container {
+    width: auto;
+    height: 120px; /* 固定高度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+        .company-header-logo-container img {
+    height: 100%; /* 固定高度 */
+    width: auto; /* 宽度自适应 */
+    max-width: 200px; /* 限制最大宽度 */
+    object-fit: contain; /* 保持图片比例 */
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+      
         
         .company-header-info h2 {
-            font-size: 1.5rem;
-            margin-bottom: 5px;
-        }
-        
-        .company-header-info p {
-            opacity: 0.9;
-        }
-        
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.company-header-info p {
+    opacity: 0.9;
+    font-size: 1.1rem;
+    margin: 0;
+}
+        /* 图片占位符样式 */
+.company-header-logo-container .image-placeholder {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
         .company-body {
             padding: 20px;
         }
@@ -700,6 +725,32 @@ margin-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 20px;
+}
+        @media (max-width: 768px) {
+    .company-header {
+        padding: 25px 15px;
+    }
+    
+    .company-header-logo-container {
+        height: 100px; /* 移动端稍小的高度 */
+        margin-bottom: 15px;
+    }
+    
+    .company-header-logo-container img {
+        max-width: 150px; /* 移动端最大宽度稍小 */
+    }
+    
+    .company-header-info h2 {
+        font-size: 1.5rem;
+    }.company-header-info p {
+        font-size: 1rem;
+    }
+    
+    .company-header-logo-container .image-placeholder {
+        width: 100px;
+        height: 100px;
+        font-size: 2rem;
+    }
 }
         /* 产品列表样式 */
         .products-grid {
@@ -2226,15 +2277,17 @@ function formatBilingualText(zhText, enText) {
             const companyDetail = document.createElement('div');
             companyDetail.className = 'company-detail';
             companyDetail.innerHTML = `
-                <div class="company-header">
-                    <div class="company-header-logo">
-                        <img src="${company.logo}" alt="${company.name}">
-                    </div>
-                    <div class="company-header-info">
-                        <h2>${company.name}</h2>
-                        <p>${categories.find(c => c.id === company.categoryId).name}行业</p>
-                    </div>
-                </div>
+    <div class="company-header">
+        <div class="company-header-center">
+            <div class="company-header-logo-container">
+                ${getCompanyLogo(company.logo, company.name)}
+            </div>
+            <div class="company-header-info">
+                <h2>${company.name}</h2>
+                <p>${categories.find(c => c.id === company.categoryId).name}行业</p>
+            </div>
+        </div>
+    </div>
                 <div class="company-body">
                  <div class="company-title-with-icon">
                <i class="fas fa-info-circle"> 公司简介</i>
@@ -2473,6 +2526,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
