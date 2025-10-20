@@ -400,20 +400,20 @@
 /* 响应式调整 */
 @media (max-width: 768px) {
   .org-header-center .org-logo-img {
-    width: 100px;
-    height: 100px;
+    /* 原来是 width: 100px; height: 100px; */
+    width: 200px;   /* 移动端放大为两倍 */
+    height: 200px;  /* 移动端放大为两倍 */
   }
   .org-header-center i {
     font-size: 6rem;
   }
-}
 
 .org-header-center h3 {
     color: #1a2a6c;
     margin-bottom: 0;
     font-size: 1.2rem;
 }
-
+}
 /* 超小屏幕优化 */
 @media (max-width: 480px) {
     .org-header-center i {
@@ -2546,6 +2546,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
