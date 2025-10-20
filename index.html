@@ -378,9 +378,34 @@
 }
 
 .org-header-center i {
+    display: none; /* JS 根据是否有 logo 切换为 visible */
     font-size: 3rem;
     color: #1a2a6c;
     margin-bottom: 15px;
+}
+
+/* 新增：机构 logo 图片 */
+.org-header-center .org-logo-img {
+    display: none;             /* 默认隐藏，JS 在有logo时显示 */
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: contain;       /* 保持比例，居中显示 */
+    background-color: rgba(255,255,255,0.08);
+    padding: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .org-header-center .org-logo-img {
+    width: 100px;
+    height: 100px;
+  }
+  .org-header-center i {
+    font-size: 2.5rem;
+  }
 }
 
 .org-header-center h3 {
@@ -1760,7 +1785,14 @@ margin-top: 5px;
                     <h2 style="color: #1a2a6c; margin-bottom: 20px;">主办单位</h2>
                     <div class="org-header-center">
                      
-                            <i class="fas fa-landmark" ></i>
+                            <!-- 把下面 src 替换为你提供的 logo 路径/URL -->
+                            <img class="org-logo-img"
+                                 src="images/ITC_logo_full.jpg"
+                                 alt="机构 Logo"
+                                 style="display:inline-block; width:3rem; height:3rem; object-fit:contain; border-radius:6px; margin-bottom:15px;" />
+                            <!-- 如果想保留回退 icon（当 logo 加载失败或无 logo 时显示），可以保留下面这行并通过 JS 切换显示/隐藏 -->
+                            <i class="fas fa-landmark" aria-hidden="true" style="display:none;"></i>
+
                             <h3> 国际贸易中心(International Trade Centre)</h3>
               </div>
                              <div class="detail-bilingual-content">
@@ -2526,6 +2558,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
