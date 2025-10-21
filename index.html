@@ -367,82 +367,89 @@
         margin-bottom: 4px;
     }
 }
-    .org-header-center {
+   
+   .org-header-center {
     width: auto;
-    height: auto; /* 自动高度 */
-    min-height: 160px; /* 增加最小高度以容纳更大的logo */
+    height: auto;
+    min-height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 30px; /* 增加底部间距 */
-    padding: 20px 0; /* 增加内边距 */
+    margin-bottom: 30px;
+    padding: 20px 0;
 }
 
 .org-header-center i {
     display: none;
-    font-size: 8rem; /* 图标变大一倍 */
+    font-size: 8rem;
     color: #1a2a6c;
     margin-bottom: 15px;
 }
         
+/* 默认正方形/近似正方形logo样式 */
 .org-header-center .org-logo-img {
     display: none;
     height: auto;
-    max-height: 160px; /* 高度变大一倍 */
+    max-height: 160px;
     width: auto;
-    max-width: 400px; /* 宽度变大一倍 */
+    max-width: 400px;
     object-fit: contain;
     border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 12px;
-    margin-bottom: 20px; /* 增加与文字的间距 */
+    margin-bottom: 20px;
     box-sizing: border-box;
+}
+
+/* 专门为长条形logo添加的样式 */
+.org-header-center .org-logo-img[src*="长条形logo文件名关键词"],
+.org-header-center .org-logo-img.long-logo {
+    max-height: 120px; /* 降低高度限制 */
+    max-width: 500px;  /* 大幅增加宽度限制 */
+    width: auto;
+    height: auto;
 }
 
 .org-header-center h3 {
     color: #1a2a6c;
     margin-bottom: 0;
-    font-size: 1.4rem; /* 稍微增大标题字体 */
+    font-size: 1.4rem;
     padding: 0 15px;
-    line-height: 1.4; /* 增加行高 */
+    line-height: 1.4;
 }
 
 /* 响应式调整 */
 @media (max-width: 768px) {
     .org-header-center {
-        min-height: 120px; /* 移动端最小高度增加 */
+        min-height: 120px;
         padding: 15px 0;
         margin-bottom: 25px;
     }
     
     .org-header-center i {
-        font-size: 6rem; /* 移动端图标变大一倍 */
+        font-size: 6rem;
         margin-bottom: 12px;
     }
     
     .org-header-center .org-logo-img {
-        max-height: 120px; /* 移动端logo高度变大一倍 */
-        max-width: 300px; /* 移动端logo宽度变大一倍 */
+        max-height: 120px;
+        max-width: 300px;
         margin-bottom: 15px;
     }
     
-    .org-header-center h3 {
-        font-size: 1.2rem; /* 移动端标题稍大 */
-        line-height: 1.4;
-        padding: 0 10px;
-    }
-}
-/* 超小屏幕优化 */
-@media (max-width: 480px) {
-    .org-header-center i {
-        font-size: 2rem;
-        margin-bottom: 10px;
+    /* 移动端长条形logo样式 */
+    .org-header-center .org-logo-img[src*="CFNA"],
+    .org-header-center .org-logo-img.long-logo {
+        max-height: 80px;   /* 移动端高度 */
+        max-width: 350px;   /* 移动端宽度，比普通logo更宽 */
     }
     
     .org-header-center h3 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        padding: 0 10px;
     }
 }
         /* 展商分类区域 */
@@ -2615,6 +2622,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
