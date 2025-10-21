@@ -369,6 +369,8 @@
 }
         /* 发起机构详情页面居中样式 */
 .org-header-center {
+    width: auto;
+    height: 120px; /* 固定高度 */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -383,26 +385,25 @@
     color: #1a2a6c;
     margin-bottom: 15px;
 }
-
-/* 新增：机构 logo 图片 */
-.org-header-center .org-logo-img {
+        
+       .org-header-center .org-logo-img {
     display: none;             /* 默认隐藏，JS 在有logo时显示 */
-    width: 120px;
-    height: 120px;
+    height: 100%; /* 固定高度 */
+    width: auto; /* 宽度自适应 */
+    max-width: 200px; /* 限制最大宽度 */
+    object-fit: contain; /* 保持图片比例 */
     border-radius: 12px;
-    object-fit: contain;       /* 保持比例，居中显示 */
-    background-color: rgba(255,255,255,0.08);
-    padding: 8px;
-    margin-bottom: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
 }
+
+
 
 /* 响应式调整 */
 @media (max-width: 768px) {
-  .org-header-center .org-logo-img {
-    /* 原来是 width: 100px; height: 100px; */
-    width: 200px;   /* 移动端放大为两倍 */
-    height: 200px;  /* 移动端放大为两倍 */
+  .org-header-center {
+    height: 60px; /* 固定高度 */
   }
   .org-header-center i {
     font-size: 6rem;
@@ -2595,6 +2596,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
