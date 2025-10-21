@@ -1634,6 +1634,31 @@ margin-top: 5px;
         padding-bottom: 55px;
     }
 }
+        /* 修复底部导航栏遮挡问题 */
+.container {
+    padding-bottom: 120px !important;
+}
+
+/* 移动端调整 */
+@media (max-width: 768px) {
+    .container {
+        padding-bottom: 100px !important;
+    }
+    
+    /* 内容较多的页面需要更多空间 */
+    #project-intro-page .container,
+    #organizer-intro-page .container,
+    #company-detail-page .container {
+        padding-bottom: 130px !important;
+    }
+}
+
+/* 超小屏幕进一步调整 */
+@media (max-width: 480px) {
+    .container {
+        padding-bottom: 90px !important;
+    }
+}
     </style>
 </head>
   <!-- 底边栏 -->
@@ -2625,6 +2650,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
