@@ -1471,6 +1471,85 @@ margin-top: 5px;
             }
         }
 /*滑动显示产品*/
+        /* 多图片产品样式 */
+.multiple-product {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.multiple-images-container {
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #4fc3f7 #f0f0f0;
+}
+
+.multiple-images-scroll {
+    display: flex;
+    gap: 10px;
+    padding: 0 5px;
+    min-width: min-content;
+}
+
+.multiple-image-item {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 120px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.multiple-image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .multiple-images-container {
+        -webkit-overflow-scrolling: touch; /* 平滑滚动 */
+    }
+    
+    .multiple-image-item {
+        width: 120px;
+        height: 100px;
+    }
+    
+    .products-grid .multiple-product {
+        width: 100%;
+    }
+}
+
+/* 产品网格布局调整 */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* 多图片产品在网格中占满整行 */
+.products-grid .multiple-product {
+    grid-column: 1 / -1;
+}
+
+/* 移动端产品网格调整 */
+@media (max-width: 768px) {
+   
+    /* 多图片产品在移动端保持横向滚动 */
+    .products-grid .multiple-product {
+        width: 100% !important;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
      @media (max-width: 768px) {
   .products-grid {
     display: flex !important;
@@ -2044,6 +2123,7 @@ function loadProductCSVData() {
                     name: product.product || '',
                     name_en: product.product_en || '',
                     image: product.product_img || '',
+                    multiple: parseInt(product.multiple) || 0 // 新增字段
                 }));
                 console.log(`成功加载 ${window.products.length} 条产品数据！`);
             } else {
@@ -2569,34 +2649,60 @@ function formatBilingualText(zhText, enText) {
             container.appendChild(companyDetail);
             
             // 创建企业产品列表
-            productsContainer.innerHTML = '';
-            
-            if (filteredProducts.length === 0) {
-                productsContainer.innerHTML = '<p>暂无产品信息</p>';
-            } else {
-                filteredProducts.forEach(product => {
-                    const productCard = document.createElement('div');
-                    productCard.className = 'product-card';
-                  productCard.innerHTML = `
-    <div class="product-image">
-        ${product.image ? 
-            `<img src="${product.image}" alt="${product.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">` : 
-            ''
+           // 替换现有的产品展示代码
+productsContainer.innerHTML = '';
+
+if (filteredProducts.length === 0) {
+    productsContainer.innerHTML = '<p>暂无产品信息</p>';
+} else {
+    filteredProducts.forEach(product => {
+        if (product.multiple === 1) {
+            // 多图片产品：横向滑动展示
+            const productCard = document.createElement('div');
+            productCard.className = 'product-card multiple-product';
+            productCard.innerHTML = `
+                <div class="multiple-images-container">
+                    <div class="multiple-images-scroll">
+                        ${product.image.split(';').map(img => `
+                            <div class="multiple-image-item">
+                                <img src="${img.trim()}" alt="${product.name}" onerror="this.style.display='none'">
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name bilingual-content">
+                        <div class="bilingual-zh">${product.name}</div>
+                        <div class="bilingual-en">${product.name_en}</div>
+                    </div>
+                </div>
+            `;
+            productsContainer.appendChild(productCard);
+        } else {
+            // 单图片产品：原有卡片形式
+            const productCard = document.createElement('div');
+            productCard.className = 'product-card';
+            productCard.innerHTML = `
+                <div class="product-image">
+                    ${product.image ? 
+                        `<img src="${product.image}" alt="${product.name}" onerror="this.style.display='none'">` : 
+                        ''
+                    }
+                </div>
+                <div class="product-info">
+                    <div class="product-name bilingual-content">
+                        <div class="bilingual-zh">${product.name}</div>
+                        <div class="bilingual-en">${product.name_en}</div>
+                    </div>
+                </div>
+            `;
+            productCard.addEventListener('click', () => {
+                showProductDetail(product.id);
+            });
+            productsContainer.appendChild(productCard);
         }
-    </div>
-    <div class="product-info">
-        <div class="product-name bilingual-content">
-            <div class="bilingual-zh">${product.name}</div>
-            <div class="bilingual-en">${product.name_en}</div>
-        </div>
-    </div>
-`;
-                    productCard.addEventListener('click', () => {
-                        showProductDetail(product.id);
-                    });
-                    productsContainer.appendChild(productCard);
-                });
-            }
+    });
+}
             
             showPage('company-detail-page');
         }
@@ -2650,6 +2756,7 @@ function formatBilingualText(zhText, enText) {
     </script>
 </body>
 </html>
+
 
 
 
