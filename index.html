@@ -2126,6 +2126,7 @@ let isSearching = false; // 新增：是否正在搜索
     }
 }
         function goToCompanies() {
+        showPage('companies-page');
     // 如果已经有选中的分类，显示该分类的公司列表
     if (currentCategoryId && categories.length > 0) {
         const category = categories.find(c => c.id === currentCategoryId);
@@ -2393,6 +2394,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="category-name-en">${category.ename}</div>
      `;
                 categoryCard.addEventListener('click', () => {
+                    showPage('companies-page');
                     showCompaniesByCategory(category.id, category.name);
                 });
                 container.appendChild(categoryCard);
@@ -2877,6 +2879,7 @@ if (filteredProducts.length === 0) {
     </script>
 </body>
 </html>
+
 
 
 
