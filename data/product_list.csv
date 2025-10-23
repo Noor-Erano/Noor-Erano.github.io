@@ -1,340 +1,340 @@
 id,companyId,number,product,product_en,multiple,name,logo,product_img
-1,1,"1","è¾£æœ¨æ²¹","Moringa oil",0,"KLARIZA SPRL","images/SME/KLARIZA SPRL/","images/SME/KLARIZA SPRL/1.jpg"
-2,1,"2","è¾£æœ¨èº«ä½“æ¶¦è‚¤è†","Moringa body balm",0,"KLARIZA SPRL","images/SME/KLARIZA SPRL/","images/SME/KLARIZA SPRL/2.jpg"
-3,1,"3","è¾£æœ¨æ¶¦å”‡è†","Moringa lip balm",0,"KLARIZA SPRL","images/SME/KLARIZA SPRL/","images/SME/KLARIZA SPRL/3.jpg"
-4,1,"4","è¾£æœ¨çš‚","MoringaÂ soap",0,"KLARIZA SPRL","images/SME/KLARIZA SPRL/","images/SME/KLARIZA SPRL/4.jpg"
-5,2,"1","æ‰‹å·¥åˆºç»£","Hand made embroided",0,"DIDA Clothing","images/SME/DIDA Clothing/","images/SME/DIDA Clothing/1.jpg"
-6,2,"2","éæ´²å°èŠ±æœè£…","African print clothing",0,"DIDA Clothing","images/SME/DIDA Clothing/","images/SME/DIDA Clothing/2.jpg"
-7,3,"1","æ‰‹å·¥ç¼–ç»‡å›´å·¾","Handwoven scarves",0,"Jano Handicraft Enterprise -- Shimena with Brand name","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/1.jpg"
-8,3,"2","æŠ«è‚©","Shawls",0,"Jano Handicraft Enterprise -- Shimena with Brand name","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/2.jpg"
-9,3,"3","æ–—ç¯·","Ponchos",0,"Jano Handicraft Enterprise -- Shimena with Brand name","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/3.jpg"
-10,3,"4","æ¯›å·¾","Towels",0,"Jano Handicraft Enterprise -- Shimena with Brand name","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/4.jpg"
-11,3,"5","æ‰‹å·¥ç¼–ç»‡æŠ«æ¯¯","Handwoven throws",0,"Jano Handicraft Enterprise -- Shimena with Brand name","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/5.jpg"
-12,3,"6","æ¡Œæ——","Table runners",0,"Jano Handicraft Enterprise -- Shimena with Brand name","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/6.jpg"
-13,3,"7","æ‰‹å·¥é’©ç»‡çš„å¸½å­","Hand crocheted hat",0,"Jano Handicraft Enterprise -- Shimena with Brand name","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/","images/SME/Jano Handicraft Enterprise_Shimena with Brand name/7.jpg"
-14,4,"1","èº«ä½“ä¹³","Body creams",0,"Sava Shea Company Limited","images/SME/Sava Shea Company Limited/","images/SME/Sava Shea Company Limited/1.jpg"
-15,4,"2","æ²æµ´éœ²","Shower gels",0,"Sava Shea Company Limited","images/SME/Sava Shea Company Limited/","images/SME/Sava Shea Company Limited/2.jpg"
-16,4,"3","æ¶¦å”‡è†","Lip balm",0,"Sava Shea Company Limited","images/SME/Sava Shea Company Limited/","images/SME/Sava Shea Company Limited/3.jpg"
-17,4,"4","éæ´²é»‘çš‚","African black soap",0,"Sava Shea Company Limited","images/SME/Sava Shea Company Limited/","images/SME/Sava Shea Company Limited/4.jpg"
-18,4,"5","æŠ¤å‘åŠèº«ä½“ä¹³éœœ","Hair and body butters",0,"Sava Shea Company Limited","images/SME/Sava Shea Company Limited/","images/SME/Sava Shea Company Limited/5.jpg"
-19,4,"6","æœªç²¾ç‚¼ä¹³æœ¨æœæ²¹å’Œæ´—å‘æ°´èº«ä½“ä¹³","Unrefined sheabutter and hair shampoos",0,"Sava Shea Company Limited","images/SME/Sava Shea Company Limited/","images/SME/Sava Shea Company Limited/6.jpg"
-20,5,"1","å³ç”¨å‹ç²¾æ²¹","Ready-to-use essential oils",0,"Green Fields Oils Factory","images/SME/Green Fields Oils Factory/","images/SME/Green Fields Oils Factory/1.jpg"
-21,5,"2","å†·æ¦¨æ²¹","Cold pressed oils",0,"Green Fields Oils Factory","images/SME/Green Fields Oils Factory/","images/SME/Green Fields Oils Factory/2.jpg"
-22,6,"1","å­•å¦‡è£…ä¸å“ºä¹³è£…","Maternity & Nursing clothing",0,"EVERYTHING MATERNITY KENYA","images/SME/EVERYTHING MATERNITY KENYA/","images/SME/EVERYTHING MATERNITY KENYA/1.jpg"
-23,6,"2","æ¯å©´å¥åº·å¿…å¤‡å“","Baby & Mum wellness essentials",0,"EVERYTHING MATERNITY KENYA","images/SME/EVERYTHING MATERNITY KENYA/","images/SME/EVERYTHING MATERNITY KENYA/2.jpg"
-24,6,"3","äº§ååŠä½é™¢ç”¨å“å¥—è£…","Postpartum & Hospital kits",0,"EVERYTHING MATERNITY KENYA","images/SME/EVERYTHING MATERNITY KENYA/","images/SME/EVERYTHING MATERNITY KENYA/3.jpg"
-25,6,"4","ç¤¼å“è§£å†³æ–¹æ¡ˆ","Gifting solutions",0,"EVERYTHING MATERNITY KENYA","images/SME/EVERYTHING MATERNITY KENYA/","images/SME/EVERYTHING MATERNITY KENYA/4.jpg"
-26,7,"1","æœè£…ä¸æœé¥°","Clothing & Apparel",0,"Iko Ziwa Africa Ltd  -- Kiko Romeo","images/SME/Iko Ziwa Africa Ltd _Kiko Romeo/","images/SME/Iko Ziwa Africa Ltd _Kiko Romeo/1.jpg"
-27,7,"2","çººç»‡å“&è®¾è®¡å’¨è¯¢&é«˜ç«¯å…¬å¸åˆ¶æœ","Textiles& Design consulting& High-end company uniforms",0,"Iko Ziwa Africa Ltd  -- Kiko Romeo","images/SME/Iko Ziwa Africa Ltd _Kiko Romeo/","images/SME/Iko Ziwa Africa Ltd _Kiko Romeo/2.jpg"
-28,8,"1","å‰‘éº»ç¯®å­","Sisal baskets",0,"Naskia ventures limited","images/SME/Naskia ventures limited/","images/SME/Naskia ventures limited/1.jpg"
-29,9,"1","å›´å·¾","Scarves",0,"Union of handicraftsmen Kyrgyz Republic","images/SME/Union of handicraftsmen Kyrgyz Republic/","images/SME/Union of handicraftsmen Kyrgyz Republic/1.jpg"
-30,9,"2","å®¶å±…è£…é¥°å“","Home decorations",0,"Union of handicraftsmen Kyrgyz Republic","images/SME/Union of handicraftsmen Kyrgyz Republic/","images/SME/Union of handicraftsmen Kyrgyz Republic/2.jpg"
-31,9,"3","ç©å…·","Toys",0,"Union of handicraftsmen Kyrgyz Republic","images/SME/Union of handicraftsmen Kyrgyz Republic/","images/SME/Union of handicraftsmen Kyrgyz Republic/3.jpg"
-32,10,"1","ç²¾æ²¹ï¼ˆçƒ­å¸¦é¦™æ¡ƒæœ¨ç²¾æ²¹ã€å¤©ç«ºè‘µç²¾æ²¹ã€ç”Ÿå§œç²¾æ²¹ã€ Ravensara ç²¾æ²¹ã€å°¼å‚²æ²¹ã€æ¡‰æ ‘ç²¾æ²¹â€¦â€¦ï¼‰","Essential oils (Ravintsara, Geranium, Ginger, Ravensara, Niaouli, Eucalyptus,â€¦) ",0,"MG SAKAY","images/SME/MG SAKAY/","images/SME/MG SAKAY/1.jpg"
-33,10,"2","æ¤ç‰©æ²¹","Vegetal oils ",0,"MG SAKAY","images/SME/MG SAKAY/","images/SME/MG SAKAY/2.jpg"
-34,11,"1","é™¶ç“·åˆ¶å“","Ceramic products",0,"Dedza Pottery","images/SME/Dedza Pottery/","images/SME/Dedza Pottery/1.jpg"
-35,11,"2","é…’åº—æ—…æ¸¸æœåŠ¡","Hospitality/Tourism services",0,"Dedza Pottery","images/SME/Dedza Pottery/","images/SME/Dedza Pottery/2.jpg"
-36,12,"1","ç™¾åˆ†ç™¾ç¾Šæ¯›é’ˆç»‡æœé¥°","100% Cashmere knitted
-clothing",0,"Sain tumen cashmere LLC","images/SME/Sain tumen cashmere LLC/","images/SME/Sain tumen cashmere LLC/1.jpg"
-37,12,"2","ç™¾åˆ†ç™¾ç¾Šæ¯›é’ˆç»‡é…é¥°","100% Cashmere knitted
+1,1,1,À±Ä¾ÓÍ,Moringa oil,0,KLARIZA SPRL,images/SME/KLARIZA SPRL/,images/SME/KLARIZA SPRL/1.jpg
+2,1,2,À±Ä¾ÉíÌåÈó·ô¸à,Moringa body balm,0,KLARIZA SPRL,images/SME/KLARIZA SPRL/,images/SME/KLARIZA SPRL/2.jpg
+3,1,3,À±Ä¾Èó´½¸à,Moringa lip balm,0,KLARIZA SPRL,images/SME/KLARIZA SPRL/,images/SME/KLARIZA SPRL/3.jpg
+4,1,4,À±Ä¾Ôí,Moringa?soap,0,KLARIZA SPRL,images/SME/KLARIZA SPRL/,images/SME/KLARIZA SPRL/4.jpg
+5,2,1,ÊÖ¹¤´ÌĞå,Hand made embroided,0,DIDA Clothing,images/SME/DIDA Clothing/,images/SME/DIDA Clothing/1.jpg
+6,2,2,·ÇÖŞÓ¡»¨·ş×°,African print clothing,0,DIDA Clothing,images/SME/DIDA Clothing/,images/SME/DIDA Clothing/2.jpg
+7,3,1,ÊÖ¹¤±àÖ¯Î§½í,Handwoven scarves,0,Jano Handicraft Enterprise -- Shimena with Brand name,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/1.jpg
+8,3,2,Åû¼ç,Shawls,0,Jano Handicraft Enterprise -- Shimena with Brand name,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/2.jpg
+9,3,3,¶·Åñ,Ponchos,0,Jano Handicraft Enterprise -- Shimena with Brand name,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/3.jpg
+10,3,4,Ã«½í,Towels,0,Jano Handicraft Enterprise -- Shimena with Brand name,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/4.jpg
+11,3,5,ÊÖ¹¤±àÖ¯ÅûÌº,Handwoven throws,0,Jano Handicraft Enterprise -- Shimena with Brand name,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/5.jpg
+12,3,6,×ÀÆì,Table runners,0,Jano Handicraft Enterprise -- Shimena with Brand name,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/6.jpg
+13,3,7,ÊÖ¹¤¹³Ö¯µÄÃ±×Ó,Hand crocheted hat,0,Jano Handicraft Enterprise -- Shimena with Brand name,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/,images/SME/Jano Handicraft Enterprise_Shimena with Brand name/7.jpg
+14,4,1,ÉíÌåÈé,Body creams,0,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/,images/SME/Sava Shea Company Limited/1.jpg
+15,4,2,ãåÔ¡Â¶,Shower gels,0,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/,images/SME/Sava Shea Company Limited/2.jpg
+16,4,3,Èó´½¸à,Lip balm,0,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/,images/SME/Sava Shea Company Limited/3.jpg
+17,4,4,·ÇÖŞºÚÔí,African black soap,0,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/,images/SME/Sava Shea Company Limited/4.jpg
+18,4,5,»¤·¢¼°ÉíÌåÈéËª,Hair and body butters,0,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/,images/SME/Sava Shea Company Limited/5.jpg
+19,4,6,Î´¾«Á¶ÈéÄ¾¹ûÓÍºÍÏ´·¢Ë®ÉíÌåÈé,Unrefined sheabutter and hair shampoos,0,Sava Shea Company Limited,images/SME/Sava Shea Company Limited/,images/SME/Sava Shea Company Limited/6.jpg
+20,5,1,¼´ÓÃĞÍ¾«ÓÍ,Ready-to-use essential oils,0,Green Fields Oils Factory,images/SME/Green Fields Oils Factory/,images/SME/Green Fields Oils Factory/1.jpg
+21,5,2,ÀäÕ¥ÓÍ,Cold pressed oils,0,Green Fields Oils Factory,images/SME/Green Fields Oils Factory/,images/SME/Green Fields Oils Factory/2.jpg
+22,6,1,ÔĞ¸¾×°Óë²¸Èé×°,Maternity & Nursing clothing,0,EVERYTHING MATERNITY KENYA,images/SME/EVERYTHING MATERNITY KENYA/,images/SME/EVERYTHING MATERNITY KENYA/1.jpg
+23,6,2,Ä¸Ó¤½¡¿µ±Ø±¸Æ·,Baby & Mum wellness essentials,0,EVERYTHING MATERNITY KENYA,images/SME/EVERYTHING MATERNITY KENYA/,images/SME/EVERYTHING MATERNITY KENYA/2.jpg
+24,6,3,²úºó¼°×¡ÔºÓÃÆ·Ì××°,Postpartum & Hospital kits,0,EVERYTHING MATERNITY KENYA,images/SME/EVERYTHING MATERNITY KENYA/,images/SME/EVERYTHING MATERNITY KENYA/3.jpg
+25,6,4,ÀñÆ·½â¾ö·½°¸,Gifting solutions,0,EVERYTHING MATERNITY KENYA,images/SME/EVERYTHING MATERNITY KENYA/,images/SME/EVERYTHING MATERNITY KENYA/4.jpg
+26,7,1,·ş×°Óë·şÊÎ,Clothing & Apparel,0,Iko Ziwa Africa Ltd  -- Kiko Romeo,images/SME/Iko Ziwa Africa Ltd _Kiko Romeo/,images/SME/Iko Ziwa Africa Ltd _Kiko Romeo/1.jpg
+27,7,2,·ÄÖ¯Æ·&Éè¼Æ×ÉÑ¯&¸ß¶Ë¹«Ë¾ÖÆ·ş,Textiles& Design consulting& High-end company uniforms,0,Iko Ziwa Africa Ltd  -- Kiko Romeo,images/SME/Iko Ziwa Africa Ltd _Kiko Romeo/,images/SME/Iko Ziwa Africa Ltd _Kiko Romeo/2.jpg
+28,8,1,½£ÂéÀº×Ó,Sisal baskets,0,Naskia ventures limited,images/SME/Naskia ventures limited/,images/SME/Naskia ventures limited/1.jpg
+29,9,1,Î§½í,Scarves,0,Union of handicraftsmen Kyrgyz Republic,images/SME/Union of handicraftsmen Kyrgyz Republic/,images/SME/Union of handicraftsmen Kyrgyz Republic/1.jpg
+30,9,2,¼Ò¾Ó×°ÊÎÆ·,Home decorations,0,Union of handicraftsmen Kyrgyz Republic,images/SME/Union of handicraftsmen Kyrgyz Republic/,images/SME/Union of handicraftsmen Kyrgyz Republic/2.jpg
+31,9,3,Íæ¾ß,Toys,0,Union of handicraftsmen Kyrgyz Republic,images/SME/Union of handicraftsmen Kyrgyz Republic/,images/SME/Union of handicraftsmen Kyrgyz Republic/3.jpg
+32,10,1,¾«ÓÍ£¨ÈÈ´øÏãÌÒÄ¾¾«ÓÍ¡¢ÌìóÃ¿û¾«ÓÍ¡¢Éú½ª¾«ÓÍ¡¢ Ravensara ¾«ÓÍ¡¢Äá°ÁÓÍ¡¢èñÊ÷¾«ÓÍ¡­¡­£©,"Essential oils (Ravintsara, Geranium, Ginger, Ravensara, Niaouli, Eucalyptus,¡­) ",0,MG SAKAY,images/SME/MG SAKAY/,images/SME/MG SAKAY/1.jpg
+33,10,2,Ö²ÎïÓÍ,Vegetal oils ,0,MG SAKAY,images/SME/MG SAKAY/,images/SME/MG SAKAY/2.jpg
+34,11,1,ÌÕ´ÉÖÆÆ·,Ceramic products,0,Dedza Pottery,images/SME/Dedza Pottery/,images/SME/Dedza Pottery/1.jpg
+35,11,2,¾ÆµêÂÃÓÎ·şÎñ,Hospitality/Tourism services,0,Dedza Pottery,images/SME/Dedza Pottery/,images/SME/Dedza Pottery/2.jpg
+36,12,1,°Ù·Ö°ÙÑòÃ«ÕëÖ¯·şÊÎ,"100% Cashmere knitted
+clothing",0,Sain tumen cashmere LLC,images/SME/Sain tumen cashmere LLC/,images/SME/Sain tumen cashmere LLC/1.jpg
+37,12,2,°Ù·Ö°ÙÑòÃ«ÕëÖ¯ÅäÊÎ,"100% Cashmere knitted
 accessories
-",0,"Sain tumen cashmere LLC","images/SME/Sain tumen cashmere LLC/","images/SME/Sain tumen cashmere LLC/2.jpg"
-38,13,"1","è§£å†³æ–¹æ¡ˆææ–™","Solution paints",0,"COLORADO","images/SME/COLORADO/","images/SME/COLORADO/1.jpg"
-39,13,"2","å»ºç­‘æ¶‚æ–™","Architectural paints",0,"COLORADO","images/SME/COLORADO/","images/SME/COLORADO/2.jpg"
-40,13,"3","å·¥ä¸šæ¶‚æ–™","Industrial paints",0,"COLORADO","images/SME/COLORADO/","images/SME/COLORADO/3.jpg"
-41,13,"4","æ±½è½¦ä¿®è¡¥æ¼†","Automotive car refinish",0,"COLORADO","images/SME/COLORADO/","images/SME/COLORADO/4.jpg"
-42,13,"5","æœ¨å™¨æ¼†","Wood paints",0,"COLORADO","images/SME/COLORADO/","images/SME/COLORADO/5.jpg"
-43,14,"1","é¢‚é’µ","Singing bowls",0,"BEST HIMALAYA EXPORT PVT LTD","images/SME/BEST HIMALAYA EXPORT PVT LTD/","images/SME/BEST HIMALAYA EXPORT PVT LTD/1.jpg"
-44,14,"2","æ¯›æ¯¡åˆ¶å“","Felt products",0,"BEST HIMALAYA EXPORT PVT LTD","images/SME/BEST HIMALAYA EXPORT PVT LTD/","images/SME/BEST HIMALAYA EXPORT PVT LTD/2.jpg"
-45,15,"1","æŠ«è‚©","Shawl",0,"Divya Pashmina Udyog","images/SME/Divya Pashmina Udyog/","images/SME/Divya Pashmina Udyog/1.jpg"
-46,15,"2","æ¯›è¡£","Sweater",0,"Divya Pashmina Udyog","images/SME/Divya Pashmina Udyog/","images/SME/Divya Pashmina Udyog/2.jpg"
-47,15,"3","å›´å·¾","Scarf",0,"Divya Pashmina Udyog","images/SME/Divya Pashmina Udyog/","images/SME/Divya Pashmina Udyog/3.jpg"
-48,15,"4","å¥³ç”¨æŠ«è‚©","Stoles",0,"Divya Pashmina Udyog","images/SME/Divya Pashmina Udyog/","images/SME/Divya Pashmina Udyog/4.jpg"
-49,15,"5","æ¯¯å­","Blankets",0,"Divya Pashmina Udyog","images/SME/Divya Pashmina Udyog/","images/SME/Divya Pashmina Udyog/5.jpg"
-50,15,"6","å¸½å­","Cap",0,"Divya Pashmina Udyog","images/SME/Divya Pashmina Udyog/","images/SME/Divya Pashmina Udyog/6.jpg"
-51,15,"7","æˆè¡£","Garments",0,"Divya Pashmina Udyog","images/SME/Divya Pashmina Udyog/","images/SME/Divya Pashmina Udyog/7.jpg"
-52,16,"1","é€‚ç”¨äºå©´å„¿å„¿ç«¥åŠæ¯äº²çš„å¤´å‘æŠ¤ç†äº§å“","Skin & Hair care for Baby, Kid, Mom.",0,"BEBEBALM, INC.","images/SME/BEBEBALM, INC/","images/SME/BEBEBALM, INC/1.jpg"
-53,16,"2","åº”å¯¹ç˜™ç—’çš„æ²¹","Oil for Itchy rash",0,"BEBEBALM, INC.","images/SME/BEBEBALM, INC/","images/SME/BEBEBALM, INC/2.jpg"
-54,16,"3","æœ‰åŠ©äºæ”¹å–„ç¡çœ ä»¥åŠç¼“è§£å‹åŠ›çš„ç²¾æ²¹","Sleep and stress essential oils",0,"BEBEBALM, INC.","images/SME/BEBEBALM, INC/","images/SME/BEBEBALM, INC/3.jpg"
-55,16,"4","æ´—å‘çš‚","Shampoo bar",0,"BEBEBALM, INC.","images/SME/BEBEBALM, INC/","images/SME/BEBEBALM, INC/4.jpg"
-56,16,"5","ç”¨äºå¿«é€Ÿç¼“è§£ç—‡çŠ¶çš„æ·±è‰²è–„è·è†","Deep mint rub for quick relief
+",0,Sain tumen cashmere LLC,images/SME/Sain tumen cashmere LLC/,images/SME/Sain tumen cashmere LLC/2.jpg
+38,13,1,½â¾ö·½°¸²ÄÁÏ,Solution paints,0,COLORADO,images/SME/COLORADO/,images/SME/COLORADO/1.jpg
+39,13,2,½¨ÖşÍ¿ÁÏ,Architectural paints,0,COLORADO,images/SME/COLORADO/,images/SME/COLORADO/2.jpg
+40,13,3,¹¤ÒµÍ¿ÁÏ,Industrial paints,0,COLORADO,images/SME/COLORADO/,images/SME/COLORADO/3.jpg
+41,13,4,Æû³µĞŞ²¹Æá,Automotive car refinish,0,COLORADO,images/SME/COLORADO/,images/SME/COLORADO/4.jpg
+42,13,5,Ä¾Æ÷Æá,Wood paints,0,COLORADO,images/SME/COLORADO/,images/SME/COLORADO/5.jpg
+43,14,1,ËÌ²§,Singing bowls,0,BEST HIMALAYA EXPORT PVT LTD,images/SME/BEST HIMALAYA EXPORT PVT LTD/,images/SME/BEST HIMALAYA EXPORT PVT LTD/1.jpg
+44,14,2,Ã«Õ±ÖÆÆ·,Felt products,0,BEST HIMALAYA EXPORT PVT LTD,images/SME/BEST HIMALAYA EXPORT PVT LTD/,images/SME/BEST HIMALAYA EXPORT PVT LTD/2.jpg
+45,15,1,Åû¼ç,Shawl,0,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/,images/SME/Divya Pashmina Udyog/1.jpg
+46,15,2,Ã«ÒÂ,Sweater,0,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/,images/SME/Divya Pashmina Udyog/2.jpg
+47,15,3,Î§½í,Scarf,0,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/,images/SME/Divya Pashmina Udyog/3.jpg
+48,15,4,Å®ÓÃÅû¼ç,Stoles,0,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/,images/SME/Divya Pashmina Udyog/4.jpg
+49,15,5,Ìº×Ó,Blankets,0,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/,images/SME/Divya Pashmina Udyog/5.jpg
+50,15,6,Ã±×Ó,Cap,0,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/,images/SME/Divya Pashmina Udyog/6.jpg
+51,15,7,³ÉÒÂ,Garments,0,Divya Pashmina Udyog,images/SME/Divya Pashmina Udyog/,images/SME/Divya Pashmina Udyog/7.jpg
+52,16,1,ÊÊÓÃÓÚÓ¤¶ù¶ùÍ¯¼°Ä¸Ç×µÄÍ··¢»¤Àí²úÆ·,"Skin & Hair care for Baby, Kid, Mom.",0,"BEBEBALM, INC.","images/SME/BEBEBALM, INC/","images/SME/BEBEBALM, INC/1.jpg"
+53,16,2,Ó¦¶ÔğşÑ÷µÄÓÍ,Oil for Itchy rash,0,"BEBEBALM, INC.","images/SME/BEBEBALM, INC/","images/SME/BEBEBALM, INC/2.jpg"
+54,16,3,ÓĞÖúÓÚ¸ÄÉÆË¯ÃßÒÔ¼°»º½âÑ¹Á¦µÄ¾«ÓÍ,Sleep and stress essential oils,0,"BEBEBALM, INC.","images/SME/BEBEBALM, INC/","images/SME/BEBEBALM, INC/3.jpg"
+55,16,4,Ï´·¢Ôí,Shampoo bar,0,"BEBEBALM, INC.","images/SME/BEBEBALM, INC/","images/SME/BEBEBALM, INC/4.jpg"
+56,16,5,ÓÃÓÚ¿ìËÙ»º½âÖ¢×´µÄÉîÉ«±¡ºÉ¸à,"Deep mint rub for quick relief
 ",0,"BEBEBALM, INC.","images/SME/BEBEBALM, INC/","images/SME/BEBEBALM, INC/5.jpg"
-57,17,"1","é‹å±¥","Footware",0,"MAYO trading company ltd","images/SME/MAYO trading company ltd/","images/SME/MAYO trading company ltd/1.jpg"
-58,17,"2","åŒ…è¢‹
-","Bags",0,"MAYO trading company ltd","images/SME/MAYO trading company ltd/","images/SME/MAYO trading company ltd/2.jpg"
-59,17,"3"," é’±åŒ…","Wallets",0,"MAYO trading company ltd","images/SME/MAYO trading company ltd/","images/SME/MAYO trading company ltd/3.jpg"
-60,17,"4","å­¦ç«¥é‹å±¥åŠçš®é©é…é¥°","School shoes&leather accessories",0,"MAYO trading company ltd","images/SME/MAYO trading company ltd/","images/SME/MAYO trading company ltd/4.jpg"
-61,18,"1","æ‰‹å·¥çš‚
-","Handmade soap",0,"The Empress Kingdom","images/SME/The Empress Kingdom/","images/SME/The Empress Kingdom/1.jpg"
-62,18,"2","ç³–èœ¡","Sugar wax",0,"The Empress Kingdom","images/SME/The Empress Kingdom/","images/SME/The Empress Kingdom/2.jpg"
-63,18,"3","èº«ä½“ç£¨ç ‚è†","Body scrubs",0,"The Empress Kingdom","images/SME/The Empress Kingdom/","images/SME/The Empress Kingdom/3.jpg"
-64,18,"4","é¦™æ°´æ²¹","Perfume oil",0,"The Empress Kingdom","images/SME/The Empress Kingdom/","images/SME/The Empress Kingdom/4.jpg"
-65,18,"5","æ¶¦å”‡è†","Lip balm",0,"The Empress Kingdom","images/SME/The Empress Kingdom/","images/SME/The Empress Kingdom/5.jpg"
-66,18,"6","æ²æµ´ç›","Bath soak",0,"The Empress Kingdom","images/SME/The Empress Kingdom/","images/SME/The Empress Kingdom/6.jpg"
-67,18,"7","å›ºä½“é¦™æ°´","Solid perfume",0,"The Empress Kingdom","images/SME/The Empress Kingdom/","images/SME/The Empress Kingdom/7.jpg"
-68,18,"8","ç²¾æ²¹","Essential oils",0,"The Empress Kingdom","images/SME/The Empress Kingdom/","images/SME/The Empress Kingdom/8.jpg"
-69,19,"1","åŒ–å¦†å“","Cosmetic",0,"El bochra company","images/SME/El bochra company/","images/SME/El bochra company/1.jpg"
-70,19,"2","  é£Ÿå“","Food ",0,"El bochra company","images/SME/El bochra company/","images/SME/El bochra company/2.jpg"
-71,20,"1","ç‰›è§’å·¥è‰ºå“","Cow horn crafts",0,"JOY HORN CRAFTS","images/SME/JOY HORN CRAFTS/","images/SME/JOY HORN CRAFTS/1.jpg"
-72,21,"1","æ‰‹å·¥åˆ¶ä½œçš„æŠ¤è‚¤é¦™çš‚","Handmade skincare soaps",0,"NANA Naturals","images/SME/NANA naturals/","images/SME/NANA naturals/1.jpg"
-73,21,"2","æ‰‹å·¥åˆ¶ä½œçš„æŠ¤è‚¤ç²¾æ²¹","Handmade skincare oils",0,"NANA Naturals","images/SME/NANA naturals/","images/SME/NANA naturals/2.jpg"
-74,21,"3","é»„æ²¹","Butters",0,"NANA Naturals","images/SME/NANA naturals/","images/SME/NANA naturals/3.jpg"
-75,21,"4","ç£¨ç ‚è†","Scrubs",0,"NANA Naturals","images/SME/NANA naturals/","images/SME/NANA naturals/4.jpg"
-76,22,"1","æ¤°å­ç²¾å","Coconut serum",0,"Mekong Coconut Oil Company Limited","images/SME/Mekong Coconut Oil Company Limited/","images/SME/Mekong Coconut Oil Company Limited/1.jpg"
-77,22,"2","
-æ¤°å­æŠ¤å‘ç²¾åæ¶²","Coconut hair serum",0,"Mekong Coconut Oil Company Limited","images/SME/Mekong Coconut Oil Company Limited/","images/SME/Mekong Coconut Oil Company Limited/2.jpg"
-78,23,"1","æ‰‹å·¥ä¸²ç è€³é¥°","Handbeaded earrings",0,"Authentic Crafts Limited (Namayo jewellery brand name)","images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/","images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/1.jpg"
-79,23,"2","æˆ’æŒ‡","Rings",0,"Authentic Crafts Limited (Namayo jewellery brand name)","images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/","images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/2.jpg"
-80,23,"3","
-é¡¹é“¾","Necklaces",0,"Authentic Crafts Limited (Namayo jewellery brand name)","images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/","images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/3.jpg"
-81,24,"1","é‡å¤–æ¢é™©","Wilderness Safaris",0,"Eana Safari Travel","images/SME/Eana Safari Travel/","images/SME/Eana Safari Travel/1.jpg"
-82,24,"2","é’»çŸ³ä¹‹æ—…","Diamond Tourism",0,"Eana Safari Travel","images/SME/Eana Safari Travel/","images/SME/Eana Safari Travel/2.jpg"
-83,24,"3","åšèŒ¨ç“¦çº³é‚®ç¥¨","Botswana Postage Stamps",0,"Eana Safari Travel","images/SME/Eana Safari Travel/","images/SME/Eana Safari Travel/3.jpg"
-84,25,"1","å†œä¸šæœåŠ¡","Agricultural services",0,"Lebone Enterprise Development Agency","images/SME/Lebone Enterprise Development Agency/","images/SME/Lebone Enterprise Development Agency/1.jpg"
-85,26,"1","æ—…æ¸¸è½¯ä»¶","Travada",0,"APP COMPANY LIMITED","images/SME/APP COMPANY LIMITED/","images/SME/APP COMPANY LIMITED/1.jpg"
-86,26,"2","æ•°å­—é”€å”®å¹³å°","Mindsmend ",0,"APP COMPANY LIMITED","images/SME/APP COMPANY LIMITED/","images/SME/APP COMPANY LIMITED/2.jpg"
-87,27,"1","æœ¨è–¯/æ ‘è–¯","Cassava/ manioc",0,"GBNM SystÃ¨mes Marketing Digital","images/SME/GBNM SystÃ¨mes Marketing Digital/","images/SME/GBNM SystÃ¨mes Marketing Digital/1.jpg"
-88,27,"2","è‰ºæœ¯äº§å“","Artistic products ",0,"GBNM SystÃ¨mes Marketing Digital","images/SME/GBNM SystÃ¨mes Marketing Digital/","images/SME/GBNM SystÃ¨mes Marketing Digital/2.jpg"
-89,28,"1","å›½é™…é‡‡è´­ä¸ç‰©æµ","International Procurement & Logistics",0,"Mar y Comercio","images/SME/Mar y Comercio/","images/SME/Mar y Comercio/1.jpg"
-90,29,"1","æä¾›ç«¯åˆ°ç«¯çš„ç»¼åˆæŠ€æœ¯è§£å†³æ–¹æ¡ˆçš„ä¸“å®¶ï¼šä»æ•°å­—åŒ–åˆ°ç»Ÿä¸€é€šä¿¡ã€ITç®¡ç†ã€ç½‘ç»œå®‰å…¨ã€SaaS/ PaaS/ MSPè§£å†³æ–¹æ¡ˆå’ŒITå¤–åŒ…ã€‚","Experts in delivering endâ€‘toâ€‘end, integrated tech solutions: from transformation digital to unified communications, IT management, cybersecurity, SaaS/PaaS/MSP solutions and IT outsourcing. ",0,"KYRIOS CONSULTING INTEGRADORES TECNOLOGICOS KYRIOSCONS S.A","images/SME/KYRIOS/","images/SME/KYRIOS/1.jpg"
-91,30,"1","å¿ è¯šåº¦é¡¹ç›®","Loyalty programs ",0,"Promotick","images/SME/Promotick/","images/SME/Promotick/1.jpg"
-92,30,"2","æ¿€åŠ±å¹³å°","Incentive platforms ",0,"Promotick","images/SME/Promotick/","images/SME/Promotick/2.jpg"
-93,30,"3","å…¨çƒé‡‡è´­æœåŠ¡","Global sourcing service",0,"Promotick","images/SME/Promotick/","images/SME/Promotick/3.jpg"
-94,31,"1","å¥³æ€§æ»‘æ¿è½¦ & è‡ªè¡Œè½¦åŸ¹è®­","Women' scooter & bicycle training ",0,"Dosy","images/SME/Dosy/","images/SME/Dosy/1.jpg"
-95,31,"2","ç¯ä¿æœåŠ¡","Eco-friendly services ",0,"Dosy","images/SME/Dosy/","images/SME/Dosy/2.jpg"
-96,32,"1","ä¼˜è´¨æœ‰æœºå’–å•¡","Premium organic coffee ",0,"Grupo GurÃºs S.","images/SME/Grupo GurÃºs S/","images/SME/Grupo GurÃºs S/1.jpg"
-97,32,"2","ä¼˜è´¨æœ‰æœºå·§å…‹åŠ›","Fine organic chocolate ",0,"Grupo GurÃºs S.","images/SME/Grupo GurÃºs S/","images/SME/Grupo GurÃºs S/2.jpg"
-98,32,"3","æ­£å®—æ‰‹å·¥çººç»‡å“","Authentic handcrafted textiles",0,"Grupo GurÃºs S.","images/SME/Grupo GurÃºs S/","images/SME/Grupo GurÃºs S/3.jpg"
-99,32,"4","ç‰¹äº§å·¥è‰ºå¨ƒå¨ƒ","Unique artisan dolls ",0,"Grupo GurÃºs S.","images/SME/Grupo GurÃºs S/","images/SME/Grupo GurÃºs S/4.jpg"
-100,33,"1","èåˆäº†AIé©±åŠ¨çš„NDVIä¸NDWIçš„å«æ˜Ÿä½œç‰©è¯Šæ–­","Satellite-based crop diagnostics with AI-driven NDVI &NDWI insights",0,"Rootskart","images/SME/Rootskart/","images/SME/Rootskart/1.jpg"
-101,34,"1","æ•°å­—åŒ–æ•™è‚²é€šè¡ŒæœåŠ¡ â€”â€” æ¶µç›–å…¨çƒå‡å­¦ä¸äº¤æµçš„ä¸€ç«™å¼å¹³å°","Digital education mobility services - university admission, exchange programmes
-",0,"Exchange Programmes","images/SME/Exchange Programmes/","images/SME/Exchange Programmes/1.jpg"
-102,35,"1","å¯¼æ¸¸&é‡ç”Ÿè§‚å…‰","Tours & Safaris ",0,"ASARAY TOURS LTD","images/SME/ASARAY TOURS LTD/","images/SME/ASARAY TOURS LTD/1.jpg"
-103,36,"1","è´¸æ˜“ç§‘æŠ€è§£å†³æ–¹æ¡ˆ","TradeTech Solutions",0,"VersaTech Global Solutions Ltd","images/SME/VersaTech Global Solutions Ltd/","images/SME/VersaTech Global Solutions Ltd/1.jpg"
-104,37,"1","äººåŠ›èµ„æºç®¡ç†ä¸å¤–åŒ…æœåŠ¡","Manpower management & outsourcing services",1,"ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD","images/SME/ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD/","images/SME/ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD/1.jpg"
-105,38,"1","ç”±ç¤¾åŒºä¸»å¯¼çš„æ¢å¤é¡¹ç›®æ‰€äº§ç”Ÿçš„å”®å‰ç¢³ä¿¡ç”¨é¢åº¦","Pre-sale carbon credits from community-led restoration projects",1,"Sustainable Farming Solutions","images/SME/Sustainable Farming Solutions/","images/SME/Sustainable Farming Solutions/1.jpg"
-106,39,"1","æˆ˜ç•¥å“ç‰Œç®¡ç†","Strategic brand management",0,"Sphere Media Technologies Co Ltd","images/SME/Sphere Media Technologies Co Ltd/","images/SME/Sphere Media Technologies Co Ltd/1.jpg"
-107,39,"2","æ•°å­—è¥é”€","Digital marketing",0,"Sphere Media Technologies Co Ltd","images/SME/Sphere Media Technologies Co Ltd/","images/SME/Sphere Media Technologies Co Ltd/2.jpg"
-108,39,"3","æŠ€æœ¯è§£å†³æ–¹æ¡ˆ","Technology solutions",0,"Sphere Media Technologies Co Ltd","images/SME/Sphere Media Technologies Co Ltd/","images/SME/Sphere Media Technologies Co Ltd/3.jpg"
-109,39,"4","å†…å®¹åˆ›ä½œ","Content creation",0,"Sphere Media Technologies Co Ltd","images/SME/Sphere Media Technologies Co Ltd/","images/SME/Sphere Media Technologies Co Ltd/4.jpg"
-110,40,"1","å¢¨è¥¿å“¥çš„æŠ•èµ„ä¸è´¸æ˜“åˆè§„æƒ…å†µï¼Œä¸ºå›½é™…ä¸šåŠ¡é¡¹ç›®æä¾›è®¾è®¡ä¸æ”¯æŒï¼Œä¿ƒé”€ã€å…¬å…±åŠä¼ä¸šäº‹åŠ¡","Investment and trade compliance in Mexico, provides design and support for international business projects, promotion, public and corporate affairs",0,"Business Facilitation and Trading Mexico","images/SME/Business Facilitation and Trading Mexico/","images/SME/Business Facilitation and Trading Mexico/1.jpg"
-111,41,"1","å®šåˆ¶åœ°æ¯¯è®¾è®¡è½¯ä»¶","Custom carpet design software",0,"Alternative Technology Pvt Ltd","images/SME/Alternative Technology Pvt Ltd/","images/SME/Alternative Technology Pvt Ltd/1.jpg"
-112,42,"1","äº§å“å¼€å‘æœåŠ¡","Product development services",0,"ClassNotes SMC-Private Limited","images/SME/ClassNotes SMC-Private Limited/","images/SME/ClassNotes SMC-Private Limited/1.jpg"
-113,42,"2","è½¯ä»¶å¼€å‘æœåŠ¡","Software development services",0,"ClassNotes SMC-Private Limited","images/SME/ClassNotes SMC-Private Limited/","images/SME/ClassNotes SMC-Private Limited/2.jpg"
-114,42,"3"," åˆ›ä¸šå’¨è¯¢","Entrepreneurship consultation",0,"ClassNotes SMC-Private Limited","images/SME/ClassNotes SMC-Private Limited/","images/SME/ClassNotes SMC-Private Limited/3.jpg"
-115,43,"1","å…¨éƒ¨ 2D åŠ¨ç”»æœåŠ¡","All 2D animation services",1,"Emottoons Animation and Gadgets Shop","images/SME/Emottoons Animation and Gadgets Shop/","images/SME/Emottoons Animation and Gadgets Shop/1.jpg"
-116,44,"1","é£Ÿå“ä¸æœ‰æœºåºŸå¼ƒç‰©ç®¡ç†æ•™è‚²åŠå’¨è¯¢æœåŠ¡","Food & organic waste management education and consultancy",1,"Siel Environmental Services Limited","images/SME/Siel Environmental Services Limited/","images/SME/Siel Environmental Services Limited/1.jpg"
-117,45,"1","å¿ƒç†è¾…å¯¼ä¸å’¨è¯¢è¯¾ç¨‹","Psychological and couching sessions",1,"IE ""Ganatly Mekan""","images/SME/IE Ganatly Mekan/","images/SME/IE Ganatly Mekan/1.jpg"
-118,46,"1","è½¯ä»¶å¼€å‘ä¸å’¨è¯¢æœåŠ¡","Software development & consultancy",0,"Sumic IT Solutions Ltd.","images/SME/Sumic IT Solutions Ltd/","images/SME/Sumic IT Solutions Ltd/1.jpg"
-119,46,"2","ç§»åŠ¨åº”ç”¨å¼€å‘","Mobile application development",0,"Sumic IT Solutions Ltd.","images/SME/Sumic IT Solutions Ltd/","images/SME/Sumic IT Solutions Ltd/2.jpg"
-120,46,"3"," ç½‘ç«™è®¾è®¡ä¸å¼€å‘","Website design and development",0,"Sumic IT Solutions Ltd.","images/SME/Sumic IT Solutions Ltd/","images/SME/Sumic IT Solutions Ltd/3.jpg"
-121,46,"4","  ç”µå­å•†åŠ¡è§£å†³æ–¹æ¡ˆ","E-commerce solutions",0,"Sumic IT Solutions Ltd.","images/SME/Sumic IT Solutions Ltd/","images/SME/Sumic IT Solutions Ltd/4.jpg"
-122,46,"5","æ•°å­—è¥é”€","Digital marketing ",0,"Sumic IT Solutions Ltd.","images/SME/Sumic IT Solutions Ltd/","images/SME/Sumic IT Solutions Ltd/5.jpg"
-123,46,"6"," ITåŸ¹è®­","IT trainings",0,"Sumic IT Solutions Ltd.","images/SME/Sumic IT Solutions Ltd/","images/SME/Sumic IT Solutions Ltd/6.jpg"
-124,47,"1","åŸ¹è®­","Training",0,"Food Elimu Africa","images/SME/Food Elimu Africa/","images/SME/Food Elimu Africa/1.jpg"
-125,47,"2","ISOå®æ–½","ISO implementation",0,"Food Elimu Africa","images/SME/Food Elimu Africa/","images/SME/Food Elimu Africa/2.jpg"
-126,47,"3"," è®¤è¯å®¡è®¡","Certification auditing",0,"Food Elimu Africa","images/SME/Food Elimu Africa/","images/SME/Food Elimu Africa/3.jpg"
-127,48,"1","æŸ‘æ©˜ç±»æ°´æœï¼šæ©™å­ã€è‘¡è„æŸšã€æŸ æª¬ã€é’æŸ ","Citrus fruits: orange. nartjies, lemons, lime",0,"Forestry & Citrus Research","images/SME/Forestry & Citrus Research/","images/SME/Forestry & Citrus Research/1.jpg"
-128,48,"2","é€šè¿‡â€œplant masterâ€åº”ç”¨è·å–ç¢³ç§¯åˆ†","Access to carbon credits through â€œplant masterâ€ app",0,"Forestry & Citrus Research","images/SME/Forestry & Citrus Research/","images/SME/Forestry & Citrus Research/2.jpg"
-129,49,"1","å“ˆæ–¯é³„æ¢¨","Hass avocados",0,"GREEN NATURAL COMPANY LTD","images/SME/GREEN NATURAL COMPANY LTD/","images/SME/GREEN NATURAL COMPANY LTD/1.jpg"
-130,49,"2","ç»¿è‰²å†·å†»å»çš®é¦™è•‰     ","Green flozen babanas",0,"GREEN NATURAL COMPANY LTD","images/SME/GREEN NATURAL COMPANY LTD/","images/SME/GREEN NATURAL COMPANY LTD/2.jpg"
-131,49,"3","æ°´æœ","Fruits",0,"GREEN NATURAL COMPANY LTD","images/SME/GREEN NATURAL COMPANY LTD/","images/SME/GREEN NATURAL COMPANY LTD/3.jpg"
-132,50,"1","è±†ç±»","Beans",0,"MAZINGWA INVESTMENT","images/SME/MAZINGWA INVESTMENT/","images/SME/MAZINGWA INVESTMENT/1.jpg"
-133,50,"2","ç‰ç±³ç²‰","Maize flour",0,"MAZINGWA INVESTMENT","images/SME/MAZINGWA INVESTMENT/","images/SME/MAZINGWA INVESTMENT/2.jpg"
-134,50,"3","å¤§è±†ç²‰","Soy flour",0,"MAZINGWA INVESTMENT","images/SME/MAZINGWA INVESTMENT/","images/SME/MAZINGWA INVESTMENT/3.jpg"
-135,51,"1","å“ˆæ–¯é³„æ¢¨","Hass avocado",0,"Trade Legacy Burundi","images/SME/Trade Legacy Burundi/","images/SME/Trade Legacy Burundi/1.jpg"
-136,51,"2","é³„æ¢¨æ²¹ï¼ˆå†·æ¦¨ï¼‰","Avocado oil (cold-pressed)",0,"Trade Legacy Burundi","images/SME/Trade Legacy Burundi/","images/SME/Trade Legacy Burundi/2.jpg"
-137,51,"3","å¤§è±†ï¼ˆéè½¬åŸºå› ï¼‰","Soybeans (Non-GMO)",0,"Trade Legacy Burundi","images/SME/Trade Legacy Burundi/","images/SME/Trade Legacy Burundi/3.jpg"
-138,51,"4","è¾£æ¤’ï¼ˆé²œæˆ–å¹²ï¼‰","Chili (fresh or dried)",0,"Trade Legacy Burundi","images/SME/Trade Legacy Burundi/","images/SME/Trade Legacy Burundi/4.jpg"
-139,52,"1","è…°æœä»ï¼ˆW210ï¼ŒW240ï¼ŒW320ï¼ŒW450ç­‰çº§ï¼‰","Cashew kernel(W210, W240, W320, W450)",0,"Smiling Coast Agro Processing Company Limited","images/SME/Smiling Coast Agro Processing Company Limited/","images/SME/Smiling Coast Agro Processing Company Limited/1.jpg"
-140,52,"2","åŠç“£ä»","Splits",0,"Smiling Coast Agro Processing Company Limited","images/SME/Smiling Coast Agro Processing Company Limited/","images/SME/Smiling Coast Agro Processing Company Limited/2.jpg"
-141,52,"3","åŸºéƒ¨ä»","Butts",0,"Smiling Coast Agro Processing Company Limited","images/SME/Smiling Coast Agro Processing Company Limited/","images/SME/Smiling Coast Agro Processing Company Limited/3.jpg"
-142,52,"4","è½»çš®ä»","LWP",0,"Smiling Coast Agro Processing Company Limited","images/SME/Smiling Coast Agro Processing Company Limited/","images/SME/Smiling Coast Agro Processing Company Limited/4.jpg"
-143,52,"5","æ‰«çš®ä»","SWP",0,"Smiling Coast Agro Processing Company Limited","images/SME/Smiling Coast Agro Processing Company Limited/","images/SME/Smiling Coast Agro Processing Company Limited/5.jpg"
-144,52,"6","è…°æœé…±","Cashew paste",0,"Smiling Coast Agro Processing Company Limited","images/SME/Smiling Coast Agro Processing Company Limited/","images/SME/Smiling Coast Agro Processing Company Limited/6.jpg"
-145,53,"1","åŸèœœ","Raw honey",0,"Sustainable Development Africa Trading and Innovation","images/SME/Sustainable Development Africa Trading and Innovation/","images/SME/Sustainable Development Africa Trading and Innovation/1.jpg"
-146,53,"2","æœªç»ç²¾ç‚¼çš„ä¹³æœ¨æœæ²¹","Unrefined shea butter",0,"Sustainable Development Africa Trading and Innovation","images/SME/Sustainable Development Africa Trading and Innovation/","images/SME/Sustainable Development Africa Trading and Innovation/2.jpg"
-147,53,"3","çƒ¤èŠ±ç”Ÿ","Roasted peanuts",0,"Sustainable Development Africa Trading and Innovation","images/SME/Sustainable Development Africa Trading and Innovation/","images/SME/Sustainable Development Africa Trading and Innovation/3.jpg"
-148,54,"1","é¦™æ–™","Spices",0,"PHAEL FLOR EXPORT","images/SME/PHAEL FLOR EXPORT/","images/SME/PHAEL FLOR EXPORT/1.jpg"
-149,54,"2","ç²¾æ²¹","Essential oils",0,"PHAEL FLOR EXPORT","images/SME/PHAEL FLOR EXPORT/","images/SME/PHAEL FLOR EXPORT/2.jpg"
-150,54,"3","é¦™è‰äºŒæ°§åŒ–ç¢³èƒå–ç‰©","Vanilla CO2 extracts",0,"PHAEL FLOR EXPORT","images/SME/PHAEL FLOR EXPORT/","images/SME/PHAEL FLOR EXPORT/3.jpg"
-151,55,"1","å†œä¸šç§‘æŠ€å¹³å°","Agritech platform",0,"Agrosell, Lda","images/SME/Agrosell, Lda/","images/SME/Agrosell, Lda/1.jpg"
-152,56,"1","å’–å•¡","Coffee",0,"TIGGER CUSTOM co. & ARRA KAFEI SENEGAL","images/SME/TIGGER CUSTOM/","images/SME/TIGGER CUSTOM/1.jpg"
-153,56,"2","ä¹³æœ¨æœæ²¹","Shea butter",0,"TIGGER CUSTOM co. & ARRA KAFEI SENEGAL","images/SME/TIGGER CUSTOM/","images/SME/TIGGER CUSTOM/2.jpg"
-154,57,"1","å°¼ç½—æ²³ä¹³æœ¨æœæ²¹","Nilotica shea butter",0,"Urban South Group","images/SME/Urban South Group/","images/SME/Urban South Group/1.jpg"
-155,57,"2","å¤©ç„¶èœ‚èœœ","Natural honey",0,"Urban South Group","images/SME/Urban South Group/","images/SME/Urban South Group/2.jpg"
-156,57,"3","é˜¿æ‹‰ä¼¯èƒ¶","Gum arabic",0,"Urban South Group","images/SME/Urban South Group/","images/SME/Urban South Group/3.jpg"
-157,57,"4","éæ´²å¡å®´è¾£æ¤’","African cayenne peppers",0,"Urban South Group","images/SME/Urban South Group/","images/SME/Urban South Group/4.jpg"
-158,57,"5","åˆ©é©¬è±†/æ£‰è±†"," Lima beans",0,"Urban South Group","images/SME/Urban South Group/","images/SME/Urban South Group/5.jpg"
-159,57,"6","ç­å·´æ‹‰è±†","Bambara nuts",0,"Urban South Group","images/SME/Urban South Group/","images/SME/Urban South Group/6.jpg"
-160,58,"1","ç»¿å’–å•¡è±†","Green coffee beans",0,"Bayaaya specialty coffee ltd","images/SME/Bayaaya specialty coffee ltd/","images/SME/Bayaaya specialty coffee ltd/1.jpg"
-161,58,"2","çƒ˜ç„™å’–å•¡è±†/ç†Ÿå’–å•¡è±†","Roasted coffee beans",0,"Bayaaya specialty coffee ltd","images/SME/Bayaaya specialty coffee ltd/","images/SME/Bayaaya specialty coffee ltd/2.jpg"
-162,58,"3","ç ”ç£¨å’–å•¡ç²‰","Ground coffee",0,"Bayaaya specialty coffee ltd","images/SME/Bayaaya specialty coffee ltd/","images/SME/Bayaaya specialty coffee ltd/3.jpg"
-163,59,"1","æ–°é²œé³„æ¢¨/ç‰›æ²¹æœ","Fresh avocado",0,"GBRI BUSINESS SOLUTIONS COMPANY LIMITED","images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/","images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/1.jpg"
-164,59,"2","é³„æ¢¨æ²¹/ç‰›æ²¹æœæ²¹","Avocado oil ",0,"GBRI BUSINESS SOLUTIONS COMPANY LIMITED","images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/","images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/2.jpg"
-165,60,"1","è…°æœä»","Cashew nut kernels",0,"AFRITECH GREENCROPS GROUPï¼ˆTANZANIAï¼‰Co.,LTD","images/SME/AFRITECH GREENCROPS GROUP TANZANIA Co.,LTD/","images/SME/AFRITECH GREENCROPS GROUP TANZANIA Co.,LTD/1.jpg"
-166,61,"1","å¹²ç«ç‘°","Dry rose",0,"Ansari Wahid Group of Companies","images/SME/Ansari Wahid Group of Companies/","images/SME/Ansari Wahid Group of Companies/1.jpg"
-167,61,"2","è‹¦æä»","Bitter almond",0,"Ansari Wahid Group of Companies","images/SME/Ansari Wahid Group of Companies/","images/SME/Ansari Wahid Group of Companies/2.jpg"
-168,61,"3","ç²¾æ²¹","Essential oil",0,"Ansari Wahid Group of Companies","images/SME/Ansari Wahid Group of Companies/","images/SME/Ansari Wahid Group of Companies/3.jpg"
-169,62,"1","å¹²æœ","Dry fruits",0,"Kamran Shafi Group of companies","images/SME/Kamran Shafi Group of companies/","images/SME/Kamran Shafi Group of companies/1.jpg"
-170,63,"1","é»‘/ç™½èŠéº»ç±½","Black/White sesame seeds",0,"Agroexportaciones del Sur S.R.L.","images/SME/Agroexportaciones del Sur S.R.L/","images/SME/Agroexportaciones del Sur S.R.L/1.jpg"
-171,63,"2","é»‘/ç™½å¥‡äºšç±½","Black/White Chia seeds",0,"Agroexportaciones del Sur S.R.L.","images/SME/Agroexportaciones del Sur S.R.L/","images/SME/Agroexportaciones del Sur S.R.L/2.jpg"
-172,63,"3","è—œéº¦","Quinoa",0,"Agroexportaciones del Sur S.R.L.","images/SME/Agroexportaciones del Sur S.R.L/","images/SME/Agroexportaciones del Sur S.R.L/3.jpg"
-173,63,"4","è±†ç±»","Beans",0,"Agroexportaciones del Sur S.R.L.","images/SME/Agroexportaciones del Sur S.R.L/","images/SME/Agroexportaciones del Sur S.R.L/4.jpg"
-174,63,"5","èŠ±ç”Ÿ","Peanuts",0,"Agroexportaciones del Sur S.R.L.","images/SME/Agroexportaciones del Sur S.R.L/","images/SME/Agroexportaciones del Sur S.R.L/5.jpg"
-175,64,"1","è°ƒå‘³é…±","Award-winning sauces",0,"Macentyrer Investments T/A Maungo Craft","images/SME/Macentyrer Investments TA Maungo Craft/","images/SME/Macentyrer Investments TA Maungo Craft/1.jpg"
-176,64,"2","ç³–æµ†å‰‚","Syrups",0,"Macentyrer Investments T/A Maungo Craft","images/SME/Macentyrer Investments TA Maungo Craft/","images/SME/Macentyrer Investments TA Maungo Craft/2.jpg"
-177,64,"3","æœé…±","Jams",0,"Macentyrer Investments T/A Maungo Craft","images/SME/Macentyrer Investments TA Maungo Craft/","images/SME/Macentyrer Investments TA Maungo Craft/3.jpg"
-178,64,"4","é¥®æ–™","Juice",0,"Macentyrer Investments T/A Maungo Craft","images/SME/Macentyrer Investments TA Maungo Craft/","images/SME/Macentyrer Investments TA Maungo Craft/4.jpg"
-179,64,"5","èŒ¶å¶","Tea",0,"Macentyrer Investments T/A Maungo Craft","images/SME/Macentyrer Investments TA Maungo Craft/","images/SME/Macentyrer Investments TA Maungo Craft/5.jpg"
-180,65,"1","æ–°é²œå§œé»„","Fresh turmeric",0,"FalusÃ¡n CÃ­a Ltda","images/SME/FalusÃ¡n CÃ­a Ltda/","images/SME/FalusÃ¡n CÃ­a Ltda/1.jpg"
-181,65,"2","ç”Ÿå§œ","Fresh ginger",0,"FalusÃ¡n CÃ­a Ltda","images/SME/FalusÃ¡n CÃ­a Ltda/","images/SME/FalusÃ¡n CÃ­a Ltda/2.jpg"
-182,65,"3","åŠŸèƒ½æ€§é¥®æ–™","Functional beverage",0,"FalusÃ¡n CÃ­a Ltda","images/SME/FalusÃ¡n CÃ­a Ltda/","images/SME/FalusÃ¡n CÃ­a Ltda/3.jpg"
-183,65,"4","æµ¸å‰‚ä¸èŒ¶é¥®","Infusions & Teas",0,"FalusÃ¡n CÃ­a Ltda","images/SME/FalusÃ¡n CÃ­a Ltda/","images/SME/FalusÃ¡n CÃ­a Ltda/4.jpg"
-184,65,"5","ç²‰æœ«çŠ¶è¶…çº§é£Ÿå“","Powdered superfoods",0,"FalusÃ¡n CÃ­a Ltda","images/SME/FalusÃ¡n CÃ­a Ltda/","images/SME/FalusÃ¡n CÃ­a Ltda/5.jpg"
-185,65,"6","ç”Ÿå·§å…‹åŠ›","Raw chocolate",0,"FalusÃ¡n CÃ­a Ltda","images/SME/FalusÃ¡n CÃ­a Ltda/","images/SME/FalusÃ¡n CÃ­a Ltda/6.jpg"
-186,65,"7","å¯å¯ç²‰","Cocoa powder",0,"FalusÃ¡n CÃ­a Ltda","images/SME/FalusÃ¡n CÃ­a Ltda/","images/SME/FalusÃ¡n CÃ­a Ltda/7.jpg"
-187,65,"8","å¹²æœ  ","Dried fruits",0,"FalusÃ¡n CÃ­a Ltda","images/SME/FalusÃ¡n CÃ­a Ltda/","images/SME/FalusÃ¡n CÃ­a Ltda/8.jpg"
-188,65,"9","é¢„æ··æ–™","Premixes",0,"FalusÃ¡n CÃ­a Ltda","images/SME/FalusÃ¡n CÃ­a Ltda/","images/SME/FalusÃ¡n CÃ­a Ltda/9.jpg"
-189,66,"1","NFCé¥®æ–™","NFC Juice",0,"FL PROCESADOS DEL ECUADOR SA","images/SME/FL PROCESADOS DEL ECUADOR SA/","images/SME/FL PROCESADOS DEL ECUADOR SA/1.jpg"
-190,66,"2","æµ“ç¼©æœæ±","Fruit concentrate",0,"FL PROCESADOS DEL ECUADOR SA","images/SME/FL PROCESADOS DEL ECUADOR SA/","images/SME/FL PROCESADOS DEL ECUADOR SA/2.jpg"
-191,66,"3","å¹²æœ","Dried fruit ",0,"FL PROCESADOS DEL ECUADOR SA","images/SME/FL PROCESADOS DEL ECUADOR SA/","images/SME/FL PROCESADOS DEL ECUADOR SA/3.jpg"
-192,67,"1","å†·å†»æœæ³¥","Frozen pulps",0,"Healthy Food Marcalman Ecuador SAS","images/SME/Healthy Food Marcalman Ecuador SAS/","images/SME/Healthy Food Marcalman Ecuador SAS/1.jpg"
-193,67,"2","è°ƒå‘³é…±","Sauces",0,"Healthy Food Marcalman Ecuador SAS","images/SME/Healthy Food Marcalman Ecuador SAS/","images/SME/Healthy Food Marcalman Ecuador SAS/2.jpg"
-194,67,"3","æœé…±","Jams",0,"Healthy Food Marcalman Ecuador SAS","images/SME/Healthy Food Marcalman Ecuador SAS/","images/SME/Healthy Food Marcalman Ecuador SAS/3.jpg"
-195,67,"4","ç³–æµ†å‰‚","Syrups",0,"Healthy Food Marcalman Ecuador SAS","images/SME/Healthy Food Marcalman Ecuador SAS/","images/SME/Healthy Food Marcalman Ecuador SAS/4.jpg"
-196,67,"5","æµ‡æ–™","Toppings",0,"Healthy Food Marcalman Ecuador SAS","images/SME/Healthy Food Marcalman Ecuador SAS/","images/SME/Healthy Food Marcalman Ecuador SAS/5.jpg"
-197,68,"1","å¤§ç±³","Rice",0,"Rehana","images/SME/Rehana/","images/SME/Rehana/1.jpg"
-198,68,"2","ç³–","Sugar",0,"Rehana","images/SME/Rehana/","images/SME/Rehana/2.jpg"
-199,68,"3","é¢ç²‰","Flour",0,"Rehana","images/SME/Rehana/","images/SME/Rehana/3.jpg"
-200,68,"4","è±†ç±»","Legumes",0,"Rehana","images/SME/Rehana/","images/SME/Rehana/4.jpg"
-201,68,"5","è°ƒå‘³æ–™","Spices",0,"Rehana","images/SME/Rehana/","images/SME/Rehana/5.jpg"
-202,68,"6","é£Ÿç”¨æ²¹","Edible oils",0,"Rehana","images/SME/Rehana/","images/SME/Rehana/6.jpg"
-203,68,"7","é†‹","Vinegar",0,"Rehana","images/SME/Rehana/","images/SME/Rehana/7.jpg"
-204,69,"1","å†·å†»å…»æ®–å‡¡çº³æ»¨å¯¹è™¾ï¼ˆå—ç¾ç™½å¯¹è™¾ï¼‰","Frozen farmed Penaeus Vannamei shrimpâ€‹",0,"Camarones del Sur S.A. de C.V.
+57,17,1,Ğ¬ÂÄ,Footware,0,MAYO trading company ltd,images/SME/MAYO trading company ltd/,images/SME/MAYO trading company ltd/1.jpg
+58,17,2,"°ü´ü
+",Bags,0,MAYO trading company ltd,images/SME/MAYO trading company ltd/,images/SME/MAYO trading company ltd/2.jpg
+59,17,3, Ç®°ü,Wallets,0,MAYO trading company ltd,images/SME/MAYO trading company ltd/,images/SME/MAYO trading company ltd/3.jpg
+60,17,4,Ñ§Í¯Ğ¬ÂÄ¼°Æ¤¸ïÅäÊÎ,School shoes&leather accessories,0,MAYO trading company ltd,images/SME/MAYO trading company ltd/,images/SME/MAYO trading company ltd/4.jpg
+61,18,1,"ÊÖ¹¤Ôí
+",Handmade soap,0,The Empress Kingdom,images/SME/The Empress Kingdom/,images/SME/The Empress Kingdom/1.jpg
+62,18,2,ÌÇÀ¯,Sugar wax,0,The Empress Kingdom,images/SME/The Empress Kingdom/,images/SME/The Empress Kingdom/2.jpg
+63,18,3,ÉíÌåÄ¥É°¸à,Body scrubs,0,The Empress Kingdom,images/SME/The Empress Kingdom/,images/SME/The Empress Kingdom/3.jpg
+64,18,4,ÏãË®ÓÍ,Perfume oil,0,The Empress Kingdom,images/SME/The Empress Kingdom/,images/SME/The Empress Kingdom/4.jpg
+65,18,5,Èó´½¸à,Lip balm,0,The Empress Kingdom,images/SME/The Empress Kingdom/,images/SME/The Empress Kingdom/5.jpg
+66,18,6,ãåÔ¡ÑÎ,Bath soak,0,The Empress Kingdom,images/SME/The Empress Kingdom/,images/SME/The Empress Kingdom/6.jpg
+67,18,7,¹ÌÌåÏãË®,Solid perfume,0,The Empress Kingdom,images/SME/The Empress Kingdom/,images/SME/The Empress Kingdom/7.jpg
+68,18,8,¾«ÓÍ,Essential oils,0,The Empress Kingdom,images/SME/The Empress Kingdom/,images/SME/The Empress Kingdom/8.jpg
+69,19,1,»¯×±Æ·,Cosmetic,0,El bochra company,images/SME/El bochra company/,images/SME/El bochra company/1.jpg
+70,19,2,  Ê³Æ·,Food ,0,El bochra company,images/SME/El bochra company/,images/SME/El bochra company/2.jpg
+71,20,1,Å£½Ç¹¤ÒÕÆ·,Cow horn crafts,0,JOY HORN CRAFTS,images/SME/JOY HORN CRAFTS/,images/SME/JOY HORN CRAFTS/1.jpg
+72,21,1,ÊÖ¹¤ÖÆ×÷µÄ»¤·ôÏãÔí,Handmade skincare soaps,0,NANA Naturals,images/SME/NANA naturals/,images/SME/NANA naturals/1.jpg
+73,21,2,ÊÖ¹¤ÖÆ×÷µÄ»¤·ô¾«ÓÍ,Handmade skincare oils,0,NANA Naturals,images/SME/NANA naturals/,images/SME/NANA naturals/2.jpg
+74,21,3,»ÆÓÍ,Butters,0,NANA Naturals,images/SME/NANA naturals/,images/SME/NANA naturals/3.jpg
+75,21,4,Ä¥É°¸à,Scrubs,0,NANA Naturals,images/SME/NANA naturals/,images/SME/NANA naturals/4.jpg
+76,22,1,Ò¬×Ó¾«»ª,Coconut serum,0,Mekong Coconut Oil Company Limited,images/SME/Mekong Coconut Oil Company Limited/,images/SME/Mekong Coconut Oil Company Limited/1.jpg
+77,22,2,"
+Ò¬×Ó»¤·¢¾«»ªÒº",Coconut hair serum,0,Mekong Coconut Oil Company Limited,images/SME/Mekong Coconut Oil Company Limited/,images/SME/Mekong Coconut Oil Company Limited/2.jpg
+78,23,1,ÊÖ¹¤´®Öé¶úÊÎ,Handbeaded earrings,0,Authentic Crafts Limited (Namayo jewellery brand name),images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/,images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/1.jpg
+79,23,2,½äÖ¸,Rings,0,Authentic Crafts Limited (Namayo jewellery brand name),images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/,images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/2.jpg
+80,23,3,"
+ÏîÁ´",Necklaces,0,Authentic Crafts Limited (Namayo jewellery brand name),images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/,images/SME/Authentic Crafts Limited (Namayo jewellery brand name)/3.jpg
+81,24,1,Ò°ÍâÌ½ÏÕ,Wilderness Safaris,0,Eana Safari Travel,images/SME/Eana Safari Travel/,images/SME/Eana Safari Travel/1.jpg
+82,24,2,×êÊ¯Ö®ÂÃ,Diamond Tourism,0,Eana Safari Travel,images/SME/Eana Safari Travel/,images/SME/Eana Safari Travel/2.jpg
+83,24,3,²©´ÄÍßÄÉÓÊÆ±,Botswana Postage Stamps,0,Eana Safari Travel,images/SME/Eana Safari Travel/,images/SME/Eana Safari Travel/3.jpg
+84,25,1,Å©Òµ·şÎñ,Agricultural services,0,Lebone Enterprise Development Agency,images/SME/Lebone Enterprise Development Agency/,images/SME/Lebone Enterprise Development Agency/1.jpg
+85,26,1,ÂÃÓÎÈí¼ş,Travada,0,APP COMPANY LIMITED,images/SME/APP COMPANY LIMITED/,images/SME/APP COMPANY LIMITED/1.jpg
+86,26,2,Êı×ÖÏúÊÛÆ½Ì¨,Mindsmend ,0,APP COMPANY LIMITED,images/SME/APP COMPANY LIMITED/,images/SME/APP COMPANY LIMITED/2.jpg
+87,27,1,Ä¾Êí/Ê÷Êí,Cassava/ manioc,0,GBNM Syst¨¨mes Marketing Digital,images/SME/GBNM Syst¨¨mes Marketing Digital/,images/SME/GBNM Syst¨¨mes Marketing Digital/1.jpg
+88,27,2,ÒÕÊõ²úÆ·,Artistic products ,0,GBNM Syst¨¨mes Marketing Digital,images/SME/GBNM Syst¨¨mes Marketing Digital/,images/SME/GBNM Syst¨¨mes Marketing Digital/2.jpg
+89,28,1,¹ú¼Ê²É¹ºÓëÎïÁ÷,International Procurement & Logistics,0,Mar y Comercio,images/SME/Mar y Comercio/,images/SME/Mar y Comercio/1.jpg
+90,29,1,Ìá¹©¶Ëµ½¶ËµÄ×ÛºÏ¼¼Êõ½â¾ö·½°¸µÄ×¨¼Ò£º´ÓÊı×Ö»¯µ½Í³Ò»Í¨ĞÅ¡¢IT¹ÜÀí¡¢ÍøÂç°²È«¡¢SaaS/ PaaS/ MSP½â¾ö·½°¸ºÍITÍâ°ü¡£,"Experts in delivering end?to?end, integrated tech solutions: from transformation digital to unified communications, IT management, cybersecurity, SaaS/PaaS/MSP solutions and IT outsourcing. ",0,KYRIOS CONSULTING INTEGRADORES TECNOLOGICOS KYRIOSCONS S.A,images/SME/KYRIOS/,images/SME/KYRIOS/1.jpg
+91,30,1,ÖÒ³Ï¶ÈÏîÄ¿,Loyalty programs ,0,Promotick,images/SME/Promotick/,images/SME/Promotick/1.jpg
+92,30,2,¼¤ÀøÆ½Ì¨,Incentive platforms ,0,Promotick,images/SME/Promotick/,images/SME/Promotick/2.jpg
+93,30,3,È«Çò²É¹º·şÎñ,Global sourcing service,0,Promotick,images/SME/Promotick/,images/SME/Promotick/3.jpg
+94,31,1,Å®ĞÔ»¬°å³µ & ×ÔĞĞ³µÅàÑµ,Women' scooter & bicycle training ,0,Dosy,images/SME/Dosy/,images/SME/Dosy/1.jpg
+95,31,2,»·±£·şÎñ,Eco-friendly services ,0,Dosy,images/SME/Dosy/,images/SME/Dosy/2.jpg
+96,32,1,ÓÅÖÊÓĞ»ú¿§·È,Premium organic coffee ,0,Grupo Gur¨²s S.,images/SME/Grupo Gur¨²s S/,images/SME/Grupo Gur¨²s S/1.jpg
+97,32,2,ÓÅÖÊÓĞ»úÇÉ¿ËÁ¦,Fine organic chocolate ,0,Grupo Gur¨²s S.,images/SME/Grupo Gur¨²s S/,images/SME/Grupo Gur¨²s S/2.jpg
+98,32,3,Õı×ÚÊÖ¹¤·ÄÖ¯Æ·,Authentic handcrafted textiles,0,Grupo Gur¨²s S.,images/SME/Grupo Gur¨²s S/,images/SME/Grupo Gur¨²s S/3.jpg
+99,32,4,ÌØ²ú¹¤ÒÕÍŞÍŞ,Unique artisan dolls ,0,Grupo Gur¨²s S.,images/SME/Grupo Gur¨²s S/,images/SME/Grupo Gur¨²s S/4.jpg
+100,33,1,ÈÚºÏÁËAIÇı¶¯µÄNDVIÓëNDWIµÄÎÀĞÇ×÷ÎïÕï¶Ï,Satellite-based crop diagnostics with AI-driven NDVI &NDWI insights,0,Rootskart,images/SME/Rootskart/,images/SME/Rootskart/1.jpg
+101,34,1,Êı×Ö»¯½ÌÓıÍ¨ĞĞ·şÎñ ¡ª¡ª º­¸ÇÈ«ÇòÉıÑ§Óë½»Á÷µÄÒ»Õ¾Ê½Æ½Ì¨,"Digital education mobility services - university admission, exchange programmes
+",0,Exchange Programmes,images/SME/Exchange Programmes/,images/SME/Exchange Programmes/1.jpg
+102,35,1,µ¼ÓÎ&Ò°Éú¹Û¹â,Tours & Safaris ,0,ASARAY TOURS LTD,images/SME/ASARAY TOURS LTD/,images/SME/ASARAY TOURS LTD/1.jpg
+103,36,1,Ã³Ò×¿Æ¼¼½â¾ö·½°¸,TradeTech Solutions,0,VersaTech Global Solutions Ltd,images/SME/VersaTech Global Solutions Ltd/,images/SME/VersaTech Global Solutions Ltd/1.jpg
+104,37,1,ÈËÁ¦×ÊÔ´¹ÜÀíÓëÍâ°ü·şÎñ,Manpower management & outsourcing services,1,ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD,images/SME/ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD/,images/SME/ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD/1£¨1£©.jpg;images/SME/ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD/1£¨2£©.jpg;images/SME/ZHONGKEN INTERNATIONAL HUMAN RESOURCES CONSULTING LTD/1£¨3£©.jpg
+105,38,1,ÓÉÉçÇøÖ÷µ¼µÄ»Ö¸´ÏîÄ¿Ëù²úÉúµÄÊÛÇ°Ì¼ĞÅÓÃ¶î¶È,Pre-sale carbon credits from community-led restoration projects,1,Sustainable Farming Solutions,images/SME/Sustainable Farming Solutions/,images/SME/Sustainable Farming Solutions/1£¨1£©.jpg;images/SME/Sustainable Farming Solutions/1£¨2£©.jpg;images/SME/Sustainable Farming Solutions/1£¨3£©.jpg
+106,39,1,Õ½ÂÔÆ·ÅÆ¹ÜÀí,Strategic brand management,0,Sphere Media Technologies Co Ltd,images/SME/Sphere Media Technologies Co Ltd/,images/SME/Sphere Media Technologies Co Ltd/1.jpg
+107,39,2,Êı×ÖÓªÏú,Digital marketing,0,Sphere Media Technologies Co Ltd,images/SME/Sphere Media Technologies Co Ltd/,images/SME/Sphere Media Technologies Co Ltd/2.jpg
+108,39,3,¼¼Êõ½â¾ö·½°¸,Technology solutions,0,Sphere Media Technologies Co Ltd,images/SME/Sphere Media Technologies Co Ltd/,images/SME/Sphere Media Technologies Co Ltd/3.jpg
+109,39,4,ÄÚÈİ´´×÷,Content creation,0,Sphere Media Technologies Co Ltd,images/SME/Sphere Media Technologies Co Ltd/,images/SME/Sphere Media Technologies Co Ltd/4.jpg
+110,40,1,Ä«Î÷¸çµÄÍ¶×ÊÓëÃ³Ò×ºÏ¹æÇé¿ö£¬Îª¹ú¼ÊÒµÎñÏîÄ¿Ìá¹©Éè¼ÆÓëÖ§³Ö£¬´ÙÏú¡¢¹«¹²¼°ÆóÒµÊÂÎñ,"Investment and trade compliance in Mexico, provides design and support for international business projects, promotion, public and corporate affairs",0,Business Facilitation and Trading Mexico,images/SME/Business Facilitation and Trading Mexico/,images/SME/Business Facilitation and Trading Mexico/1.jpg
+111,41,1,¶¨ÖÆµØÌºÉè¼ÆÈí¼ş,Custom carpet design software,0,Alternative Technology Pvt Ltd,images/SME/Alternative Technology Pvt Ltd/,images/SME/Alternative Technology Pvt Ltd/1.jpg
+112,42,1,²úÆ·¿ª·¢·şÎñ,Product development services,0,ClassNotes SMC-Private Limited,images/SME/ClassNotes SMC-Private Limited/,images/SME/ClassNotes SMC-Private Limited/1.jpg
+113,42,2,Èí¼ş¿ª·¢·şÎñ,Software development services,0,ClassNotes SMC-Private Limited,images/SME/ClassNotes SMC-Private Limited/,images/SME/ClassNotes SMC-Private Limited/2.jpg
+114,42,3, ´´Òµ×ÉÑ¯,Entrepreneurship consultation,0,ClassNotes SMC-Private Limited,images/SME/ClassNotes SMC-Private Limited/,images/SME/ClassNotes SMC-Private Limited/3.jpg
+115,43,1,È«²¿ 2D ¶¯»­·şÎñ,All 2D animation services,1,Emottoons Animation and Gadgets Shop,images/SME/Emottoons Animation and Gadgets Shop/,images/SME/Emottoons Animation and Gadgets Shop/1£¨1£©.jpg;images/SME/Emottoons Animation and Gadgets Shop/1£¨2£©.jpg;images/SME/Emottoons Animation and Gadgets Shop/1£¨3£©.jpg
+116,44,1,Ê³Æ·ÓëÓĞ»ú·ÏÆúÎï¹ÜÀí½ÌÓı¼°×ÉÑ¯·şÎñ,Food & organic waste management education and consultancy,1,Siel Environmental Services Limited,images/SME/Siel Environmental Services Limited/,images/SME/Siel Environmental Services Limited/1(1).jpg;images/SME/Siel Environmental Services Limited/1(2).jpg
+117,45,1,ĞÄÀí¸¨µ¼Óë×ÉÑ¯¿Î³Ì,Psychological and couching sessions,1,IE "Ganatly Mekan",images/SME/IE Ganatly Mekan/,images/SME/IE Ganatly Mekan/1£¨1£©.jpg;images/SME/IE Ganatly Mekan/1£¨2£©.jpg;images/SME/IE Ganatly Mekan/1£¨3£©.jpg
+118,46,1,Èí¼ş¿ª·¢Óë×ÉÑ¯·şÎñ,Software development & consultancy,0,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd/,images/SME/Sumic IT Solutions Ltd/1.jpg
+119,46,2,ÒÆ¶¯Ó¦ÓÃ¿ª·¢,Mobile application development,0,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd/,images/SME/Sumic IT Solutions Ltd/2.jpg
+120,46,3, ÍøÕ¾Éè¼ÆÓë¿ª·¢,Website design and development,0,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd/,images/SME/Sumic IT Solutions Ltd/3.jpg
+121,46,4,  µç×ÓÉÌÎñ½â¾ö·½°¸,E-commerce solutions,0,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd/,images/SME/Sumic IT Solutions Ltd/4.jpg
+122,46,5,Êı×ÖÓªÏú,Digital marketing ,0,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd/,images/SME/Sumic IT Solutions Ltd/5.jpg
+123,46,6, ITÅàÑµ,IT trainings,0,Sumic IT Solutions Ltd.,images/SME/Sumic IT Solutions Ltd/,images/SME/Sumic IT Solutions Ltd/6.jpg
+124,47,1,ÅàÑµ,Training,0,Food Elimu Africa,images/SME/Food Elimu Africa/,images/SME/Food Elimu Africa/1.jpg
+125,47,2,ISOÊµÊ©,ISO implementation,0,Food Elimu Africa,images/SME/Food Elimu Africa/,images/SME/Food Elimu Africa/2.jpg
+126,47,3, ÈÏÖ¤Éó¼Æ,Certification auditing,0,Food Elimu Africa,images/SME/Food Elimu Africa/,images/SME/Food Elimu Africa/3.jpg
+127,48,1,¸ÌéÙÀàË®¹û£º³È×Ó¡¢ÆÏÌÑèÖ¡¢ÄûÃÊ¡¢ÇàÄû,"Citrus fruits: orange. nartjies, lemons, lime",0,Forestry & Citrus Research,images/SME/Forestry & Citrus Research/,images/SME/Forestry & Citrus Research/1.jpg
+128,48,2,Í¨¹ı¡°plant master¡±Ó¦ÓÃ»ñÈ¡Ì¼»ı·Ö,Access to carbon credits through ¡°plant master¡± app,0,Forestry & Citrus Research,images/SME/Forestry & Citrus Research/,images/SME/Forestry & Citrus Research/2.jpg
+129,49,1,¹şË¹öùÀæ,Hass avocados,0,GREEN NATURAL COMPANY LTD,images/SME/GREEN NATURAL COMPANY LTD/,images/SME/GREEN NATURAL COMPANY LTD/1.jpg
+130,49,2,ÂÌÉ«Àä¶³È¥Æ¤Ïã½¶     ,Green flozen babanas,0,GREEN NATURAL COMPANY LTD,images/SME/GREEN NATURAL COMPANY LTD/,images/SME/GREEN NATURAL COMPANY LTD/2.jpg
+131,49,3,Ë®¹û,Fruits,0,GREEN NATURAL COMPANY LTD,images/SME/GREEN NATURAL COMPANY LTD/,images/SME/GREEN NATURAL COMPANY LTD/3.jpg
+132,50,1,¶¹Àà,Beans,0,MAZINGWA INVESTMENT,images/SME/MAZINGWA INVESTMENT/,images/SME/MAZINGWA INVESTMENT/1.jpg
+133,50,2,ÓñÃ×·Û,Maize flour,0,MAZINGWA INVESTMENT,images/SME/MAZINGWA INVESTMENT/,images/SME/MAZINGWA INVESTMENT/2.jpg
+134,50,3,´ó¶¹·Û,Soy flour,0,MAZINGWA INVESTMENT,images/SME/MAZINGWA INVESTMENT/,images/SME/MAZINGWA INVESTMENT/3.jpg
+135,51,1,¹şË¹öùÀæ,Hass avocado,0,Trade Legacy Burundi,images/SME/Trade Legacy Burundi/,images/SME/Trade Legacy Burundi/1.jpg
+136,51,2,öùÀæÓÍ£¨ÀäÕ¥£©,Avocado oil (cold-pressed),0,Trade Legacy Burundi,images/SME/Trade Legacy Burundi/,images/SME/Trade Legacy Burundi/2.jpg
+137,51,3,´ó¶¹£¨·Ç×ª»ùÒò£©,Soybeans (Non-GMO),0,Trade Legacy Burundi,images/SME/Trade Legacy Burundi/,images/SME/Trade Legacy Burundi/3.jpg
+138,51,4,À±½·£¨ÏÊ»ò¸É£©,Chili (fresh or dried),0,Trade Legacy Burundi,images/SME/Trade Legacy Burundi/,images/SME/Trade Legacy Burundi/4.jpg
+139,52,1,Ñü¹ûÈÊ£¨W210£¬W240£¬W320£¬W450µÈ¼¶£©,"Cashew kernel(W210, W240, W320, W450)",0,Smiling Coast Agro Processing Company Limited,images/SME/Smiling Coast Agro Processing Company Limited/,images/SME/Smiling Coast Agro Processing Company Limited/1.jpg
+140,52,2,°ë°êÈÊ,Splits,0,Smiling Coast Agro Processing Company Limited,images/SME/Smiling Coast Agro Processing Company Limited/,images/SME/Smiling Coast Agro Processing Company Limited/2.jpg
+141,52,3,»ù²¿ÈÊ,Butts,0,Smiling Coast Agro Processing Company Limited,images/SME/Smiling Coast Agro Processing Company Limited/,images/SME/Smiling Coast Agro Processing Company Limited/3.jpg
+142,52,4,ÇáÆ¤ÈÊ,LWP,0,Smiling Coast Agro Processing Company Limited,images/SME/Smiling Coast Agro Processing Company Limited/,images/SME/Smiling Coast Agro Processing Company Limited/4.jpg
+143,52,5,É¨Æ¤ÈÊ,SWP,0,Smiling Coast Agro Processing Company Limited,images/SME/Smiling Coast Agro Processing Company Limited/,images/SME/Smiling Coast Agro Processing Company Limited/5.jpg
+144,52,6,Ñü¹û½´,Cashew paste,0,Smiling Coast Agro Processing Company Limited,images/SME/Smiling Coast Agro Processing Company Limited/,images/SME/Smiling Coast Agro Processing Company Limited/6.jpg
+145,53,1,Ô­ÃÛ,Raw honey,0,Sustainable Development Africa Trading and Innovation,images/SME/Sustainable Development Africa Trading and Innovation/,images/SME/Sustainable Development Africa Trading and Innovation/1.jpg
+146,53,2,Î´¾­¾«Á¶µÄÈéÄ¾¹ûÓÍ,Unrefined shea butter,0,Sustainable Development Africa Trading and Innovation,images/SME/Sustainable Development Africa Trading and Innovation/,images/SME/Sustainable Development Africa Trading and Innovation/2.jpg
+147,53,3,¿¾»¨Éú,Roasted peanuts,0,Sustainable Development Africa Trading and Innovation,images/SME/Sustainable Development Africa Trading and Innovation/,images/SME/Sustainable Development Africa Trading and Innovation/3.jpg
+148,54,1,ÏãÁÏ,Spices,0,PHAEL FLOR EXPORT,images/SME/PHAEL FLOR EXPORT/,images/SME/PHAEL FLOR EXPORT/1.jpg
+149,54,2,¾«ÓÍ,Essential oils,0,PHAEL FLOR EXPORT,images/SME/PHAEL FLOR EXPORT/,images/SME/PHAEL FLOR EXPORT/2.jpg
+150,54,3,Ïã²İ¶şÑõ»¯Ì¼İÍÈ¡Îï,Vanilla CO2 extracts,0,PHAEL FLOR EXPORT,images/SME/PHAEL FLOR EXPORT/,images/SME/PHAEL FLOR EXPORT/3.jpg
+151,55,1,Å©Òµ¿Æ¼¼Æ½Ì¨,Agritech platform,0,"Agrosell, Lda","images/SME/Agrosell, Lda/","images/SME/Agrosell, Lda/1.jpg"
+152,56,1,¿§·È,Coffee,0,TIGGER CUSTOM co. & ARRA KAFEI SENEGAL,images/SME/TIGGER CUSTOM/,images/SME/TIGGER CUSTOM/1.jpg
+153,56,2,ÈéÄ¾¹ûÓÍ,Shea butter,0,TIGGER CUSTOM co. & ARRA KAFEI SENEGAL,images/SME/TIGGER CUSTOM/,images/SME/TIGGER CUSTOM/2.jpg
+154,57,1,ÄáÂŞºÓÈéÄ¾¹ûÓÍ,Nilotica shea butter,0,Urban South Group,images/SME/Urban South Group/,images/SME/Urban South Group/1.jpg
+155,57,2,ÌìÈ»·äÃÛ,Natural honey,0,Urban South Group,images/SME/Urban South Group/,images/SME/Urban South Group/2.jpg
+156,57,3,°¢À­²®½º,Gum arabic,0,Urban South Group,images/SME/Urban South Group/,images/SME/Urban South Group/3.jpg
+157,57,4,·ÇÖŞ¿¨ÑçÀ±½·,African cayenne peppers,0,Urban South Group,images/SME/Urban South Group/,images/SME/Urban South Group/4.jpg
+158,57,5,ÀûÂí¶¹/ÃŞ¶¹, Lima beans,0,Urban South Group,images/SME/Urban South Group/,images/SME/Urban South Group/5.jpg
+159,57,6,°à°ÍÀ­¶¹,Bambara nuts,0,Urban South Group,images/SME/Urban South Group/,images/SME/Urban South Group/6.jpg
+160,58,1,ÂÌ¿§·È¶¹,Green coffee beans,0,Bayaaya specialty coffee ltd,images/SME/Bayaaya specialty coffee ltd/,images/SME/Bayaaya specialty coffee ltd/1.jpg
+161,58,2,ºæ±º¿§·È¶¹/Êì¿§·È¶¹,Roasted coffee beans,0,Bayaaya specialty coffee ltd,images/SME/Bayaaya specialty coffee ltd/,images/SME/Bayaaya specialty coffee ltd/2.jpg
+162,58,3,ÑĞÄ¥¿§·È·Û,Ground coffee,0,Bayaaya specialty coffee ltd,images/SME/Bayaaya specialty coffee ltd/,images/SME/Bayaaya specialty coffee ltd/3.jpg
+163,59,1,ĞÂÏÊöùÀæ/Å£ÓÍ¹û,Fresh avocado,0,GBRI BUSINESS SOLUTIONS COMPANY LIMITED,images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/,images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/1.jpg
+164,59,2,öùÀæÓÍ/Å£ÓÍ¹ûÓÍ,Avocado oil ,0,GBRI BUSINESS SOLUTIONS COMPANY LIMITED,images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/,images/SME/GBRI BUSINESS SOLUTIONS COMPANY LIMITED/2.jpg
+165,60,1,Ñü¹ûÈÊ,Cashew nut kernels,0,"AFRITECH GREENCROPS GROUP£¨TANZANIA£©Co.,LTD","images/SME/AFRITECH GREENCROPS GROUP TANZANIA Co.,LTD/","images/SME/AFRITECH GREENCROPS GROUP TANZANIA Co.,LTD/1.jpg"
+166,61,1,¸ÉÃµ¹å,Dry rose,0,Ansari Wahid Group of Companies,images/SME/Ansari Wahid Group of Companies/,images/SME/Ansari Wahid Group of Companies/1.jpg
+167,61,2,¿àĞÓÈÊ,Bitter almond,0,Ansari Wahid Group of Companies,images/SME/Ansari Wahid Group of Companies/,images/SME/Ansari Wahid Group of Companies/2.jpg
+168,61,3,¾«ÓÍ,Essential oil,0,Ansari Wahid Group of Companies,images/SME/Ansari Wahid Group of Companies/,images/SME/Ansari Wahid Group of Companies/3.jpg
+169,62,1,¸É¹û,Dry fruits,0,Kamran Shafi Group of companies,images/SME/Kamran Shafi Group of companies/,images/SME/Kamran Shafi Group of companies/1.jpg
+170,63,1,ºÚ/°×Ö¥Âé×Ñ,Black/White sesame seeds,0,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L/,images/SME/Agroexportaciones del Sur S.R.L/1.jpg
+171,63,2,ºÚ/°×ÆæÑÇ×Ñ,Black/White Chia seeds,0,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L/,images/SME/Agroexportaciones del Sur S.R.L/2.jpg
+172,63,3,Ş¼Âó,Quinoa,0,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L/,images/SME/Agroexportaciones del Sur S.R.L/3.jpg
+173,63,4,¶¹Àà,Beans,0,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L/,images/SME/Agroexportaciones del Sur S.R.L/4.jpg
+174,63,5,»¨Éú,Peanuts,0,Agroexportaciones del Sur S.R.L.,images/SME/Agroexportaciones del Sur S.R.L/,images/SME/Agroexportaciones del Sur S.R.L/5.jpg
+175,64,1,µ÷Î¶½´,Award-winning sauces,0,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments TA Maungo Craft/,images/SME/Macentyrer Investments TA Maungo Craft/1.jpg
+176,64,2,ÌÇ½¬¼Á,Syrups,0,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments TA Maungo Craft/,images/SME/Macentyrer Investments TA Maungo Craft/2.jpg
+177,64,3,¹û½´,Jams,0,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments TA Maungo Craft/,images/SME/Macentyrer Investments TA Maungo Craft/3.jpg
+178,64,4,ÒûÁÏ,Juice,0,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments TA Maungo Craft/,images/SME/Macentyrer Investments TA Maungo Craft/4.jpg
+179,64,5,²èÒ¶,Tea,0,Macentyrer Investments T/A Maungo Craft,images/SME/Macentyrer Investments TA Maungo Craft/,images/SME/Macentyrer Investments TA Maungo Craft/5.jpg
+180,65,1,ĞÂÏÊ½ª»Æ,Fresh turmeric,0,Falus¨¢n C¨ªa Ltda,images/SME/Falus¨¢n C¨ªa Ltda/,images/SME/Falus¨¢n C¨ªa Ltda/1.jpg
+181,65,2,Éú½ª,Fresh ginger,0,Falus¨¢n C¨ªa Ltda,images/SME/Falus¨¢n C¨ªa Ltda/,images/SME/Falus¨¢n C¨ªa Ltda/2.jpg
+182,65,3,¹¦ÄÜĞÔÒûÁÏ,Functional beverage,0,Falus¨¢n C¨ªa Ltda,images/SME/Falus¨¢n C¨ªa Ltda/,images/SME/Falus¨¢n C¨ªa Ltda/3.jpg
+183,65,4,½ş¼ÁÓë²èÒû,Infusions & Teas,0,Falus¨¢n C¨ªa Ltda,images/SME/Falus¨¢n C¨ªa Ltda/,images/SME/Falus¨¢n C¨ªa Ltda/4.jpg
+184,65,5,·ÛÄ©×´³¬¼¶Ê³Æ·,Powdered superfoods,0,Falus¨¢n C¨ªa Ltda,images/SME/Falus¨¢n C¨ªa Ltda/,images/SME/Falus¨¢n C¨ªa Ltda/5.jpg
+185,65,6,ÉúÇÉ¿ËÁ¦,Raw chocolate,0,Falus¨¢n C¨ªa Ltda,images/SME/Falus¨¢n C¨ªa Ltda/,images/SME/Falus¨¢n C¨ªa Ltda/6.jpg
+186,65,7,¿É¿É·Û,Cocoa powder,0,Falus¨¢n C¨ªa Ltda,images/SME/Falus¨¢n C¨ªa Ltda/,images/SME/Falus¨¢n C¨ªa Ltda/7.jpg
+187,65,8,¸É¹û  ,Dried fruits,0,Falus¨¢n C¨ªa Ltda,images/SME/Falus¨¢n C¨ªa Ltda/,images/SME/Falus¨¢n C¨ªa Ltda/8.jpg
+188,65,9,Ô¤»ìÁÏ,Premixes,0,Falus¨¢n C¨ªa Ltda,images/SME/Falus¨¢n C¨ªa Ltda/,images/SME/Falus¨¢n C¨ªa Ltda/9.jpg
+189,66,1,NFCÒûÁÏ,NFC Juice,0,FL PROCESADOS DEL ECUADOR SA,images/SME/FL PROCESADOS DEL ECUADOR SA/,images/SME/FL PROCESADOS DEL ECUADOR SA/1.jpg
+190,66,2,Å¨Ëõ¹ûÖ­,Fruit concentrate,0,FL PROCESADOS DEL ECUADOR SA,images/SME/FL PROCESADOS DEL ECUADOR SA/,images/SME/FL PROCESADOS DEL ECUADOR SA/2.jpg
+191,66,3,¸É¹û,Dried fruit ,0,FL PROCESADOS DEL ECUADOR SA,images/SME/FL PROCESADOS DEL ECUADOR SA/,images/SME/FL PROCESADOS DEL ECUADOR SA/3.jpg
+192,67,1,Àä¶³¹ûÄà,Frozen pulps,0,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/,images/SME/Healthy Food Marcalman Ecuador SAS/1.jpg
+193,67,2,µ÷Î¶½´,Sauces,0,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/,images/SME/Healthy Food Marcalman Ecuador SAS/2.jpg
+194,67,3,¹û½´,Jams,0,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/,images/SME/Healthy Food Marcalman Ecuador SAS/3.jpg
+195,67,4,ÌÇ½¬¼Á,Syrups,0,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/,images/SME/Healthy Food Marcalman Ecuador SAS/4.jpg
+196,67,5,½½ÁÏ,Toppings,0,Healthy Food Marcalman Ecuador SAS,images/SME/Healthy Food Marcalman Ecuador SAS/,images/SME/Healthy Food Marcalman Ecuador SAS/5.jpg
+197,68,1,´óÃ×,Rice,0,Rehana,images/SME/Rehana/,images/SME/Rehana/1.jpg
+198,68,2,ÌÇ,Sugar,0,Rehana,images/SME/Rehana/,images/SME/Rehana/2.jpg
+199,68,3,Ãæ·Û,Flour,0,Rehana,images/SME/Rehana/,images/SME/Rehana/3.jpg
+200,68,4,¶¹Àà,Legumes,0,Rehana,images/SME/Rehana/,images/SME/Rehana/4.jpg
+201,68,5,µ÷Î¶ÁÏ,Spices,0,Rehana,images/SME/Rehana/,images/SME/Rehana/5.jpg
+202,68,6,Ê³ÓÃÓÍ,Edible oils,0,Rehana,images/SME/Rehana/,images/SME/Rehana/6.jpg
+203,68,7,´×,Vinegar,0,Rehana,images/SME/Rehana/,images/SME/Rehana/7.jpg
+204,69,1,Àä¶³ÑøÖ³·²ÄÉ±õ¶ÔÏº£¨ÄÏÃÀ°×¶ÔÏº£©,Frozen farmed Penaeus Vannamei shrimp?,0,"Camarones del Sur S.A. de C.V.
 ","images/SME/Camarones del Sur S.A. de C.V
 /","images/SME/Camarones del Sur S.A. de C.V
 /1.jpg"
-205,70,"1","çº¢èŒ¶","Black tea ",0,"Eco Jambo Limited
+205,70,1,ºì²è,Black tea ,0,"Eco Jambo Limited
 ","images/SME/Eco Jambo Limited
 /","images/SME/Eco Jambo Limited
 /1.jpg"
-206,70,"2","ç»¿èŒ¶","Green tea",0,"Eco Jambo Limited
+206,70,2,ÂÌ²è,Green tea,0,"Eco Jambo Limited
 ","images/SME/Eco Jambo Limited
 /","images/SME/Eco Jambo Limited
 /2.jpg"
-207,71,"1","ç‰›æ²¹æœ","Avocado",0,"KONZA TROPICALS LIMITED
+207,71,1,Å£ÓÍ¹û,Avocado,0,"KONZA TROPICALS LIMITED
 ","images/SME/KONZA TROPICALS LIMITED
 /","images/SME/KONZA TROPICALS LIMITED
 /1.jpg"
-208,71,"2","å¹²æœ"," Dried fruits",0,"KONZA TROPICALS LIMITED
+208,71,2,¸É¹û, Dried fruits,0,"KONZA TROPICALS LIMITED
 ","images/SME/KONZA TROPICALS LIMITED
 /","images/SME/KONZA TROPICALS LIMITED
 /2.jpg"
-209,71,"3","ç‰›æ²¹æœæ²¹
-","Avocado oils",0,"KONZA TROPICALS LIMITED
+209,71,3,"Å£ÓÍ¹ûÓÍ
+",Avocado oils,0,"KONZA TROPICALS LIMITED
 ","images/SME/KONZA TROPICALS LIMITED
 /","images/SME/KONZA TROPICALS LIMITED
 /3.jpg"
-210,71,"4","å¤å¨å¤·æœï¼ˆæ¾³æ´²åšæœï¼‰
-","Macadamia",0,"KONZA TROPICALS LIMITED
+210,71,4,"ÏÄÍşÒÄ¹û£¨°ÄÖŞ¼á¹û£©
+",Macadamia,0,"KONZA TROPICALS LIMITED
 ","images/SME/KONZA TROPICALS LIMITED
 /","images/SME/KONZA TROPICALS LIMITED
 /4.jpg"
-211,72,"1","è‰æœ¬èŒ¶ï¼ˆç”Ÿå§œèŒ¶ã€å§œé»„èŒ¶ã€é¹…è“èŒ¶ï¼‰","Herbal tea (Ginger, Turmeric, Gooseberry)â€‹",0,"2DaY Consultant Sole Co.,Ltd
+211,72,1,²İ±¾²è£¨Éú½ª²è¡¢½ª»Æ²è¡¢¶ìİ®²è£©,"Herbal tea (Ginger, Turmeric, Gooseberry)?",0,"2DaY Consultant Sole Co.,Ltd
 ","images/SME/2DaY Consultant Sole Co.,Ltd
 /","images/SME/2DaY Consultant Sole Co.,Ltd
 /1.jpg"
-212,72,"2","è‰æœ¬ç²‰ï¼ˆå§œé»„ç²‰ã€ç”Ÿå§œç²‰ã€é»‘èŠéº»ç²‰ï¼‰
-","Herbal powder (Turmeric powder, Ginger powder, Black sesame)â€‹",0,"2DaY Consultant Sole Co.,Ltd
+212,72,2,"²İ±¾·Û£¨½ª»Æ·Û¡¢Éú½ª·Û¡¢ºÚÖ¥Âé·Û£©
+","Herbal powder (Turmeric powder, Ginger powder, Black sesame)?",0,"2DaY Consultant Sole Co.,Ltd
 ","images/SME/2DaY Consultant Sole Co.,Ltd
 /","images/SME/2DaY Consultant Sole Co.,Ltd
 /2.jpg"
-213,72,"3","å¤©ç„¶ä¸ªæŠ¤ï¼ˆè´æ‹‰é¦™æª¬è‰æœ¬æ´—å‘éœ²ï¼‰
-","Natural personal care (Bella herbal shampoo with bergamot)â€‹",0,"2DaY Consultant Sole Co.,Ltd
+213,72,3,"ÌìÈ»¸ö»¤£¨±´À­ÏãÃÊ²İ±¾Ï´·¢Â¶£©
+",Natural personal care (Bella herbal shampoo with bergamot)?,0,"2DaY Consultant Sole Co.,Ltd
 ","images/SME/2DaY Consultant Sole Co.,Ltd
 /","images/SME/2DaY Consultant Sole Co.,Ltd
 /3.jpg"
-214,73,"1","è½¯è´¨å¹²é¦™è•‰","Soft texture dried banana",0,"Meathip Solar Dried Banana","images/SME/Meathip Solar Dried Banana
+214,73,1,ÈíÖÊ¸ÉÏã½¶,Soft texture dried banana,0,Meathip Solar Dried Banana,"images/SME/Meathip Solar Dried Banana
 /","images/SME/Meathip Solar Dried Banana
 /1.jpg"
-215,74,"1","ç”Ÿå’–å•¡è±†
-","Green coffee bean",0,"The Boloven Plateau Coffee Producer Cooperative
+215,74,1,"Éú¿§·È¶¹
+",Green coffee bean,0,"The Boloven Plateau Coffee Producer Cooperative
 ","images/SME/The Boloven Plateau Coffee Producer Cooperative
 /","images/SME/The Boloven Plateau Coffee Producer Cooperative
 /1.jpg"
-216,74,"2","çƒ˜ç„™å’–å•¡è±†â€‹
-","Roasted beanâ€‹",0,"The Boloven Plateau Coffee Producer Cooperative
+216,74,2,"ºæ±º¿§·È¶¹?
+",Roasted bean?,0,"The Boloven Plateau Coffee Producer Cooperative
 ","images/SME/The Boloven Plateau Coffee Producer Cooperative
 /","images/SME/The Boloven Plateau Coffee Producer Cooperative
 /2.jpg"
-217,75,"1","ç”Ÿé²œé¸¡è‚‰","Fresh chicken meat",0,"The Green","images/SME/The Green/","images/SME/The Green/1.jpg"
-218,75,"2","é²œé¸¡è›‹","Fresh eggs",0,"The Green","images/SME/The Green/","images/SME/The Green/2.jpg"
-219,75,"3","åŠ å·¥è›‹ï¼ˆæ¶²ä½“è›‹ï¼‰","Processed eggs(liquid eggs)",0,"The Green","images/SME/The Green/","images/SME/The Green/3.jpg"
-220,76,"1","é…¸å¥¶é¥®å“
-","Curd drinks",0,"Teso foods","images/SME/Teso foods/","images/SME/Teso foods/1.jpg"
-221,76,"2","é…¸å¥¶çƒ
-","Curd balls",0,"Teso foods","images/SME/Teso foods/","images/SME/Teso foods/2.jpg"
-222,76,"3","å¥¶å¹²","dried curds",0,"Teso foods","images/SME/Teso foods/","images/SME/Teso foods/3.jpg"
-223,76,"4","æ¤ç‰©åŸºä¹³å“ï¼ˆéä¹³åˆ¶ï¼‰
-","Non-dairy",0,"Teso foods","images/SME/Teso foods/","images/SME/Teso foods/4.jpg"
-224,76,"5","å…¨è„‚å¥¶ç²‰
-","Whole milk powder",0,"Teso foods","images/SME/Teso foods/","images/SME/Teso foods/5.jpg"
-225,77,"1","é˜¿ç”˜æ²¹
-","Argan oil",0,"PRIVA TRADING
+217,75,1,ÉúÏÊ¼¦Èâ,Fresh chicken meat,0,The Green,images/SME/The Green/,images/SME/The Green/1.jpg
+218,75,2,ÏÊ¼¦µ°,Fresh eggs,0,The Green,images/SME/The Green/,images/SME/The Green/2.jpg
+219,75,3,¼Ó¹¤µ°£¨ÒºÌåµ°£©,Processed eggs(liquid eggs),0,The Green,images/SME/The Green/,images/SME/The Green/3.jpg
+220,76,1,"ËáÄÌÒûÆ·
+",Curd drinks,0,Teso foods,images/SME/Teso foods/,images/SME/Teso foods/1.jpg
+221,76,2,"ËáÄÌÇò
+",Curd balls,0,Teso foods,images/SME/Teso foods/,images/SME/Teso foods/2.jpg
+222,76,3,ÄÌ¸É,dried curds,0,Teso foods,images/SME/Teso foods/,images/SME/Teso foods/3.jpg
+223,76,4,"Ö²Îï»ùÈéÆ·£¨·ÇÈéÖÆ£©
+",Non-dairy,0,Teso foods,images/SME/Teso foods/,images/SME/Teso foods/4.jpg
+224,76,5,"È«Ö¬ÄÌ·Û
+",Whole milk powder,0,Teso foods,images/SME/Teso foods/,images/SME/Teso foods/5.jpg
+225,77,1,"°¢¸ÊÓÍ
+",Argan oil,0,"PRIVA TRADING
 ","images/SME/PRIVA TRADING
 /","images/SME/PRIVA TRADING
 /1.jpg"
-226,77,"2","ä»™äººæŒç±½æ²¹
-","Prickly pear seed oil",0,"PRIVA TRADING
+226,77,2,"ÏÉÈËÕÆ×ÑÓÍ
+",Prickly pear seed oil,0,"PRIVA TRADING
 ","images/SME/PRIVA TRADING
 /","images/SME/PRIVA TRADING
 /2.jpg"
-227,77,"3","èŠ±æ°´","floral waters",0,"PRIVA TRADING
+227,77,3,»¨Ë®,floral waters,0,"PRIVA TRADING
 ","images/SME/PRIVA TRADING
 /","images/SME/PRIVA TRADING
 /3.jpg"
-228,77,"4","è—çº¢èŠ±","Saffron",0,"PRIVA TRADING
+228,77,4,²Øºì»¨,Saffron,0,"PRIVA TRADING
 ","images/SME/PRIVA TRADING
 /","images/SME/PRIVA TRADING
 /4.jpg"
-229,78,"1","æ³¡æ‰“ç²‰","Baking powder",0,"SocietÃ© Marocaine de Fabrication et Conditionnement","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/1.jpg"
-230,78,"2"," æ±¤ç±»ä¸é«˜æ±¤","Soups and broths",0,"SocietÃ© Marocaine de Fabrication et Conditionnement","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/2.jpg"
-231,78,"3","å¢¨è¥¿å“¥è–„é¥¼","Tortilla",0,"SocietÃ© Marocaine de Fabrication et Conditionnement","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/3.jpg"
-232,78,"4","ç„¦ç³–å¸ƒä¸","Flans",0,"SocietÃ© Marocaine de Fabrication et Conditionnement","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/4.jpg"
-233,78,"5","ç³•ç‚¹å¥¶æ²¹","Pastry cream",0,"SocietÃ© Marocaine de Fabrication et Conditionnement","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/5.jpg"
-234,78,"6","å†°æ·‡æ·‹é¢„æ‹Œç²‰","Ice cream mix",0,"SocietÃ© Marocaine de Fabrication et Conditionnement","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/6.jpg"
-235,78,"7","æ··åˆé¦™æ–™","Spices mix",0,"SocietÃ© Marocaine de Fabrication et Conditionnement","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/","images/SME/SocietÃ© Marocaine de Fabrication et Conditionnement/7.jpg"
-236,79,"1","æœ¨è–¯ç²‰","Cassava flour",0,"Royal Winosa Industries Ltd","images/SME/Royal Winosa Industries Ltd/","images/SME/Royal Winosa Industries Ltd/1.jpg"
-237,79,"2","æ·€ç²‰","Starch",0,"Royal Winosa Industries Ltd","images/SME/Royal Winosa Industries Ltd/","images/SME/Royal Winosa Industries Ltd/2.jpg"
-238,79,"3"," æœ¨è–¯ç‰‡","Chips",0,"Royal Winosa Industries Ltd","images/SME/Royal Winosa Industries Ltd/","images/SME/Royal Winosa Industries Ltd/3.jpg"
-239,79,"4","å¤§è•‰ç²‰","Plantain flour",0,"Royal Winosa Industries Ltd","images/SME/Royal Winosa Industries Ltd/","images/SME/Royal Winosa Industries Ltd/4.jpg"
-240,79,"5","è±†ç±»é¢ç²‰å’Œé¦™æ–™","Beans flour and species ",0,"Royal Winosa Industries Ltd","images/SME/Royal Winosa Industries Ltd/","images/SME/Royal Winosa Industries Ltd/5.jpg"
-241,80,"1","æ²™ä¸é±¼å’Œå’–å•¡","Sardines and coffee",0,"MEGA Prime Foods Inc.","images/SME/MEGA Prime Foods Inc/","images/SME/MEGA Prime Foods Inc/1.jpg"
-242,81,"1","æ³°å›½é˜¿æ‹‰æ¯”å¡å’–å•¡","Thai Arabica Coffee",0,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd/","images/SME/Hillkoff co.,ltd/1.jpg"
-243,81,"2","æ„å¼æµ“ç¼©ä½ç¢³å’–å•¡","Espresso low carbon coffee",0,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd/","images/SME/Hillkoff co.,ltd/2.jpg"
-244,81,"3","å’–å•¡æ¨±æ¡ƒæå–ç‰©","Coffee cherry extract",0,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd/","images/SME/Hillkoff co.,ltd/3.jpg"
-245,81,"4","å’–å•¡æ¨±æ¡ƒèŒ¶","Coffee cherry tea",0,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd/","images/SME/Hillkoff co.,ltd/4.jpg"
-246,82,"1","ç½è£… / è¢‹è£…ç”œç‰ç±³ç²’","Canned/Pouch sweet corn kernels",0,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd/","images/SME/Lampang Food Products Co., Ltd/1.jpg"
-247,82,"2","åº”å­£æ°´æœ","Seasonal fruits",0,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd/","images/SME/Lampang Food Products Co., Ltd/2.jpg"
-248,82,"3","ç³–æ£•ç±½","Sugar palm seed",0,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd/","images/SME/Lampang Food Products Co., Ltd/3.jpg"
-249,82,"4","è…Œåˆ¶å“","Pickled items ",0,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd/","images/SME/Lampang Food Products Co., Ltd/4.jpg"
-250,83,"1","å’–å•¡","Coffee",0,"Mrutu Agro-Solutions Company Limited","images/SME/Mrutu Agro-Solutions Company Limited/","images/SME/Mrutu Agro-Solutions Company Limited/1.jpg"
-251,83,"2","è…°æœ","Cashew nuts",0,"Mrutu Agro-Solutions Company Limited","images/SME/Mrutu Agro-Solutions Company Limited/","images/SME/Mrutu Agro-Solutions Company Limited/2.jpg"
-252,83,"3","é¦™æ–™","Spices",0,"Mrutu Agro-Solutions Company Limited","images/SME/Mrutu Agro-Solutions Company Limited/","images/SME/Mrutu Agro-Solutions Company Limited/3.jpg"
-253,83,"4","èœ‚èœœ","Honey",0,"Mrutu Agro-Solutions Company Limited","images/SME/Mrutu Agro-Solutions Company Limited/","images/SME/Mrutu Agro-Solutions Company Limited/4.jpg"
-254,83,"5","å¹¼è‹—","Seedlings",0,"Mrutu Agro-Solutions Company Limited","images/SME/Mrutu Agro-Solutions Company Limited/","images/SME/Mrutu Agro-Solutions Company Limited/5.jpg"
-255,83,"6","å†œä¸šç»¼åˆä¼ä¸šå’¨è¯¢","Agribusiness consultancy",0,"Mrutu Agro-Solutions Company Limited","images/SME/Mrutu Agro-Solutions Company Limited/","images/SME/Mrutu Agro-Solutions Company Limited/6.jpg"
-256,83,"7","å†œä¸šå‚¨è“„","AgriSave",0,"Mrutu Agro-Solutions Company Limited","images/SME/Mrutu Agro-Solutions Company Limited/","images/SME/Mrutu Agro-Solutions Company Limited/7.jpg"
-257,83,"8","å†œä¸šæŠ•å…¥å“ä¸æœºæ¢°åŒ–","Agro-inputs & mechanization",0,"Mrutu Agro-Solutions Company Limited","images/SME/Mrutu Agro-Solutions Company Limited/","images/SME/Mrutu Agro-Solutions Company Limited/8.jpg"
-258,84,"1","è‘¡è„å¹²","Raisins",0,"""Eastern Agro Export"" Limited Liability Company","images/SME/Eastern Agro Export Limited Liability Company/","images/SME/Eastern Agro Export Limited Liability Company/1.jpg"
-259,84,"2","æå¹²","Dried apricots",0,"""Eastern Agro Export"" Limited Liability Company","images/SME/Eastern Agro Export Limited Liability Company/","images/SME/Eastern Agro Export Limited Liability Company/2.jpg"
-260,84,"3","è¥¿æ¢…å¹²"," Prunes",0,"""Eastern Agro Export"" Limited Liability Company","images/SME/Eastern Agro Export Limited Liability Company/","images/SME/Eastern Agro Export Limited Liability Company/3.jpg"
-261,84,"4","ç»¿è±†","Mung beans",0,"""Eastern Agro Export"" Limited Liability Company","images/SME/Eastern Agro Export Limited Liability Company/","images/SME/Eastern Agro Export Limited Liability Company/4.jpg"
-262,84,"5","èŠ±ç”Ÿ","Peanuts",0,"""Eastern Agro Export"" Limited Liability Company","images/SME/Eastern Agro Export Limited Liability Company/","images/SME/Eastern Agro Export Limited Liability Company/5.jpg"
-263,85,"1","æå¹²","Dried apricots",0,"""Optimum Fruits"" LLC","images/SME/Optimum Fruits LLC/","images/SME/Optimum Fruits LLC/1.jpg"
-264,85,"2","è‘¡è„å¹²","Raisins",0,"""Optimum Fruits"" LLC","images/SME/Optimum Fruits LLC/","images/SME/Optimum Fruits LLC/2.jpg"
-265,85,"3","è¥¿æ¢…å¹²","Prunes",0,"""Optimum Fruits"" LLC","images/SME/Optimum Fruits LLC/","images/SME/Optimum Fruits LLC/3.jpg"
-266,85,"4","ç»¿è±†","Mung beans",0,"""Optimum Fruits"" LLC","images/SME/Optimum Fruits LLC/","images/SME/Optimum Fruits LLC/4.jpg"
-267,85,"5","èŠ±ç”Ÿ
-"," Peanuts",0,"""Optimum Fruits"" LLC","images/SME/Optimum Fruits LLC/","images/SME/Optimum Fruits LLC/5.jpg"
+229,78,1,Åİ´ò·Û,Baking powder,0,Societ¨¦ Marocaine de Fabrication et Conditionnement,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/1.jpg
+230,78,2, ÌÀÀàÓë¸ßÌÀ,Soups and broths,0,Societ¨¦ Marocaine de Fabrication et Conditionnement,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/2.jpg
+231,78,3,Ä«Î÷¸ç±¡±ı,Tortilla,0,Societ¨¦ Marocaine de Fabrication et Conditionnement,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/3.jpg
+232,78,4,½¹ÌÇ²¼¶¡,Flans,0,Societ¨¦ Marocaine de Fabrication et Conditionnement,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/4.jpg
+233,78,5,¸âµãÄÌÓÍ,Pastry cream,0,Societ¨¦ Marocaine de Fabrication et Conditionnement,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/5.jpg
+234,78,6,±ùä¿ÁÜÔ¤°è·Û,Ice cream mix,0,Societ¨¦ Marocaine de Fabrication et Conditionnement,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/6.jpg
+235,78,7,»ìºÏÏãÁÏ,Spices mix,0,Societ¨¦ Marocaine de Fabrication et Conditionnement,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/,images/SME/Societ¨¦ Marocaine de Fabrication et Conditionnement/7.jpg
+236,79,1,Ä¾Êí·Û,Cassava flour,0,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/,images/SME/Royal Winosa Industries Ltd/1.jpg
+237,79,2,µí·Û,Starch,0,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/,images/SME/Royal Winosa Industries Ltd/2.jpg
+238,79,3, Ä¾ÊíÆ¬,Chips,0,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/,images/SME/Royal Winosa Industries Ltd/3.jpg
+239,79,4,´ó½¶·Û,Plantain flour,0,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/,images/SME/Royal Winosa Industries Ltd/4.jpg
+240,79,5,¶¹ÀàÃæ·ÛºÍÏãÁÏ,Beans flour and species ,0,Royal Winosa Industries Ltd,images/SME/Royal Winosa Industries Ltd/,images/SME/Royal Winosa Industries Ltd/5.jpg
+241,80,1,É³¶¡ÓãºÍ¿§·È,Sardines and coffee,0,MEGA Prime Foods Inc.,images/SME/MEGA Prime Foods Inc/,images/SME/MEGA Prime Foods Inc/1.jpg
+242,81,1,Ì©¹ú°¢À­±È¿¨¿§·È,Thai Arabica Coffee,0,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd/","images/SME/Hillkoff co.,ltd/1.jpg"
+243,81,2,ÒâÊ½Å¨ËõµÍÌ¼¿§·È,Espresso low carbon coffee,0,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd/","images/SME/Hillkoff co.,ltd/2.jpg"
+244,81,3,¿§·ÈÓ£ÌÒÌáÈ¡Îï,Coffee cherry extract,0,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd/","images/SME/Hillkoff co.,ltd/3.jpg"
+245,81,4,¿§·ÈÓ£ÌÒ²è,Coffee cherry tea,0,"Hillkoff co.,ltd.","images/SME/Hillkoff co.,ltd/","images/SME/Hillkoff co.,ltd/4.jpg"
+246,82,1,¹Ş×° / ´ü×°ÌğÓñÃ×Á£,Canned/Pouch sweet corn kernels,0,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd/","images/SME/Lampang Food Products Co., Ltd/1.jpg"
+247,82,2,Ó¦¼¾Ë®¹û,Seasonal fruits,0,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd/","images/SME/Lampang Food Products Co., Ltd/2.jpg"
+248,82,3,ÌÇ×Ø×Ñ,Sugar palm seed,0,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd/","images/SME/Lampang Food Products Co., Ltd/3.jpg"
+249,82,4,ëçÖÆÆ·,Pickled items ,0,"Lampang Food Products Co., Ltd.","images/SME/Lampang Food Products Co., Ltd/","images/SME/Lampang Food Products Co., Ltd/4.jpg"
+250,83,1,¿§·È,Coffee,0,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/,images/SME/Mrutu Agro-Solutions Company Limited/1.jpg
+251,83,2,Ñü¹û,Cashew nuts,0,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/,images/SME/Mrutu Agro-Solutions Company Limited/2.jpg
+252,83,3,ÏãÁÏ,Spices,0,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/,images/SME/Mrutu Agro-Solutions Company Limited/3.jpg
+253,83,4,·äÃÛ,Honey,0,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/,images/SME/Mrutu Agro-Solutions Company Limited/4.jpg
+254,83,5,Ó×Ãç,Seedlings,0,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/,images/SME/Mrutu Agro-Solutions Company Limited/5.jpg
+255,83,6,Å©Òµ×ÛºÏÆóÒµ×ÉÑ¯,Agribusiness consultancy,0,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/,images/SME/Mrutu Agro-Solutions Company Limited/6.jpg
+256,83,7,Å©Òµ´¢Ğî,AgriSave,0,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/,images/SME/Mrutu Agro-Solutions Company Limited/7.jpg
+257,83,8,Å©ÒµÍ¶ÈëÆ·Óë»úĞµ»¯,Agro-inputs & mechanization,0,Mrutu Agro-Solutions Company Limited,images/SME/Mrutu Agro-Solutions Company Limited/,images/SME/Mrutu Agro-Solutions Company Limited/8.jpg
+258,84,1,ÆÏÌÑ¸É,Raisins,0,"""Eastern Agro Export"" Limited Liability Company",images/SME/Eastern Agro Export Limited Liability Company/,images/SME/Eastern Agro Export Limited Liability Company/1.jpg
+259,84,2,ĞÓ¸É,Dried apricots,0,"""Eastern Agro Export"" Limited Liability Company",images/SME/Eastern Agro Export Limited Liability Company/,images/SME/Eastern Agro Export Limited Liability Company/2.jpg
+260,84,3,Î÷Ã·¸É, Prunes,0,"""Eastern Agro Export"" Limited Liability Company",images/SME/Eastern Agro Export Limited Liability Company/,images/SME/Eastern Agro Export Limited Liability Company/3.jpg
+261,84,4,ÂÌ¶¹,Mung beans,0,"""Eastern Agro Export"" Limited Liability Company",images/SME/Eastern Agro Export Limited Liability Company/,images/SME/Eastern Agro Export Limited Liability Company/4.jpg
+262,84,5,»¨Éú,Peanuts,0,"""Eastern Agro Export"" Limited Liability Company",images/SME/Eastern Agro Export Limited Liability Company/,images/SME/Eastern Agro Export Limited Liability Company/5.jpg
+263,85,1,ĞÓ¸É,Dried apricots,0,"""Optimum Fruits"" LLC",images/SME/Optimum Fruits LLC/,images/SME/Optimum Fruits LLC/1.jpg
+264,85,2,ÆÏÌÑ¸É,Raisins,0,"""Optimum Fruits"" LLC",images/SME/Optimum Fruits LLC/,images/SME/Optimum Fruits LLC/2.jpg
+265,85,3,Î÷Ã·¸É,Prunes,0,"""Optimum Fruits"" LLC",images/SME/Optimum Fruits LLC/,images/SME/Optimum Fruits LLC/3.jpg
+266,85,4,ÂÌ¶¹,Mung beans,0,"""Optimum Fruits"" LLC",images/SME/Optimum Fruits LLC/,images/SME/Optimum Fruits LLC/4.jpg
+267,85,5,"»¨Éú
+", Peanuts,0,"""Optimum Fruits"" LLC",images/SME/Optimum Fruits LLC/,images/SME/Optimum Fruits LLC/5.jpg
