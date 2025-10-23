@@ -2125,6 +2125,18 @@ let isSearching = false; // 新增：是否正在搜索
         window.scrollTo(0, 0);
     }
 }
+        function goToCompanies() {
+    // 如果已经有选中的分类，显示该分类的公司列表
+    if (currentCategoryId && categories.length > 0) {
+        const category = categories.find(c => c.id === currentCategoryId);
+        showCompaniesByCategory(currentCategoryId, category.name);
+    } else {
+        // 否则显示第一个分类的公司列表
+        const firstCategory = categories[0];
+        showCompaniesByCategory(firstCategory.id, firstCategory.name);
+    }
+    updateBottomNavActive('companies');
+}
         const categories = [
             { id: 1, name: "加工食品", ename:"Processed Food", icon: "fas fa-utensils" },
             { id: 2, name: "非洲产品", ename:"African Products", icon: "fas fa-earth-africa" },
@@ -2221,6 +2233,7 @@ function loadProductCSVData() {
         }
     });
 }
+        
 // 竖屏轮播功能
 let currentVerticalSlide = 0;
 let verticalSlideInterval;
@@ -2330,18 +2343,6 @@ function goToCover() {
     updateBottomNavActive('cover');
 }
 
-function goToCompanies() {
-    // 如果已经有选中的分类，显示该分类的公司列表
-    if (currentCategoryId && categories.length > 0) {
-        const category = categories.find(c => c.id === currentCategoryId);
-        showCompaniesByCategory(currentCategoryId, category.name);
-    } else {
-        // 否则显示第一个分类的公司列表
-        const firstCategory = categories[0];
-        showCompaniesByCategory(firstCategory.id, firstCategory.name);
-    }
-    updateBottomNavActive('companies');
-}
 
 // 更新底边栏激活状态
 function updateBottomNavActive(activePage) {
@@ -2876,6 +2877,7 @@ if (filteredProducts.length === 0) {
     </script>
 </body>
 </html>
+
 
 
 
