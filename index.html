@@ -2076,10 +2076,55 @@ margin-top: 5px;
     </div> -->
 
     <script>
+        // 修改现有的 showPage 函数，在页面切换时更新底边栏状态
+function showPage(pageId) {
         // 全局变量
 let currentCategoryId = null;
 let currentSearchKeyword = ''; // 新增：当前搜索关键词
 let isSearching = false; // 新增：是否正在搜索
+    // 记录 cover 页滚动位置
+    const activePage = document.querySelector('.page.active');
+    if (activePage && activePage.id === 'cover-page') {
+        coverScrollTop = window.scrollY || document.documentElement.scrollTop;
+    }
+
+    document.querySelectorAll('.page').forEach(page => {
+        page.classList.remove('active');
+    });
+    document.getElementById(pageId).classList.add('active');
+
+    // 更新底边栏显示状态
+    updateBottomNavDisplay();
+    
+    // 更新底边栏激活状态
+    if (pageId === 'cover-page') {
+        updateBottomNavActive('cover');
+    } else if (pageId === 'companies-page') {
+        updateBottomNavActive('companies');
+    } else {
+        // 其他页面不激活任何底边栏项目
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(item => {
+            item.classList.remove('active');
+        });
+    }
+
+    if (pageId === 'companies-page') {
+        // 初始化左边栏
+        initSidebarCategories();
+        // 如果没有当前选中的分类，默认选中第一个分类
+        if (!currentCategoryId && categories.length > 0) {
+            currentCategoryId = categories[0].id;
+        }
+        // 更新左边栏激活状态
+        updateSidebarActive(currentCategoryId);
+        window.scrollTo(0, 0);
+    } else if (pageId === 'cover-page') {
+        window.scrollTo(0, coverScrollTop);
+    } else if (pageId === 'company-detail-page') {
+        window.scrollTo(0, 0);
+    }
+}
         const categories = [
             { id: 1, name: "加工食品", ename:"Processed Food", icon: "fas fa-utensils" },
             { id: 2, name: "非洲产品", ename:"African Products", icon: "fas fa-earth-africa" },
@@ -2312,51 +2357,6 @@ function updateBottomNavActive(activePage) {
     }
 }
 
-// 修改现有的 showPage 函数，在页面切换时更新底边栏状态
-function showPage(pageId) {
-    // 记录 cover 页滚动位置
-    const activePage = document.querySelector('.page.active');
-    if (activePage && activePage.id === 'cover-page') {
-        coverScrollTop = window.scrollY || document.documentElement.scrollTop;
-    }
-
-    document.querySelectorAll('.page').forEach(page => {
-        page.classList.remove('active');
-    });
-    document.getElementById(pageId).classList.add('active');
-
-    // 更新底边栏显示状态
-    updateBottomNavDisplay();
-    
-    // 更新底边栏激活状态
-    if (pageId === 'cover-page') {
-        updateBottomNavActive('cover');
-    } else if (pageId === 'companies-page') {
-        updateBottomNavActive('companies');
-    } else {
-        // 其他页面不激活任何底边栏项目
-        const navItems = document.querySelectorAll('.nav-item');
-        navItems.forEach(item => {
-            item.classList.remove('active');
-        });
-    }
-
-    if (pageId === 'companies-page') {
-        // 初始化左边栏
-        initSidebarCategories();
-        // 如果没有当前选中的分类，默认选中第一个分类
-        if (!currentCategoryId && categories.length > 0) {
-            currentCategoryId = categories[0].id;
-        }
-        // 更新左边栏激活状态
-        updateSidebarActive(currentCategoryId);
-        window.scrollTo(0, 0);
-    } else if (pageId === 'cover-page') {
-        window.scrollTo(0, coverScrollTop);
-    } else if (pageId === 'company-detail-page') {
-        window.scrollTo(0, 0);
-    }
-}
 
 // 更新底边栏显示状态
 function updateBottomNavDisplay() {
@@ -2876,6 +2876,7 @@ if (filteredProducts.length === 0) {
     </script>
 </body>
 </html>
+
 
 
 
