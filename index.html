@@ -392,7 +392,7 @@
 .org-header-center .org-logo-img {
     display: none;
     height: auto;
-    max-height: 160px;
+    max-height: 320px;
     width: auto;
     max-width: 400px;
     object-fit: contain;
@@ -406,7 +406,7 @@
 /* 专门为长条形logo添加的样式 */
 .org-header-center .org-logo-img[src*="CFNA"],
 .org-header-center .org-logo-img.long-logo {
-    max-height: 120px; /* 降低高度限制 */
+    max-height: 300px; /* 降低高度限制 */
     max-width: 500px;  /* 大幅增加宽度限制 */
     width: auto;
     height: auto;
@@ -434,16 +434,16 @@
     }
     
     .org-header-center .org-logo-img {
-        max-height: 120px;
-        max-width: 300px;
+        max-height: 320px;
+        max-width: 500px;
         margin-bottom: 15px;
     }
     
     /* 移动端长条形logo样式 */
     .org-header-center .org-logo-img[src*="CFNA"],
     .org-header-center .org-logo-img.long-logo {
-        max-height: 80px;   /* 移动端高度 */
-        max-width: 350px;   /* 移动端宽度，比普通logo更宽 */
+        max-height: 320px;   /* 移动端高度 */
+        max-width: 500px;   /* 移动端宽度，比普通logo更宽 */
     }
     
     .org-header-center h3 {
@@ -2877,6 +2877,7 @@ if (filteredProducts.length === 0) {
     </script>
 </body>
 </html>
+
 
 
 
