@@ -1901,7 +1901,7 @@ margin-top: 5px;
                     <h2 style="color: #1a2a6c; margin-bottom: 20px;">项目简介</h2>
                   <div class="detail-bilingual-content">
                       <div class="bilingual-zh">
-        本目录由联合国国际贸易中心(ITC)在支持组织45个发展中国家和最不发达国家的中小微企业参加于2023年11月5日至10日在中国上海举行的中国国际进口博览会(CIIE)的背景下编制。该项目旨在为中小微企业提供一个独特的机会，在已成为世界第二大消费国和进口国的中国推广其产品和服务，熟悉中国市场需求并建立新的业务联系。</div>
+        本目录由联合国国际贸易中心(ITC)在支持组织45个发展中国家和最不发达国家的中小微企业参加于2025年11月5日至10日在中国上海举行的中国国际进口博览会(CIIE)的背景下编制。该项目旨在为中小微企业提供一个独特的机会，在已成为世界第二大消费国和进口国的中国推广其产品和服务，熟悉中国市场需求并建立新的业务联系。</div>
         <div class="bilingual-zh">ITC在以下项目框架内支持中小微企业参与中国国际进口博览会: </div>
 
       <ul class="bilingual-zh" style="margin-left:1.15rem; margin-top:0.5rem;">
@@ -1909,7 +1909,7 @@ margin-top: 5px;
         <li>“服务贸易促进”，中国商务部资助。</li>
         <li>“非洲数字创新加速器”，中国国际发展合作署资助。</li>
         <li>“开拓老挝中小企业在中国的商业机遇”，联合国和平与发展基金下的2030年可持续发展议程子基金资助。</li>
-        <li>中小微企业还受益于商务部国际商务官员研修学院举办的 “一带一路”沿线发展中国家中小企业走进中国研修班 和 “世贸组织电子商务谈判能力建设研修班” 培训项目。</li>
+        <li>中小微企业还受益于商务部国际商务官员研修学院（AIBO）举办的 “一带一路”沿线发展中国家中小企业走进中国研修班 和 “世贸组织电子商务谈判能力建设研修班” 培训项目。</li>
         <li>中国食品土畜进出口商会(CFNA)也为本目录中中小微企业和商业对接做出了贡献。</li>
       </ul>
 
@@ -1926,12 +1926,9 @@ margin-top: 5px;
         <li>“Trade in Services Programme”, funded by MOFCOM</li>
         <li>“Africa: Digital innovation accelerator for African SMEs”, funded by the China International Development Cooperation Agency (CIDCA)</li>
         <li>“Enhancing business opportunities for SMEs of Lao PDR in China”, funded by the 2030 Agenda for Sustainable Development Sub-Fund under the UN Peace And Development Fund</li>
-      </ul>
-
-      <div style="margin-top:8px;" class="bilingual-en">
-        In addition, the MSMEs benefited from the “Seminar of the Business Study Tour for Small and Medium Sized Enterprises of Belt and Road Developing Countries to China” and “the Seminar about Capacity Building of WTO E-commerce Negotiations”, implemented by the Academy for International Business Officials (AIBO) under MOFCOM.
-        The China Chamber of Commerce for Import & Export of Foodstuffs, Native Produce and Animal By-products (CFNA) also contributed to facilitating MSME participation and supporting business matchmaking for the companies featured in this catalogue.
-      </div>
+        <li>the MSMEs benefited from the “Seminar of the Business Study Tour for Small and Medium Sized Enterprises of Belt and Road Developing Countries to China” and “the Seminar about Capacity Building of WTO E-commerce Negotiations”, implemented by the Academy for International Business Officials (AIBO) under MOFCOM.</li>
+        <li>The China Chamber of Commerce for Import & Export of Foodstuffs, Native Produce and Animal By-products (CFNA) also contributed to facilitating MSME participation and supporting business matchmaking for the companies featured in this catalogue.</li>
+        </ul>
         
                    
                     </div>
@@ -2139,10 +2136,10 @@ let isSearching = false; // 新增：是否正在搜索
     updateBottomNavActive('companies');
 }
         const categories = [
-            { id: 1, name: "加工食品", ename:"Processed Food", icon: "fas fa-utensils" },
-            { id: 2, name: "非洲产品", ename:"African Products", icon: "fas fa-earth-africa" },
-            { id: 3, name: "消费品", ename:"Consumer Goods", icon: "fas fa-shopping-bag" },
-            { id: 4, name: "服务贸易", ename:"Trade in Service", icon: "fas fa-handshake" }
+            { id: 1, name: "加工食品展区", ename:"Processed Food", icon: "fas fa-utensils",show:"7.1A7-01" },
+            { id: 2, name: "土畜商会非洲产品展区", ename:"African Products", icon: "fas fa-earth-africa",show:"8.1C6-02" },
+            { id: 3, name: "消费品展区", ename:"Consumer Goods", icon: "fas fa-shopping-bag",show:"5.1C6-05" },
+            { id: 4, name: "服务贸易展区", ename:"Trade in Service", icon: "fas fa-handshake",show:"7.2A1-04" }
         ];
         
        //导入csv文件
@@ -2392,6 +2389,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     <div class="category-name">${category.name}</div>
     <div class="category-name-en">${category.ename}</div>
+     <div class="category-name">${category.show}</div>
      `;
                 categoryCard.addEventListener('click', () => {
                     showPage('companies-page');
@@ -2611,7 +2609,7 @@ function formatBilingualText(zhText, enText) {
             </div>
             <div class="company-header-info">
                 <h2>${company.name}</h2>
-                <p>${categories.find(c => c.id === company.categoryId).name}行业</p>
+                <p>${categories.find(c => c.id === company.categoryId).name}</p>
             </div>
         </div>
     </div>
@@ -2879,6 +2877,7 @@ if (filteredProducts.length === 0) {
     </script>
 </body>
 </html>
+
 
 
 
